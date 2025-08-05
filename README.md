@@ -1,5 +1,5 @@
 # TelegramV2rayCollector
-[![Collector](https://github.com/yebekhe/TelegramV2rayCollector/actions/workflows/php.yml/badge.svg)](https://github.com/yebekhe/TelegramV2rayCollector/actions/workflows/php.yml)
+[![Collector](https://github.com/gongchandang49/TelegramV2rayCollector/actions/workflows/php.yml/badge.svg)](https://github.com/gongchandang49/TelegramV2rayCollector/actions/workflows/php.yml)
 
 This is a PHP script that collects V2Ray subscription links from various Telegram channels and saves them to different files based on their protocol type (VMess, VLess, Trojan, and Shadowsocks). The collected links are stored in text format.
 
@@ -18,12 +18,12 @@ Just import the following subscription link into the corresponding client. Use a
 
 | CONFIG TYPE | NORMAL SUBSCRIPTION | BASE64 SUBSCRIPTION | CLASH SUBSCRIPTION |
 |---|---|---|---|
-| MIX of ALL | [NORMAL SUBSCRIPTION](https://raw.githubusercontent.com/yebekhe/TelegramV2rayCollector/main/sub/mix) | [BASE64 SUBSCRIPTION](https://raw.githubusercontent.com/yebekhe/TelegramV2rayCollector/main/sub/mix_base64) | [CLASH SUBSCRIPTION](https://github.com/yebekhe/TelegramV2rayCollector/raw/main/clash/mix.yml) |
-| VMESS | [NORMAL SUBSCRIPTION](https://raw.githubusercontent.com/yebekhe/TelegramV2rayCollector/main/sub/vmess) | [BASE64 SUBSCRIPTION](https://raw.githubusercontent.com/yebekhe/TelegramV2rayCollector/main/sub/vmess_base64) | [CLASH SUBSCRIPTION](https://github.com/yebekhe/TelegramV2rayCollector/raw/main/clash/vmess.yml) |
-| VLESS | [NORMAL SUBSCRIPTION](https://raw.githubusercontent.com/yebekhe/TelegramV2rayCollector/main/sub/vless) | [BASE64 SUBSCRIPTION](https://raw.githubusercontent.com/yebekhe/TelegramV2rayCollector/main/sub/vless_base64) | - |
-| REALITY | [NORMAL SUBSCRIPTION](https://raw.githubusercontent.com/yebekhe/TelegramV2rayCollector/main/sub/reality) | [BASE64 SUBSCRIPTION](https://raw.githubusercontent.com/yebekhe/TelegramV2rayCollector/main/sub/reality_base64) | - |
-| TROJAN | [NORMAL SUBSCRIPTION](https://raw.githubusercontent.com/yebekhe/TelegramV2rayCollector/main/sub/trojan) | [BASE64 SUBSCRIPTION](https://raw.githubusercontent.com/yebekhe/TelegramV2rayCollector/main/sub/trojan_base64) | [CLASH SUBSCRIPTION](https://github.com/yebekhe/TelegramV2rayCollector/raw/main/clash/trojan.yml) |
-| ShadowSocks | [NORMAL SUBSCRIPTION](https://raw.githubusercontent.com/yebekhe/TelegramV2rayCollector/main/sub/shadowsocks) | [BASE64 SUBSCRIPTION](https://raw.githubusercontent.com/yebekhe/TelegramV2rayCollector/main/sub/shadowsocks_base64) | [CLASH SUBSCRIPTION](https://github.com/yebekhe/TelegramV2rayCollector/raw/main/clash/shadowsocks.yml) |
+| MIX of ALL | [NORMAL SUBSCRIPTION](https://raw.githubusercontent.com/gongchandang49/TelegramV2rayCollector/main/sub/mix) | [BASE64 SUBSCRIPTION](https://raw.githubusercontent.com/gongchandang49/TelegramV2rayCollector/main/sub/mix_base64) | [CLASH SUBSCRIPTION](https://github.com/gongchandang49/TelegramV2rayCollector/raw/main/clash/mix.yml) |
+| VMESS | [NORMAL SUBSCRIPTION](https://raw.githubusercontent.com/gongchandang49/TelegramV2rayCollector/main/sub/vmess) | [BASE64 SUBSCRIPTION](https://raw.githubusercontent.com/gongchandang49/TelegramV2rayCollector/main/sub/vmess_base64) | [CLASH SUBSCRIPTION](https://github.com/gongchandang49/TelegramV2rayCollector/raw/main/clash/vmess.yml) |
+| VLESS | [NORMAL SUBSCRIPTION](https://raw.githubusercontent.com/gongchandang49/TelegramV2rayCollector/main/sub/vless) | [BASE64 SUBSCRIPTION](https://raw.githubusercontent.com/gongchandang49/TelegramV2rayCollector/main/sub/vless_base64) | - |
+| REALITY | [NORMAL SUBSCRIPTION](https://raw.githubusercontent.com/gongchandang49/TelegramV2rayCollector/main/sub/reality) | [BASE64 SUBSCRIPTION](https://raw.githubusercontent.com/gongchandang49/TelegramV2rayCollector/main/sub/reality_base64) | - |
+| TROJAN | [NORMAL SUBSCRIPTION](https://raw.githubusercontent.com/gongchandang49/TelegramV2rayCollector/main/sub/trojan) | [BASE64 SUBSCRIPTION](https://raw.githubusercontent.com/gongchandang49/TelegramV2rayCollector/main/sub/trojan_base64) | [CLASH SUBSCRIPTION](https://github.com/gongchandang49/TelegramV2rayCollector/raw/main/clash/trojan.yml) |
+| ShadowSocks | [NORMAL SUBSCRIPTION](https://raw.githubusercontent.com/gongchandang49/TelegramV2rayCollector/main/sub/shadowsocks) | [BASE64 SUBSCRIPTION](https://raw.githubusercontent.com/gongchandang49/TelegramV2rayCollector/main/sub/shadowsocks_base64) | [CLASH SUBSCRIPTION](https://github.com/gongchandang49/TelegramV2rayCollector/raw/main/clash/shadowsocks.yml) |
 
 ## Manual Subs Conversion
 - If your client does not support the formats that provided here use below services to convert them to your client format (like surfboard)
@@ -38,9 +38,9 @@ https://pub-api-1.bianyuan.xyz/sub?target=(OutputFormat)&url=(SubUrl)&insert=fal
 
 For Example:
 (OutputFormat) = clash
-(SubUrl) = https://raw.githubusercontent.com/yebekhe/TelegramV2rayCollector/main/sub/mix_base64
+(SubUrl) = https://raw.githubusercontent.com/gongchandang49/TelegramV2rayCollector/main/sub/mix_base64
 
-https://pub-api-1.bianyuan.xyz/sub?target=clash&url=https://raw.githubusercontent.com/yebekhe/TelegramV2rayCollector/main/sub/mix_base64&insert=false
+https://pub-api-1.bianyuan.xyz/sub?target=clash&url=https://raw.githubusercontent.com/gongchandang49/TelegramV2rayCollector/main/sub/mix_base64&insert=false
 
 Now you can use the link above to import the subs into your client
 ```
