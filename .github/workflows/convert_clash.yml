@@ -1,0 +1,26 @@
+name: "Convert to Clash"
+
+on:
+  workflow_dispatch:
+    
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+      
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '7.4'
+          
+      - name: Execute PHP script
+        run: |
+          php convert_clash.php
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git config credential.helper store
+          git add -A
+          git commit -m "Added new configs"
+          git push
