@@ -73,10 +73,3 @@ Telegram Channels utilized in this Project:
 | [lrnbymaa](https://t.me/lrnbymaa) | [v2ray_vpn_ir](https://t.me/v2ray_vpn_ir) | [ConfigsHUB](https://t.me/ConfigsHUB) | [freeconfigv2](https://t.me/freeconfigv2) |
 | [vpn_tehran](https://t.me/vpn_tehran) | [v2_team](https://t.me/v2_team) | [AlienVPN402](https://t.me/AlienVPN402) | [V2rayngninja](https://t.me/V2rayngninja) |
 | [iSegaro](https://t.me/iSegaro) | - | - | - |
-
-
-## Contribution
-If you have a Telegram channel and you want to add it to this project or you know Telegram channels that can be used in this project you can ask for addition in Issues.
-
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
