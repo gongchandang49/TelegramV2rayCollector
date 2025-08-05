@@ -131,7 +131,7 @@ usort($mix_data_decode, 'compare_time');
 $mix_data_json = json_encode($mix_data_decode, JSON_PRETTY_PRINT);
 file_put_contents("json/configs.json", $mix_data_json);
 
-file_put_contents("clash/mix.yml", convert_to_clash("https://raw.githubusercontent.com/yebekhe/TelegramV2rayCollector/main/sub/mix_base64"));
-file_put_contents("clash/vmess.yml", convert_to_clash("https://raw.githubusercontent.com/yebekhe/TelegramV2rayCollector/main/sub/vmess_base64"));
-file_put_contents("clash/trojan.yml", convert_to_clash("https://raw.githubusercontent.com/yebekhe/TelegramV2rayCollector/main/sub/trojan_base64"));
-file_put_contents("clash/shadowsocks.yml", convert_to_clash("https://raw.githubusercontent.com/yebekhe/TelegramV2rayCollector/main/sub/shadowsocks_base64"));
+file_put_contents("clash/mix.yml", convert_to_clash("https://raw.githubusercontent.com/gongchandang49/TelegramV2rayCollector/main/sub/mix_base64"));
+file_put_contents("clash/vmess.yml", convert_to_clash("https://raw.githubusercontent.com/gongchandang49/TelegramV2rayCollector/main/sub/vmess_base64"));
+file_put_contents("clash/trojan.yml", convert_to_clash("https://raw.githubusercontent.com/gongchandang49/TelegramV2rayCollector/main/sub/trojan_base64"));
+file_put_contents("clash/shadowsocks.yml", convert_to_clash("https://raw.githubusercontent.com/gongchandang49/TelegramV2rayCollector/main/sub/shadowsocks_base64"));
