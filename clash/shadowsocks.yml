@@ -1,47 +1,53 @@
 mixed-port: 7890
 allow-lan: false
-mode: rule
-log-level: warning
+mode: Rule
+log-level: info
 external-controller: 127.0.0.1:9090
 clash-for-android:
   append-system-dns: false
-unified-delay: true
-global-client-fingerprint: chrome
-keep-alive-interval: 360
+hosts:
+  mtalk.google.com: 108.177.125.188
+dns:
+  enable: true
+  listen: 127.0.0.1:5335
+  default-nameserver: [180.184.1.1, 119.29.29.29, 223.5.5.5]
+  ipv6: true
+  use-hosts: true
+  fake-ip-filter: ["*.n.n.srv.nintendo.net", +.stun.playstation.net, xbox.*.*.microsoft.com, "*.msftncsi.com", "*.msftconnecttest.com", WORKGROUP, "*.lan", stun.*.*.*, stun.*.*, time.windows.com, time.nist.gov, time.apple.com, time.asia.apple.com, "*.ntp.org.cn", "*.openwrt.pool.ntp.org", time1.cloud.tencent.com, time.ustc.edu.cn, pool.ntp.org, ntp.ubuntu.com, "*.*.xboxlive.com", speedtest.cros.wr.pvp.net]
+  nameserver: [tls://223.5.5.5:853, https://223.6.6.6/dns-query, https://120.53.53.53/dns-query]
+  nameserver-policy: {+.tmall.com: 223.5.5.5, +.taobao.com: 223.5.5.5, +.alicdn.com: 223.5.5.5, +.aliyun.com: 223.5.5.5, +.alipay.com: 223.5.5.5, +.alibaba.com: 223.5.5.5, +.qq.com: 119.29.29.29, +.tencent.com: 119.29.29.29, +.weixin.com: 119.29.29.29, +.qpic.cn: 119.29.29.29, +.jd.com: 119.29.29.29, +.bilibili.com: 119.29.29.29, +.hdslb.com: 119.29.29.29, +.163.com: 119.29.29.29, +.126.com: 119.29.29.29, +.126.net: 119.29.29.29, +.127.net: 119.29.29.29, +.netease.com: 119.29.29.29, +.baidu.com: 223.5.5.5, +.bdstatic.com: 223.5.5.5, +.bilivideo.+: 119.29.29.29, +.iqiyi.com: 119.29.29.29, +.douyinvod.com: 180.184.1.1, +.douyin.com: 180.184.1.1, +.douyincdn.com: 180.184.1.1, +.douyinpic.com: 180.184.1.1, +.feishu.cn: 180.184.1.1}
+  fallback: [https://101.101.101.101/dns-query, https://public.dns.iij.jp/dns-query, https://208.67.220.220/dns-query]
+  fallback-filter: {geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32, 223.75.236.241/32, 182.43.124.6/32, 106.74.25.198/32], domain: [+.bianyuan.xyz, +.happynothings031.xyz, +.jsdelivr.net, +.proton.me]}
 proxies:
-  - {name: "|@VmessProtocol|24.67", server: 142.4.216.225, port: 80, type: ss, cipher: chacha20-ietf-poly1305, password: JIhN6rBKkaEboLNXVSv5rq, udp: true}
   - {name: "|@vmess_vless_v2rayng|unavailable", server: 83.147.216.70, port: 64519, type: ss, cipher: chacha20-ietf-poly1305, password: UlT89D0rvcr05tKft1NB5a, udp: true}
-  - {name: "|@vmess_vless_v2rayng|86.81", server: 45.87.175.171, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
-  - {name: "|@free4allVPN|159.8", server: 149.22.87.204, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks7, udp: true}
+  - {name: "|@vmess_vless_v2rayng|151.03", server: 45.87.175.171, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
+  - {name: "|@free4allVPN|104.52", server: 149.22.87.204, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks7, udp: true}
 proxy-groups:
   - name: 🔰 MANUAL
     type: select
     proxies:
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@VmessProtocol|24.67"
       - "|@vmess_vless_v2rayng|unavailable"
-      - "|@vmess_vless_v2rayng|86.81"
-      - "|@free4allVPN|159.8"
+      - "|@vmess_vless_v2rayng|151.03"
+      - "|@free4allVPN|104.52"
   - name: ♻️ AUTO SELECT
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "|@VmessProtocol|24.67"
       - "|@vmess_vless_v2rayng|unavailable"
-      - "|@vmess_vless_v2rayng|86.81"
-      - "|@free4allVPN|159.8"
+      - "|@vmess_vless_v2rayng|151.03"
+      - "|@free4allVPN|104.52"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 MANUAL
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@VmessProtocol|24.67"
       - "|@vmess_vless_v2rayng|unavailable"
-      - "|@vmess_vless_v2rayng|86.81"
-      - "|@free4allVPN|159.8"
+      - "|@vmess_vless_v2rayng|151.03"
+      - "|@free4allVPN|104.52"
   - name: ⛔️ AD BLOCK
     type: select
     proxies:
@@ -60,10 +66,9 @@ proxy-groups:
       - 🔰 MANUAL
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@VmessProtocol|24.67"
       - "|@vmess_vless_v2rayng|unavailable"
-      - "|@vmess_vless_v2rayng|86.81"
-      - "|@free4allVPN|159.8"
+      - "|@vmess_vless_v2rayng|151.03"
+      - "|@free4allVPN|104.52"
   - name: 🌏 DOMESTIC MEDIA
     type: select
     proxies:
@@ -74,29 +79,26 @@ proxy-groups:
     proxies:
       - 🎯 GLOBAL DIRECT
       - 🔰 MANUAL
-      - "|@VmessProtocol|24.67"
       - "|@vmess_vless_v2rayng|unavailable"
-      - "|@vmess_vless_v2rayng|86.81"
-      - "|@free4allVPN|159.8"
+      - "|@vmess_vless_v2rayng|151.03"
+      - "|@free4allVPN|104.52"
   - name: 📲 TELEGRAM
     type: select
     proxies:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
-      - "|@VmessProtocol|24.67"
       - "|@vmess_vless_v2rayng|unavailable"
-      - "|@vmess_vless_v2rayng|86.81"
-      - "|@free4allVPN|159.8"
+      - "|@vmess_vless_v2rayng|151.03"
+      - "|@free4allVPN|104.52"
   - name: 🍎 APPLE
     type: select
     proxies:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
-      - "|@VmessProtocol|24.67"
       - "|@vmess_vless_v2rayng|unavailable"
-      - "|@vmess_vless_v2rayng|86.81"
-      - "|@free4allVPN|159.8"
+      - "|@vmess_vless_v2rayng|151.03"
+      - "|@free4allVPN|104.52"
   - name: 🎯 GLOBAL DIRECT
     type: select
     proxies:
@@ -112,10 +114,9 @@ proxy-groups:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
-      - "|@VmessProtocol|24.67"
       - "|@vmess_vless_v2rayng|unavailable"
-      - "|@vmess_vless_v2rayng|86.81"
-      - "|@free4allVPN|159.8"
+      - "|@vmess_vless_v2rayng|151.03"
+      - "|@free4allVPN|104.52"
 rules:
   - DOMAIN-SUFFIX,local,🎯 GLOBAL DIRECT
   - IP-CIDR,192.168.0.0/16,🎯 GLOBAL DIRECT,no-resolve
