@@ -9,47 +9,43 @@ unified-delay: true
 global-client-fingerprint: chrome
 keep-alive-interval: 360
 proxies:
-  - {name: "|@ConfigsHUB|1.43", server: 172.66.47.151, port: 443, type: trojan, password: a64f0cea-ca89-40e6-b316-b3badff1eb90, sni: iSaA1.paGes.DEv, skip-cert-verify: true, network: ws, ws-opts: {path: "/Telegram-@V2ray_Alpha/?ed=2560", headers: {Host: iSaA1.paGes.DEv}}, udp: true}
-  - {name: "|@ovpn2|4.83", server: 162.159.138.232, port: 443, type: trojan, password: dQDQCtns4R, sni: fadaei.movieland.top, skip-cert-verify: true, network: ws, ws-opts: {path: static34528, headers: {Host: fadaei.movieland.top}}, udp: true}
-  - {name: "|@DirectVPN|160.23", server: 3.122.89.11, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
-  - {name: "|@DirectVPN|149.95", server: 13.38.239.27, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
-  - {name: "|@PrivateVPNs|156.23", server: 3.122.89.11, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
-  - {name: "|@PrivateVPNs|150.41", server: 13.38.239.27, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
+  - {name: "|@ovpn2|5.31", server: 162.159.138.232, port: 443, type: trojan, password: dQDQCtns4R, sni: fadaei.movieland.top, skip-cert-verify: true, network: ws, ws-opts: {path: static34528, headers: {Host: fadaei.movieland.top}}, udp: true}
+  - {name: "|@DirectVPN|94.35", server: 3.76.235.35, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
+  - {name: "|@DirectVPN|97.77", server: 3.124.129.130, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
+  - {name: "|@PrivateVPNs|94.88", server: 3.76.235.35, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
+  - {name: "|@PrivateVPNs|95.7", server: 3.124.129.130, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 MANUAL
     type: select
     proxies:
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@ConfigsHUB|1.43"
-      - "|@ovpn2|4.83"
-      - "|@DirectVPN|160.23"
-      - "|@DirectVPN|149.95"
-      - "|@PrivateVPNs|156.23"
-      - "|@PrivateVPNs|150.41"
+      - "|@ovpn2|5.31"
+      - "|@DirectVPN|94.35"
+      - "|@DirectVPN|97.77"
+      - "|@PrivateVPNs|94.88"
+      - "|@PrivateVPNs|95.7"
   - name: ♻️ AUTO SELECT
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "|@ConfigsHUB|1.43"
-      - "|@ovpn2|4.83"
-      - "|@DirectVPN|160.23"
-      - "|@DirectVPN|149.95"
-      - "|@PrivateVPNs|156.23"
-      - "|@PrivateVPNs|150.41"
+      - "|@ovpn2|5.31"
+      - "|@DirectVPN|94.35"
+      - "|@DirectVPN|97.77"
+      - "|@PrivateVPNs|94.88"
+      - "|@PrivateVPNs|95.7"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 MANUAL
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@ConfigsHUB|1.43"
-      - "|@ovpn2|4.83"
-      - "|@DirectVPN|160.23"
-      - "|@DirectVPN|149.95"
-      - "|@PrivateVPNs|156.23"
-      - "|@PrivateVPNs|150.41"
+      - "|@ovpn2|5.31"
+      - "|@DirectVPN|94.35"
+      - "|@DirectVPN|97.77"
+      - "|@PrivateVPNs|94.88"
+      - "|@PrivateVPNs|95.7"
   - name: ⛔️ AD BLOCK
     type: select
     proxies:
@@ -68,12 +64,11 @@ proxy-groups:
       - 🔰 MANUAL
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@ConfigsHUB|1.43"
-      - "|@ovpn2|4.83"
-      - "|@DirectVPN|160.23"
-      - "|@DirectVPN|149.95"
-      - "|@PrivateVPNs|156.23"
-      - "|@PrivateVPNs|150.41"
+      - "|@ovpn2|5.31"
+      - "|@DirectVPN|94.35"
+      - "|@DirectVPN|97.77"
+      - "|@PrivateVPNs|94.88"
+      - "|@PrivateVPNs|95.7"
   - name: 🌏 DOMESTIC MEDIA
     type: select
     proxies:
@@ -84,35 +79,32 @@ proxy-groups:
     proxies:
       - 🎯 GLOBAL DIRECT
       - 🔰 MANUAL
-      - "|@ConfigsHUB|1.43"
-      - "|@ovpn2|4.83"
-      - "|@DirectVPN|160.23"
-      - "|@DirectVPN|149.95"
-      - "|@PrivateVPNs|156.23"
-      - "|@PrivateVPNs|150.41"
+      - "|@ovpn2|5.31"
+      - "|@DirectVPN|94.35"
+      - "|@DirectVPN|97.77"
+      - "|@PrivateVPNs|94.88"
+      - "|@PrivateVPNs|95.7"
   - name: 📲 TELEGRAM
     type: select
     proxies:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
-      - "|@ConfigsHUB|1.43"
-      - "|@ovpn2|4.83"
-      - "|@DirectVPN|160.23"
-      - "|@DirectVPN|149.95"
-      - "|@PrivateVPNs|156.23"
-      - "|@PrivateVPNs|150.41"
+      - "|@ovpn2|5.31"
+      - "|@DirectVPN|94.35"
+      - "|@DirectVPN|97.77"
+      - "|@PrivateVPNs|94.88"
+      - "|@PrivateVPNs|95.7"
   - name: 🍎 APPLE
     type: select
     proxies:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
-      - "|@ConfigsHUB|1.43"
-      - "|@ovpn2|4.83"
-      - "|@DirectVPN|160.23"
-      - "|@DirectVPN|149.95"
-      - "|@PrivateVPNs|156.23"
-      - "|@PrivateVPNs|150.41"
+      - "|@ovpn2|5.31"
+      - "|@DirectVPN|94.35"
+      - "|@DirectVPN|97.77"
+      - "|@PrivateVPNs|94.88"
+      - "|@PrivateVPNs|95.7"
   - name: 🎯 GLOBAL DIRECT
     type: select
     proxies:
@@ -128,12 +120,11 @@ proxy-groups:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
-      - "|@ConfigsHUB|1.43"
-      - "|@ovpn2|4.83"
-      - "|@DirectVPN|160.23"
-      - "|@DirectVPN|149.95"
-      - "|@PrivateVPNs|156.23"
-      - "|@PrivateVPNs|150.41"
+      - "|@ovpn2|5.31"
+      - "|@DirectVPN|94.35"
+      - "|@DirectVPN|97.77"
+      - "|@PrivateVPNs|94.88"
+      - "|@PrivateVPNs|95.7"
 rules:
   - DOMAIN-SUFFIX,local,🎯 GLOBAL DIRECT
   - IP-CIDR,192.168.0.0/16,🎯 GLOBAL DIRECT,no-resolve
