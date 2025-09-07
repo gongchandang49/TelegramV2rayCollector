@@ -9,79 +9,87 @@ unified-delay: true
 global-client-fingerprint: chrome
 keep-alive-interval: 360
 proxies:
-  - {name: "|@vpn_tehran|176.06", server: 216.173.69.250, port: 8443, type: vmess, uuid: 91382092-2330-455b-8a1c-9c129cfe661a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: "|@vpn_tehran|190.01", server: 62.146.235.193, port: 28011, type: vmess, uuid: cfc5a87f-3c13-4e25-b556-176cdd6b5c6a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "|@ShadowProxy66|3.66", server: 57.129.64.238, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: kapelleng.com, network: ws, ws-opts: {path: /linkvws, headers: {Host: kapelleng.com}}, udp: true}
-  - {name: "|@ShadowProxy66|155.8", server: 85.195.101.122, port: 40878, type: vmess, uuid: f3d4167e-b15e-4e46-82e9-9286ef93fda7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "|@v2rayvmess|2.12", server: id-lb.vhax.net, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sshkit/Arsham85231/6347d08022b91/, headers: {Host: zoom.us}}, udp: true}
-  - {name: "|@Jeyksatan|292.58", server: s3.dns4wards.com, port: 2089, type: vmess, uuid: 14f5d66f-d3a7-420c-2931-299c8c25c153, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "|@Jeyksatan|271.5", server: s2.dns4wards.com, port: 2088, type: vmess, uuid: 493082ea-3964-41f4-6df5-9d7cf8e1d8d9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "|@vpnfail_v2ray|249.75", server: 94.136.185.230, port: 10534, type: vmess, uuid: b01c7ef9-33ec-41f6-bfbf-77ddc4d21649, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "|@prrofile_purple|170.88", server: 89.46.235.246, port: 443, type: vmess, uuid: cfa8c2a5-5196-43cb-b54b-e391b2838835, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "|@prrofile_purple|76.48", server: 158.255.213.162, port: 443, type: vmess, uuid: 84544562-093a-4d50-fccd-4bb7dca4f29b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: "|@prrofile_purple|65.04", server: 92.243.64.36, port: 443, type: vmess, uuid: b04394ff-1a23-4a5a-d4d4-53f6007f84e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: "|@free4allVPN|271.36", server: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: broadcastlv.chat.bilibili.com, network: ws, ws-opts: {path: /, headers: {Host: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net}}, udp: true}
-  - {name: "|@free4allVPN|2.38", server: 5.182.84.249, port: 8880, type: vmess, uuid: 0acfeb7d-7ff5-39e1-be97-af07eb666319, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/dabai&Telegram🇨🇳@WangCai2/?ed=2560", headers: {Host: TG.WangCai2.s2.db-link02.top}}, udp: true}
-  - {name: "|@free4allVPN|2.19", server: 104.18.149.76, port: 443, type: vmess, uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: us.kkp.me.eu.org, network: ws, ws-opts: {path: /aa}, udp: true}
+  - {name: "|@vpn_tehran|153.14", server: 216.173.69.250, port: 8443, type: vmess, uuid: 91382092-2330-455b-8a1c-9c129cfe661a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: "|@vpn_tehran|256.36", server: 62.146.235.193, port: 28011, type: vmess, uuid: cfc5a87f-3c13-4e25-b556-176cdd6b5c6a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "|@ShadowProxy66|75.59", server: 57.129.64.238, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: kapelleng.com, network: ws, ws-opts: {path: /linkvws, headers: {Host: kapelleng.com}}, udp: true}
+  - {name: "|@ShadowProxy66|132.57", server: 85.195.101.122, port: 40878, type: vmess, uuid: f3d4167e-b15e-4e46-82e9-9286ef93fda7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "|@v2rayvmess|19.02", server: id-lb.vhax.net, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sshkit/Arsham85231/6347d08022b91/, headers: {Host: zoom.us}}, udp: true}
+  - {name: "|@Jeyksatan|325.53", server: s3.dns4wards.com, port: 2089, type: vmess, uuid: 14f5d66f-d3a7-420c-2931-299c8c25c153, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "|@Jeyksatan|404.96", server: s2.dns4wards.com, port: 2088, type: vmess, uuid: 493082ea-3964-41f4-6df5-9d7cf8e1d8d9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "|@vpnfail_v2ray|173.34", server: 47.83.18.10, port: 36968, type: vmess, uuid: 176bf1dd-647f-4c09-892e-5f9223dc8617, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: "|@vpnfail_v2ray|282.04", server: 103.61.139.137, port: 20521, type: vmess, uuid: f8d93cfb-3d5d-447c-a697-16496dd74697, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: "|@vpnfail_v2ray|177.62", server: 47.83.162.4, port: 40873, type: vmess, uuid: 3fd266bc-7691-43cf-a82f-0c9761a69bf0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: "|@prrofile_purple|149.7", server: 89.46.235.246, port: 443, type: vmess, uuid: cfa8c2a5-5196-43cb-b54b-e391b2838835, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "|@prrofile_purple|53.5", server: 158.255.213.162, port: 443, type: vmess, uuid: 84544562-093a-4d50-fccd-4bb7dca4f29b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: "|@prrofile_purple|41.89", server: 92.243.64.36, port: 443, type: vmess, uuid: b04394ff-1a23-4a5a-d4d4-53f6007f84e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: "|@free4allVPN|288.21", server: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: broadcastlv.chat.bilibili.com, network: ws, ws-opts: {path: /, headers: {Host: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net}}, udp: true}
+  - {name: "|@free4allVPN|18.27", server: 5.182.84.249, port: 8880, type: vmess, uuid: 0acfeb7d-7ff5-39e1-be97-af07eb666319, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/dabai&Telegram🇨🇳@WangCai2/?ed=2560", headers: {Host: TG.WangCai2.s2.db-link02.top}}, udp: true}
+  - {name: "|@free4allVPN|18.1", server: 104.18.149.76, port: 443, type: vmess, uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: us.kkp.me.eu.org, network: ws, ws-opts: {path: /aa}, udp: true}
 proxy-groups:
   - name: 🔰 MANUAL
     type: select
     proxies:
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@vpn_tehran|176.06"
-      - "|@vpn_tehran|190.01"
-      - "|@ShadowProxy66|3.66"
-      - "|@ShadowProxy66|155.8"
-      - "|@v2rayvmess|2.12"
-      - "|@Jeyksatan|292.58"
-      - "|@Jeyksatan|271.5"
-      - "|@vpnfail_v2ray|249.75"
-      - "|@prrofile_purple|170.88"
-      - "|@prrofile_purple|76.48"
-      - "|@prrofile_purple|65.04"
-      - "|@free4allVPN|271.36"
-      - "|@free4allVPN|2.38"
-      - "|@free4allVPN|2.19"
+      - "|@vpn_tehran|153.14"
+      - "|@vpn_tehran|256.36"
+      - "|@ShadowProxy66|75.59"
+      - "|@ShadowProxy66|132.57"
+      - "|@v2rayvmess|19.02"
+      - "|@Jeyksatan|325.53"
+      - "|@Jeyksatan|404.96"
+      - "|@vpnfail_v2ray|173.34"
+      - "|@vpnfail_v2ray|282.04"
+      - "|@vpnfail_v2ray|177.62"
+      - "|@prrofile_purple|149.7"
+      - "|@prrofile_purple|53.5"
+      - "|@prrofile_purple|41.89"
+      - "|@free4allVPN|288.21"
+      - "|@free4allVPN|18.27"
+      - "|@free4allVPN|18.1"
   - name: ♻️ AUTO SELECT
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "|@vpn_tehran|176.06"
-      - "|@vpn_tehran|190.01"
-      - "|@ShadowProxy66|3.66"
-      - "|@ShadowProxy66|155.8"
-      - "|@v2rayvmess|2.12"
-      - "|@Jeyksatan|292.58"
-      - "|@Jeyksatan|271.5"
-      - "|@vpnfail_v2ray|249.75"
-      - "|@prrofile_purple|170.88"
-      - "|@prrofile_purple|76.48"
-      - "|@prrofile_purple|65.04"
-      - "|@free4allVPN|271.36"
-      - "|@free4allVPN|2.38"
-      - "|@free4allVPN|2.19"
+      - "|@vpn_tehran|153.14"
+      - "|@vpn_tehran|256.36"
+      - "|@ShadowProxy66|75.59"
+      - "|@ShadowProxy66|132.57"
+      - "|@v2rayvmess|19.02"
+      - "|@Jeyksatan|325.53"
+      - "|@Jeyksatan|404.96"
+      - "|@vpnfail_v2ray|173.34"
+      - "|@vpnfail_v2ray|282.04"
+      - "|@vpnfail_v2ray|177.62"
+      - "|@prrofile_purple|149.7"
+      - "|@prrofile_purple|53.5"
+      - "|@prrofile_purple|41.89"
+      - "|@free4allVPN|288.21"
+      - "|@free4allVPN|18.27"
+      - "|@free4allVPN|18.1"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 MANUAL
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@vpn_tehran|176.06"
-      - "|@vpn_tehran|190.01"
-      - "|@ShadowProxy66|3.66"
-      - "|@ShadowProxy66|155.8"
-      - "|@v2rayvmess|2.12"
-      - "|@Jeyksatan|292.58"
-      - "|@Jeyksatan|271.5"
-      - "|@vpnfail_v2ray|249.75"
-      - "|@prrofile_purple|170.88"
-      - "|@prrofile_purple|76.48"
-      - "|@prrofile_purple|65.04"
-      - "|@free4allVPN|271.36"
-      - "|@free4allVPN|2.38"
-      - "|@free4allVPN|2.19"
+      - "|@vpn_tehran|153.14"
+      - "|@vpn_tehran|256.36"
+      - "|@ShadowProxy66|75.59"
+      - "|@ShadowProxy66|132.57"
+      - "|@v2rayvmess|19.02"
+      - "|@Jeyksatan|325.53"
+      - "|@Jeyksatan|404.96"
+      - "|@vpnfail_v2ray|173.34"
+      - "|@vpnfail_v2ray|282.04"
+      - "|@vpnfail_v2ray|177.62"
+      - "|@prrofile_purple|149.7"
+      - "|@prrofile_purple|53.5"
+      - "|@prrofile_purple|41.89"
+      - "|@free4allVPN|288.21"
+      - "|@free4allVPN|18.27"
+      - "|@free4allVPN|18.1"
   - name: ⛔️ AD BLOCK
     type: select
     proxies:
@@ -100,20 +108,22 @@ proxy-groups:
       - 🔰 MANUAL
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@vpn_tehran|176.06"
-      - "|@vpn_tehran|190.01"
-      - "|@ShadowProxy66|3.66"
-      - "|@ShadowProxy66|155.8"
-      - "|@v2rayvmess|2.12"
-      - "|@Jeyksatan|292.58"
-      - "|@Jeyksatan|271.5"
-      - "|@vpnfail_v2ray|249.75"
-      - "|@prrofile_purple|170.88"
-      - "|@prrofile_purple|76.48"
-      - "|@prrofile_purple|65.04"
-      - "|@free4allVPN|271.36"
-      - "|@free4allVPN|2.38"
-      - "|@free4allVPN|2.19"
+      - "|@vpn_tehran|153.14"
+      - "|@vpn_tehran|256.36"
+      - "|@ShadowProxy66|75.59"
+      - "|@ShadowProxy66|132.57"
+      - "|@v2rayvmess|19.02"
+      - "|@Jeyksatan|325.53"
+      - "|@Jeyksatan|404.96"
+      - "|@vpnfail_v2ray|173.34"
+      - "|@vpnfail_v2ray|282.04"
+      - "|@vpnfail_v2ray|177.62"
+      - "|@prrofile_purple|149.7"
+      - "|@prrofile_purple|53.5"
+      - "|@prrofile_purple|41.89"
+      - "|@free4allVPN|288.21"
+      - "|@free4allVPN|18.27"
+      - "|@free4allVPN|18.1"
   - name: 🌏 DOMESTIC MEDIA
     type: select
     proxies:
@@ -124,59 +134,65 @@ proxy-groups:
     proxies:
       - 🎯 GLOBAL DIRECT
       - 🔰 MANUAL
-      - "|@vpn_tehran|176.06"
-      - "|@vpn_tehran|190.01"
-      - "|@ShadowProxy66|3.66"
-      - "|@ShadowProxy66|155.8"
-      - "|@v2rayvmess|2.12"
-      - "|@Jeyksatan|292.58"
-      - "|@Jeyksatan|271.5"
-      - "|@vpnfail_v2ray|249.75"
-      - "|@prrofile_purple|170.88"
-      - "|@prrofile_purple|76.48"
-      - "|@prrofile_purple|65.04"
-      - "|@free4allVPN|271.36"
-      - "|@free4allVPN|2.38"
-      - "|@free4allVPN|2.19"
+      - "|@vpn_tehran|153.14"
+      - "|@vpn_tehran|256.36"
+      - "|@ShadowProxy66|75.59"
+      - "|@ShadowProxy66|132.57"
+      - "|@v2rayvmess|19.02"
+      - "|@Jeyksatan|325.53"
+      - "|@Jeyksatan|404.96"
+      - "|@vpnfail_v2ray|173.34"
+      - "|@vpnfail_v2ray|282.04"
+      - "|@vpnfail_v2ray|177.62"
+      - "|@prrofile_purple|149.7"
+      - "|@prrofile_purple|53.5"
+      - "|@prrofile_purple|41.89"
+      - "|@free4allVPN|288.21"
+      - "|@free4allVPN|18.27"
+      - "|@free4allVPN|18.1"
   - name: 📲 TELEGRAM
     type: select
     proxies:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
-      - "|@vpn_tehran|176.06"
-      - "|@vpn_tehran|190.01"
-      - "|@ShadowProxy66|3.66"
-      - "|@ShadowProxy66|155.8"
-      - "|@v2rayvmess|2.12"
-      - "|@Jeyksatan|292.58"
-      - "|@Jeyksatan|271.5"
-      - "|@vpnfail_v2ray|249.75"
-      - "|@prrofile_purple|170.88"
-      - "|@prrofile_purple|76.48"
-      - "|@prrofile_purple|65.04"
-      - "|@free4allVPN|271.36"
-      - "|@free4allVPN|2.38"
-      - "|@free4allVPN|2.19"
+      - "|@vpn_tehran|153.14"
+      - "|@vpn_tehran|256.36"
+      - "|@ShadowProxy66|75.59"
+      - "|@ShadowProxy66|132.57"
+      - "|@v2rayvmess|19.02"
+      - "|@Jeyksatan|325.53"
+      - "|@Jeyksatan|404.96"
+      - "|@vpnfail_v2ray|173.34"
+      - "|@vpnfail_v2ray|282.04"
+      - "|@vpnfail_v2ray|177.62"
+      - "|@prrofile_purple|149.7"
+      - "|@prrofile_purple|53.5"
+      - "|@prrofile_purple|41.89"
+      - "|@free4allVPN|288.21"
+      - "|@free4allVPN|18.27"
+      - "|@free4allVPN|18.1"
   - name: 🍎 APPLE
     type: select
     proxies:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
-      - "|@vpn_tehran|176.06"
-      - "|@vpn_tehran|190.01"
-      - "|@ShadowProxy66|3.66"
-      - "|@ShadowProxy66|155.8"
-      - "|@v2rayvmess|2.12"
-      - "|@Jeyksatan|292.58"
-      - "|@Jeyksatan|271.5"
-      - "|@vpnfail_v2ray|249.75"
-      - "|@prrofile_purple|170.88"
-      - "|@prrofile_purple|76.48"
-      - "|@prrofile_purple|65.04"
-      - "|@free4allVPN|271.36"
-      - "|@free4allVPN|2.38"
-      - "|@free4allVPN|2.19"
+      - "|@vpn_tehran|153.14"
+      - "|@vpn_tehran|256.36"
+      - "|@ShadowProxy66|75.59"
+      - "|@ShadowProxy66|132.57"
+      - "|@v2rayvmess|19.02"
+      - "|@Jeyksatan|325.53"
+      - "|@Jeyksatan|404.96"
+      - "|@vpnfail_v2ray|173.34"
+      - "|@vpnfail_v2ray|282.04"
+      - "|@vpnfail_v2ray|177.62"
+      - "|@prrofile_purple|149.7"
+      - "|@prrofile_purple|53.5"
+      - "|@prrofile_purple|41.89"
+      - "|@free4allVPN|288.21"
+      - "|@free4allVPN|18.27"
+      - "|@free4allVPN|18.1"
   - name: 🎯 GLOBAL DIRECT
     type: select
     proxies:
@@ -192,20 +208,22 @@ proxy-groups:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
-      - "|@vpn_tehran|176.06"
-      - "|@vpn_tehran|190.01"
-      - "|@ShadowProxy66|3.66"
-      - "|@ShadowProxy66|155.8"
-      - "|@v2rayvmess|2.12"
-      - "|@Jeyksatan|292.58"
-      - "|@Jeyksatan|271.5"
-      - "|@vpnfail_v2ray|249.75"
-      - "|@prrofile_purple|170.88"
-      - "|@prrofile_purple|76.48"
-      - "|@prrofile_purple|65.04"
-      - "|@free4allVPN|271.36"
-      - "|@free4allVPN|2.38"
-      - "|@free4allVPN|2.19"
+      - "|@vpn_tehran|153.14"
+      - "|@vpn_tehran|256.36"
+      - "|@ShadowProxy66|75.59"
+      - "|@ShadowProxy66|132.57"
+      - "|@v2rayvmess|19.02"
+      - "|@Jeyksatan|325.53"
+      - "|@Jeyksatan|404.96"
+      - "|@vpnfail_v2ray|173.34"
+      - "|@vpnfail_v2ray|282.04"
+      - "|@vpnfail_v2ray|177.62"
+      - "|@prrofile_purple|149.7"
+      - "|@prrofile_purple|53.5"
+      - "|@prrofile_purple|41.89"
+      - "|@free4allVPN|288.21"
+      - "|@free4allVPN|18.27"
+      - "|@free4allVPN|18.1"
 rules:
   - DOMAIN-SUFFIX,local,🎯 GLOBAL DIRECT
   - IP-CIDR,192.168.0.0/16,🎯 GLOBAL DIRECT,no-resolve
