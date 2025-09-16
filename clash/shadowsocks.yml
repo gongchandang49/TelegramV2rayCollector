@@ -9,35 +9,35 @@ unified-delay: true
 global-client-fingerprint: chrome
 keep-alive-interval: 360
 proxies:
-  - {name: "|@VmessProtocol|118.01", server: 94.131.22.134, port: 40565, type: ss, cipher: chacha20-ietf-poly1305, password: 2JK8CwhNFuy3uQo5yHwHvRuEXKLnnrKW7T3snXFQ25yt27PGLKoLXMFrSFFoVgB5SQMeAHx8ZaQXx9mAY55cYskUyVaP6Rum7, udp: true}
-  - {name: "|@vmess_vless_v2rayng|128.26", server: 83.147.216.70, port: 64519, type: ss, cipher: chacha20-ietf-poly1305, password: UlT89D0rvcr05tKft1NB5a, udp: true}
-  - {name: "|@vmess_vless_v2rayng|82.59", server: 45.87.175.171, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
+  - {name: "|@VmessProtocol|131.03", server: 94.131.22.134, port: 40565, type: ss, cipher: chacha20-ietf-poly1305, password: 2JK8CwhNFuy3uQo5yHwHvRuEXKLnnrKW7T3snXFQ25yt27PGLKoLXMFrSFFoVgB5SQMeAHx8ZaQXx9mAY55cYskUyVaP6Rum7, udp: true}
+  - {name: "|@vmess_vless_v2rayng|139.9", server: 83.147.216.70, port: 64519, type: ss, cipher: chacha20-ietf-poly1305, password: UlT89D0rvcr05tKft1NB5a, udp: true}
+  - {name: "|@vmess_vless_v2rayng|95.97", server: 45.87.175.171, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
 proxy-groups:
   - name: 🔰 MANUAL
     type: select
     proxies:
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@VmessProtocol|118.01"
-      - "|@vmess_vless_v2rayng|128.26"
-      - "|@vmess_vless_v2rayng|82.59"
+      - "|@VmessProtocol|131.03"
+      - "|@vmess_vless_v2rayng|139.9"
+      - "|@vmess_vless_v2rayng|95.97"
   - name: ♻️ AUTO SELECT
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "|@VmessProtocol|118.01"
-      - "|@vmess_vless_v2rayng|128.26"
-      - "|@vmess_vless_v2rayng|82.59"
+      - "|@VmessProtocol|131.03"
+      - "|@vmess_vless_v2rayng|139.9"
+      - "|@vmess_vless_v2rayng|95.97"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 MANUAL
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@VmessProtocol|118.01"
-      - "|@vmess_vless_v2rayng|128.26"
-      - "|@vmess_vless_v2rayng|82.59"
+      - "|@VmessProtocol|131.03"
+      - "|@vmess_vless_v2rayng|139.9"
+      - "|@vmess_vless_v2rayng|95.97"
   - name: ⛔️ AD BLOCK
     type: select
     proxies:
@@ -56,9 +56,9 @@ proxy-groups:
       - 🔰 MANUAL
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@VmessProtocol|118.01"
-      - "|@vmess_vless_v2rayng|128.26"
-      - "|@vmess_vless_v2rayng|82.59"
+      - "|@VmessProtocol|131.03"
+      - "|@vmess_vless_v2rayng|139.9"
+      - "|@vmess_vless_v2rayng|95.97"
   - name: 🌏 DOMESTIC MEDIA
     type: select
     proxies:
@@ -69,26 +69,26 @@ proxy-groups:
     proxies:
       - 🎯 GLOBAL DIRECT
       - 🔰 MANUAL
-      - "|@VmessProtocol|118.01"
-      - "|@vmess_vless_v2rayng|128.26"
-      - "|@vmess_vless_v2rayng|82.59"
+      - "|@VmessProtocol|131.03"
+      - "|@vmess_vless_v2rayng|139.9"
+      - "|@vmess_vless_v2rayng|95.97"
   - name: 📲 TELEGRAM
     type: select
     proxies:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
-      - "|@VmessProtocol|118.01"
-      - "|@vmess_vless_v2rayng|128.26"
-      - "|@vmess_vless_v2rayng|82.59"
+      - "|@VmessProtocol|131.03"
+      - "|@vmess_vless_v2rayng|139.9"
+      - "|@vmess_vless_v2rayng|95.97"
   - name: 🍎 APPLE
     type: select
     proxies:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
-      - "|@VmessProtocol|118.01"
-      - "|@vmess_vless_v2rayng|128.26"
-      - "|@vmess_vless_v2rayng|82.59"
+      - "|@VmessProtocol|131.03"
+      - "|@vmess_vless_v2rayng|139.9"
+      - "|@vmess_vless_v2rayng|95.97"
   - name: 🎯 GLOBAL DIRECT
     type: select
     proxies:
@@ -104,9 +104,9 @@ proxy-groups:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
-      - "|@VmessProtocol|118.01"
-      - "|@vmess_vless_v2rayng|128.26"
-      - "|@vmess_vless_v2rayng|82.59"
+      - "|@VmessProtocol|131.03"
+      - "|@vmess_vless_v2rayng|139.9"
+      - "|@vmess_vless_v2rayng|95.97"
 rules:
   - DOMAIN-SUFFIX,local,🎯 GLOBAL DIRECT
   - IP-CIDR,192.168.0.0/16,🎯 GLOBAL DIRECT,no-resolve
