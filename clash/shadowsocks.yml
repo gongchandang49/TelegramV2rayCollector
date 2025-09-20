@@ -9,35 +9,31 @@ unified-delay: true
 global-client-fingerprint: chrome
 keep-alive-interval: 360
 proxies:
-  - {name: "|@VmessProtocol|114.18", server: 94.131.22.134, port: 40565, type: ss, cipher: chacha20-ietf-poly1305, password: 2JK8CwhNFuy3uQo5yHwHvRuEXKLnnrKW7T3snXFQ25yt27PGLKoLXMFrSFFoVgB5SQMeAHx8ZaQXx9mAY55cYskUyVaP6Rum7, udp: true}
-  - {name: "|@vmess_vless_v2rayng|129.71", server: 83.147.216.70, port: 64519, type: ss, cipher: chacha20-ietf-poly1305, password: UlT89D0rvcr05tKft1NB5a, udp: true}
-  - {name: "|@vmess_vless_v2rayng|85.13", server: 45.87.175.171, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
+  - {name: "|@vmess_vless_v2rayng|170.37", server: 83.147.216.70, port: 64519, type: ss, cipher: chacha20-ietf-poly1305, password: UlT89D0rvcr05tKft1NB5a, udp: true}
+  - {name: "|@vmess_vless_v2rayng|122.67", server: 45.87.175.171, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
 proxy-groups:
   - name: 🔰 MANUAL
     type: select
     proxies:
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@VmessProtocol|114.18"
-      - "|@vmess_vless_v2rayng|129.71"
-      - "|@vmess_vless_v2rayng|85.13"
+      - "|@vmess_vless_v2rayng|170.37"
+      - "|@vmess_vless_v2rayng|122.67"
   - name: ♻️ AUTO SELECT
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "|@VmessProtocol|114.18"
-      - "|@vmess_vless_v2rayng|129.71"
-      - "|@vmess_vless_v2rayng|85.13"
+      - "|@vmess_vless_v2rayng|170.37"
+      - "|@vmess_vless_v2rayng|122.67"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 MANUAL
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@VmessProtocol|114.18"
-      - "|@vmess_vless_v2rayng|129.71"
-      - "|@vmess_vless_v2rayng|85.13"
+      - "|@vmess_vless_v2rayng|170.37"
+      - "|@vmess_vless_v2rayng|122.67"
   - name: ⛔️ AD BLOCK
     type: select
     proxies:
@@ -56,9 +52,8 @@ proxy-groups:
       - 🔰 MANUAL
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@VmessProtocol|114.18"
-      - "|@vmess_vless_v2rayng|129.71"
-      - "|@vmess_vless_v2rayng|85.13"
+      - "|@vmess_vless_v2rayng|170.37"
+      - "|@vmess_vless_v2rayng|122.67"
   - name: 🌏 DOMESTIC MEDIA
     type: select
     proxies:
@@ -69,26 +64,23 @@ proxy-groups:
     proxies:
       - 🎯 GLOBAL DIRECT
       - 🔰 MANUAL
-      - "|@VmessProtocol|114.18"
-      - "|@vmess_vless_v2rayng|129.71"
-      - "|@vmess_vless_v2rayng|85.13"
+      - "|@vmess_vless_v2rayng|170.37"
+      - "|@vmess_vless_v2rayng|122.67"
   - name: 📲 TELEGRAM
     type: select
     proxies:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
-      - "|@VmessProtocol|114.18"
-      - "|@vmess_vless_v2rayng|129.71"
-      - "|@vmess_vless_v2rayng|85.13"
+      - "|@vmess_vless_v2rayng|170.37"
+      - "|@vmess_vless_v2rayng|122.67"
   - name: 🍎 APPLE
     type: select
     proxies:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
-      - "|@VmessProtocol|114.18"
-      - "|@vmess_vless_v2rayng|129.71"
-      - "|@vmess_vless_v2rayng|85.13"
+      - "|@vmess_vless_v2rayng|170.37"
+      - "|@vmess_vless_v2rayng|122.67"
   - name: 🎯 GLOBAL DIRECT
     type: select
     proxies:
@@ -104,9 +96,8 @@ proxy-groups:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
-      - "|@VmessProtocol|114.18"
-      - "|@vmess_vless_v2rayng|129.71"
-      - "|@vmess_vless_v2rayng|85.13"
+      - "|@vmess_vless_v2rayng|170.37"
+      - "|@vmess_vless_v2rayng|122.67"
 rules:
   - DOMAIN-SUFFIX,local,🎯 GLOBAL DIRECT
   - IP-CIDR,192.168.0.0/16,🎯 GLOBAL DIRECT,no-resolve
