@@ -9,35 +9,39 @@ unified-delay: true
 global-client-fingerprint: chrome
 keep-alive-interval: 360
 proxies:
-  - {name: "|@vmess_vless_v2rayng|96.49", server: 45.87.175.171, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
-  - {name: "|@free4allVPN|96.35", server: 151.242.251.147, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
-  - {name: "|@free4allVPN|96.42", server: 78.40.198.60, port: 47346, type: ss, cipher: chacha20-ietf-poly1305, password: 67szB9204bjydiyQEaChON, udp: true}
+  - {name: "|@vmess_vless_v2rayng|unavailable", server: 83.147.216.70, port: 64519, type: ss, cipher: chacha20-ietf-poly1305, password: UlT89D0rvcr05tKft1NB5a, udp: true}
+  - {name: "|@vmess_vless_v2rayng|138.85", server: 45.87.175.171, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
+  - {name: "|@free4allVPN|138.67", server: 151.242.251.147, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true}
+  - {name: "|@free4allVPN|134.95", server: 78.40.198.60, port: 47346, type: ss, cipher: chacha20-ietf-poly1305, password: 67szB9204bjydiyQEaChON, udp: true}
 proxy-groups:
   - name: 🔰 MANUAL
     type: select
     proxies:
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@vmess_vless_v2rayng|96.49"
-      - "|@free4allVPN|96.35"
-      - "|@free4allVPN|96.42"
+      - "|@vmess_vless_v2rayng|unavailable"
+      - "|@vmess_vless_v2rayng|138.85"
+      - "|@free4allVPN|138.67"
+      - "|@free4allVPN|134.95"
   - name: ♻️ AUTO SELECT
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "|@vmess_vless_v2rayng|96.49"
-      - "|@free4allVPN|96.35"
-      - "|@free4allVPN|96.42"
+      - "|@vmess_vless_v2rayng|unavailable"
+      - "|@vmess_vless_v2rayng|138.85"
+      - "|@free4allVPN|138.67"
+      - "|@free4allVPN|134.95"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 MANUAL
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@vmess_vless_v2rayng|96.49"
-      - "|@free4allVPN|96.35"
-      - "|@free4allVPN|96.42"
+      - "|@vmess_vless_v2rayng|unavailable"
+      - "|@vmess_vless_v2rayng|138.85"
+      - "|@free4allVPN|138.67"
+      - "|@free4allVPN|134.95"
   - name: ⛔️ AD BLOCK
     type: select
     proxies:
@@ -56,9 +60,10 @@ proxy-groups:
       - 🔰 MANUAL
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@vmess_vless_v2rayng|96.49"
-      - "|@free4allVPN|96.35"
-      - "|@free4allVPN|96.42"
+      - "|@vmess_vless_v2rayng|unavailable"
+      - "|@vmess_vless_v2rayng|138.85"
+      - "|@free4allVPN|138.67"
+      - "|@free4allVPN|134.95"
   - name: 🌏 DOMESTIC MEDIA
     type: select
     proxies:
@@ -69,26 +74,29 @@ proxy-groups:
     proxies:
       - 🎯 GLOBAL DIRECT
       - 🔰 MANUAL
-      - "|@vmess_vless_v2rayng|96.49"
-      - "|@free4allVPN|96.35"
-      - "|@free4allVPN|96.42"
+      - "|@vmess_vless_v2rayng|unavailable"
+      - "|@vmess_vless_v2rayng|138.85"
+      - "|@free4allVPN|138.67"
+      - "|@free4allVPN|134.95"
   - name: 📲 TELEGRAM
     type: select
     proxies:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
-      - "|@vmess_vless_v2rayng|96.49"
-      - "|@free4allVPN|96.35"
-      - "|@free4allVPN|96.42"
+      - "|@vmess_vless_v2rayng|unavailable"
+      - "|@vmess_vless_v2rayng|138.85"
+      - "|@free4allVPN|138.67"
+      - "|@free4allVPN|134.95"
   - name: 🍎 APPLE
     type: select
     proxies:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
-      - "|@vmess_vless_v2rayng|96.49"
-      - "|@free4allVPN|96.35"
-      - "|@free4allVPN|96.42"
+      - "|@vmess_vless_v2rayng|unavailable"
+      - "|@vmess_vless_v2rayng|138.85"
+      - "|@free4allVPN|138.67"
+      - "|@free4allVPN|134.95"
   - name: 🎯 GLOBAL DIRECT
     type: select
     proxies:
@@ -104,9 +112,10 @@ proxy-groups:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
-      - "|@vmess_vless_v2rayng|96.49"
-      - "|@free4allVPN|96.35"
-      - "|@free4allVPN|96.42"
+      - "|@vmess_vless_v2rayng|unavailable"
+      - "|@vmess_vless_v2rayng|138.85"
+      - "|@free4allVPN|138.67"
+      - "|@free4allVPN|134.95"
 rules:
   - DOMAIN-SUFFIX,local,🎯 GLOBAL DIRECT
   - IP-CIDR,192.168.0.0/16,🎯 GLOBAL DIRECT,no-resolve
