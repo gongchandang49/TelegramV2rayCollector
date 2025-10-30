@@ -9,87 +9,67 @@ unified-delay: true
 global-client-fingerprint: chrome
 keep-alive-interval: 360
 proxies:
-  - {name: "|@ConfigsHUB|118.44", server: 85.195.101.122, port: 40878, type: vmess, uuid: f3d4167e-b15e-4e46-82e9-9286ef93fda7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "|@ConfigsHUB|40.94", server: 103.124.107.144, port: 29800, type: vmess, uuid: cc31ddfc-d92e-4dab-cd06-00dfb84af8ac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "|@vpn_tehran|26.61", server: 57.129.59.195, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: kampong.org, network: ws, ws-opts: {path: linkvws, headers: {Host: kampong.org}}, udp: true}
-  - {name: "|@vpn_tehran|83.67", server: 57.129.64.157, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: lammaland.org, network: ws, ws-opts: {path: linkvws, headers: {Host: lammaland.org}}, udp: true}
-  - {name: "|@vpn_tehran|64.32", server: 146.59.118.250, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: lammaland.org, network: ws, ws-opts: {path: linkvws, headers: {Host: lammaland.org}}, udp: true}
-  - {name: "|@vmess_vless_v2rayng|163.91", server: yichueng.org, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: yichueng.org, network: ws, ws-opts: {path: linkvws, headers: {Host: yichueng.org}}, udp: true}
-  - {name: "|@v2ray1_ng|178.62", server: 146.59.70.146, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: yichueng.org, network: ws, ws-opts: {path: linkvws, headers: {Host: yichueng.org}}, udp: true}
-  - {name: "|@v2ray1_ng|24.8", server: 15.204.64.214, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: yichueng.org, network: ws, ws-opts: {path: linkvws, headers: {Host: yichueng.org}}, udp: true}
-  - {name: "|@v2rayvmess|12.7", server: id-lb.vhax.net, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sshkit/Arsham85231/6347d08022b91/, headers: {Host: zoom.us}}, udp: true}
-  - {name: "|@vpn_ioss|93.18", server: 57.129.24.132, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: serkat.org, network: ws, ws-opts: {path: linkvws, headers: {Host: serkat.org}}, udp: true}
-  - {name: "|@vpn_ioss|81.42", server: 57.129.59.199, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: kampong.org, network: ws, ws-opts: {path: linkvws, headers: {Host: kampong.org}}, udp: true}
-  - {name: "|@vpnfail_v2ray|201.55", server: 47.250.45.234, port: 8613, type: vmess, uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: "|@vpnfail_v2ray|81.72", server: 141.94.155.229, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: pelang.org}}, udp: true}
-  - {name: "|@prrofile_purple|155.1", server: dede.bedonemarz.site, port: 444, type: vmess, uuid: 96e0b619-bb98-49cb-a3fd-f0a1cebdd433, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "|@oneclickvpnkeys|79.86", server: 148.113.176.192, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: fapeng.org, network: ws, ws-opts: {path: linkvws}, udp: true}
-  - {name: "|@oneclickvpnkeys|199.18", server: 89.31.120.192, port: 443, type: vmess, uuid: 44537595-9ccc-4b83-8936-5f9ad3229019, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "|@vpn_tehran|101.06", server: 57.129.64.157, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: lammaland.org, network: ws, ws-opts: {path: linkvws, headers: {Host: lammaland.org}}, udp: true}
+  - {name: "|@vpn_tehran|235.97", server: 146.59.118.250, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: lammaland.org, network: ws, ws-opts: {path: linkvws, headers: {Host: lammaland.org}}, udp: true}
+  - {name: "|@v2ray1_ng|57.36", server: 146.59.70.146, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: yichueng.org, network: ws, ws-opts: {path: linkvws, headers: {Host: yichueng.org}}, udp: true}
+  - {name: "|@v2ray1_ng|51.95", server: 15.204.64.214, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: yichueng.org, network: ws, ws-opts: {path: linkvws, headers: {Host: yichueng.org}}, udp: true}
+  - {name: "|@v2rayvmess|9.72", server: id-lb.vhax.net, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sshkit/Arsham85231/6347d08022b91/, headers: {Host: zoom.us}}, udp: true}
+  - {name: "|@vpn_ioss|233.49", server: 57.129.24.132, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: serkat.org, network: ws, ws-opts: {path: linkvws, headers: {Host: serkat.org}}, udp: true}
+  - {name: "|@vpn_ioss|52.08", server: 57.129.59.199, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: kampong.org, network: ws, ws-opts: {path: linkvws, headers: {Host: kampong.org}}, udp: true}
+  - {name: "|@vpnfail_v2ray|163.04", server: 47.243.39.173, port: 20522, type: vmess, uuid: 8993ea91-d437-4899-a6d9-1dcc0aa17820, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: "|@prrofile_purple|158.35", server: dede.bedonemarz.site, port: 444, type: vmess, uuid: 96e0b619-bb98-49cb-a3fd-f0a1cebdd433, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "|@oneclickvpnkeys|135.55", server: 85.195.101.122, port: 40878, type: vmess, uuid: f3d4167e-b15e-4e46-82e9-9286ef93fda7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "|@oneclickvpnkeys|139.93", server: 155.254.35.160, port: 29912, type: vmess, uuid: c387c91b-21e7-43b7-8b12-c1e5f8d6790d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 MANUAL
     type: select
     proxies:
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@ConfigsHUB|118.44"
-      - "|@ConfigsHUB|40.94"
-      - "|@vpn_tehran|26.61"
-      - "|@vpn_tehran|83.67"
-      - "|@vpn_tehran|64.32"
-      - "|@vmess_vless_v2rayng|163.91"
-      - "|@v2ray1_ng|178.62"
-      - "|@v2ray1_ng|24.8"
-      - "|@v2rayvmess|12.7"
-      - "|@vpn_ioss|93.18"
-      - "|@vpn_ioss|81.42"
-      - "|@vpnfail_v2ray|201.55"
-      - "|@vpnfail_v2ray|81.72"
-      - "|@prrofile_purple|155.1"
-      - "|@oneclickvpnkeys|79.86"
-      - "|@oneclickvpnkeys|199.18"
+      - "|@vpn_tehran|101.06"
+      - "|@vpn_tehran|235.97"
+      - "|@v2ray1_ng|57.36"
+      - "|@v2ray1_ng|51.95"
+      - "|@v2rayvmess|9.72"
+      - "|@vpn_ioss|233.49"
+      - "|@vpn_ioss|52.08"
+      - "|@vpnfail_v2ray|163.04"
+      - "|@prrofile_purple|158.35"
+      - "|@oneclickvpnkeys|135.55"
+      - "|@oneclickvpnkeys|139.93"
   - name: ♻️ AUTO SELECT
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "|@ConfigsHUB|118.44"
-      - "|@ConfigsHUB|40.94"
-      - "|@vpn_tehran|26.61"
-      - "|@vpn_tehran|83.67"
-      - "|@vpn_tehran|64.32"
-      - "|@vmess_vless_v2rayng|163.91"
-      - "|@v2ray1_ng|178.62"
-      - "|@v2ray1_ng|24.8"
-      - "|@v2rayvmess|12.7"
-      - "|@vpn_ioss|93.18"
-      - "|@vpn_ioss|81.42"
-      - "|@vpnfail_v2ray|201.55"
-      - "|@vpnfail_v2ray|81.72"
-      - "|@prrofile_purple|155.1"
-      - "|@oneclickvpnkeys|79.86"
-      - "|@oneclickvpnkeys|199.18"
+      - "|@vpn_tehran|101.06"
+      - "|@vpn_tehran|235.97"
+      - "|@v2ray1_ng|57.36"
+      - "|@v2ray1_ng|51.95"
+      - "|@v2rayvmess|9.72"
+      - "|@vpn_ioss|233.49"
+      - "|@vpn_ioss|52.08"
+      - "|@vpnfail_v2ray|163.04"
+      - "|@prrofile_purple|158.35"
+      - "|@oneclickvpnkeys|135.55"
+      - "|@oneclickvpnkeys|139.93"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 MANUAL
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@ConfigsHUB|118.44"
-      - "|@ConfigsHUB|40.94"
-      - "|@vpn_tehran|26.61"
-      - "|@vpn_tehran|83.67"
-      - "|@vpn_tehran|64.32"
-      - "|@vmess_vless_v2rayng|163.91"
-      - "|@v2ray1_ng|178.62"
-      - "|@v2ray1_ng|24.8"
-      - "|@v2rayvmess|12.7"
-      - "|@vpn_ioss|93.18"
-      - "|@vpn_ioss|81.42"
-      - "|@vpnfail_v2ray|201.55"
-      - "|@vpnfail_v2ray|81.72"
-      - "|@prrofile_purple|155.1"
-      - "|@oneclickvpnkeys|79.86"
-      - "|@oneclickvpnkeys|199.18"
+      - "|@vpn_tehran|101.06"
+      - "|@vpn_tehran|235.97"
+      - "|@v2ray1_ng|57.36"
+      - "|@v2ray1_ng|51.95"
+      - "|@v2rayvmess|9.72"
+      - "|@vpn_ioss|233.49"
+      - "|@vpn_ioss|52.08"
+      - "|@vpnfail_v2ray|163.04"
+      - "|@prrofile_purple|158.35"
+      - "|@oneclickvpnkeys|135.55"
+      - "|@oneclickvpnkeys|139.93"
   - name: ⛔️ AD BLOCK
     type: select
     proxies:
@@ -108,22 +88,17 @@ proxy-groups:
       - 🔰 MANUAL
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@ConfigsHUB|118.44"
-      - "|@ConfigsHUB|40.94"
-      - "|@vpn_tehran|26.61"
-      - "|@vpn_tehran|83.67"
-      - "|@vpn_tehran|64.32"
-      - "|@vmess_vless_v2rayng|163.91"
-      - "|@v2ray1_ng|178.62"
-      - "|@v2ray1_ng|24.8"
-      - "|@v2rayvmess|12.7"
-      - "|@vpn_ioss|93.18"
-      - "|@vpn_ioss|81.42"
-      - "|@vpnfail_v2ray|201.55"
-      - "|@vpnfail_v2ray|81.72"
-      - "|@prrofile_purple|155.1"
-      - "|@oneclickvpnkeys|79.86"
-      - "|@oneclickvpnkeys|199.18"
+      - "|@vpn_tehran|101.06"
+      - "|@vpn_tehran|235.97"
+      - "|@v2ray1_ng|57.36"
+      - "|@v2ray1_ng|51.95"
+      - "|@v2rayvmess|9.72"
+      - "|@vpn_ioss|233.49"
+      - "|@vpn_ioss|52.08"
+      - "|@vpnfail_v2ray|163.04"
+      - "|@prrofile_purple|158.35"
+      - "|@oneclickvpnkeys|135.55"
+      - "|@oneclickvpnkeys|139.93"
   - name: 🌏 DOMESTIC MEDIA
     type: select
     proxies:
@@ -134,65 +109,50 @@ proxy-groups:
     proxies:
       - 🎯 GLOBAL DIRECT
       - 🔰 MANUAL
-      - "|@ConfigsHUB|118.44"
-      - "|@ConfigsHUB|40.94"
-      - "|@vpn_tehran|26.61"
-      - "|@vpn_tehran|83.67"
-      - "|@vpn_tehran|64.32"
-      - "|@vmess_vless_v2rayng|163.91"
-      - "|@v2ray1_ng|178.62"
-      - "|@v2ray1_ng|24.8"
-      - "|@v2rayvmess|12.7"
-      - "|@vpn_ioss|93.18"
-      - "|@vpn_ioss|81.42"
-      - "|@vpnfail_v2ray|201.55"
-      - "|@vpnfail_v2ray|81.72"
-      - "|@prrofile_purple|155.1"
-      - "|@oneclickvpnkeys|79.86"
-      - "|@oneclickvpnkeys|199.18"
+      - "|@vpn_tehran|101.06"
+      - "|@vpn_tehran|235.97"
+      - "|@v2ray1_ng|57.36"
+      - "|@v2ray1_ng|51.95"
+      - "|@v2rayvmess|9.72"
+      - "|@vpn_ioss|233.49"
+      - "|@vpn_ioss|52.08"
+      - "|@vpnfail_v2ray|163.04"
+      - "|@prrofile_purple|158.35"
+      - "|@oneclickvpnkeys|135.55"
+      - "|@oneclickvpnkeys|139.93"
   - name: 📲 TELEGRAM
     type: select
     proxies:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
-      - "|@ConfigsHUB|118.44"
-      - "|@ConfigsHUB|40.94"
-      - "|@vpn_tehran|26.61"
-      - "|@vpn_tehran|83.67"
-      - "|@vpn_tehran|64.32"
-      - "|@vmess_vless_v2rayng|163.91"
-      - "|@v2ray1_ng|178.62"
-      - "|@v2ray1_ng|24.8"
-      - "|@v2rayvmess|12.7"
-      - "|@vpn_ioss|93.18"
-      - "|@vpn_ioss|81.42"
-      - "|@vpnfail_v2ray|201.55"
-      - "|@vpnfail_v2ray|81.72"
-      - "|@prrofile_purple|155.1"
-      - "|@oneclickvpnkeys|79.86"
-      - "|@oneclickvpnkeys|199.18"
+      - "|@vpn_tehran|101.06"
+      - "|@vpn_tehran|235.97"
+      - "|@v2ray1_ng|57.36"
+      - "|@v2ray1_ng|51.95"
+      - "|@v2rayvmess|9.72"
+      - "|@vpn_ioss|233.49"
+      - "|@vpn_ioss|52.08"
+      - "|@vpnfail_v2ray|163.04"
+      - "|@prrofile_purple|158.35"
+      - "|@oneclickvpnkeys|135.55"
+      - "|@oneclickvpnkeys|139.93"
   - name: 🍎 APPLE
     type: select
     proxies:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
-      - "|@ConfigsHUB|118.44"
-      - "|@ConfigsHUB|40.94"
-      - "|@vpn_tehran|26.61"
-      - "|@vpn_tehran|83.67"
-      - "|@vpn_tehran|64.32"
-      - "|@vmess_vless_v2rayng|163.91"
-      - "|@v2ray1_ng|178.62"
-      - "|@v2ray1_ng|24.8"
-      - "|@v2rayvmess|12.7"
-      - "|@vpn_ioss|93.18"
-      - "|@vpn_ioss|81.42"
-      - "|@vpnfail_v2ray|201.55"
-      - "|@vpnfail_v2ray|81.72"
-      - "|@prrofile_purple|155.1"
-      - "|@oneclickvpnkeys|79.86"
-      - "|@oneclickvpnkeys|199.18"
+      - "|@vpn_tehran|101.06"
+      - "|@vpn_tehran|235.97"
+      - "|@v2ray1_ng|57.36"
+      - "|@v2ray1_ng|51.95"
+      - "|@v2rayvmess|9.72"
+      - "|@vpn_ioss|233.49"
+      - "|@vpn_ioss|52.08"
+      - "|@vpnfail_v2ray|163.04"
+      - "|@prrofile_purple|158.35"
+      - "|@oneclickvpnkeys|135.55"
+      - "|@oneclickvpnkeys|139.93"
   - name: 🎯 GLOBAL DIRECT
     type: select
     proxies:
@@ -208,22 +168,17 @@ proxy-groups:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
-      - "|@ConfigsHUB|118.44"
-      - "|@ConfigsHUB|40.94"
-      - "|@vpn_tehran|26.61"
-      - "|@vpn_tehran|83.67"
-      - "|@vpn_tehran|64.32"
-      - "|@vmess_vless_v2rayng|163.91"
-      - "|@v2ray1_ng|178.62"
-      - "|@v2ray1_ng|24.8"
-      - "|@v2rayvmess|12.7"
-      - "|@vpn_ioss|93.18"
-      - "|@vpn_ioss|81.42"
-      - "|@vpnfail_v2ray|201.55"
-      - "|@vpnfail_v2ray|81.72"
-      - "|@prrofile_purple|155.1"
-      - "|@oneclickvpnkeys|79.86"
-      - "|@oneclickvpnkeys|199.18"
+      - "|@vpn_tehran|101.06"
+      - "|@vpn_tehran|235.97"
+      - "|@v2ray1_ng|57.36"
+      - "|@v2ray1_ng|51.95"
+      - "|@v2rayvmess|9.72"
+      - "|@vpn_ioss|233.49"
+      - "|@vpn_ioss|52.08"
+      - "|@vpnfail_v2ray|163.04"
+      - "|@prrofile_purple|158.35"
+      - "|@oneclickvpnkeys|135.55"
+      - "|@oneclickvpnkeys|139.93"
 rules:
   - DOMAIN-SUFFIX,local,🎯 GLOBAL DIRECT
   - IP-CIDR,192.168.0.0/16,🎯 GLOBAL DIRECT,no-resolve
