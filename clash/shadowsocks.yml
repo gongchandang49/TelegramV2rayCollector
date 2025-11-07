@@ -9,47 +9,47 @@ unified-delay: true
 global-client-fingerprint: chrome
 keep-alive-interval: 360
 proxies:
-  - {name: "|@OutlineVpnOfficial|153.33", server: 45.15.185.70, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, udp: true}
-  - {name: "|@OutlineVpnOfficial|356.35", server: 38.60.192.176, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, udp: true}
-  - {name: "|@OutlineVpnOfficial|192.81", server: 203.23.128.92, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, udp: true}
-  - {name: "|@vmess_vless_v2rayng|152.5", server: 45.87.175.171, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
-  - {name: "|@free4allVPN|183.69", server: 185.231.233.173, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: "|@free4allVPN|167.36", server: 185.193.102.7, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: 360e21d21977dc11, udp: true}
+  - {name: "|@OutlineVpnOfficial|169.9", server: 45.15.185.70, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, udp: true}
+  - {name: "|@OutlineVpnOfficial|668.81", server: 38.60.192.176, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, udp: true}
+  - {name: "|@OutlineVpnOfficial|238.56", server: 203.23.128.92, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, udp: true}
+  - {name: "|@vmess_vless_v2rayng|137.81", server: 45.87.175.171, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
+  - {name: "|@free4allVPN|171.33", server: 185.231.233.173, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: "|@free4allVPN|157.79", server: 185.193.102.7, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: 360e21d21977dc11, udp: true}
 proxy-groups:
   - name: 🔰 MANUAL
     type: select
     proxies:
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@OutlineVpnOfficial|153.33"
-      - "|@OutlineVpnOfficial|356.35"
-      - "|@OutlineVpnOfficial|192.81"
-      - "|@vmess_vless_v2rayng|152.5"
-      - "|@free4allVPN|183.69"
-      - "|@free4allVPN|167.36"
+      - "|@OutlineVpnOfficial|169.9"
+      - "|@OutlineVpnOfficial|668.81"
+      - "|@OutlineVpnOfficial|238.56"
+      - "|@vmess_vless_v2rayng|137.81"
+      - "|@free4allVPN|171.33"
+      - "|@free4allVPN|157.79"
   - name: ♻️ AUTO SELECT
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "|@OutlineVpnOfficial|153.33"
-      - "|@OutlineVpnOfficial|356.35"
-      - "|@OutlineVpnOfficial|192.81"
-      - "|@vmess_vless_v2rayng|152.5"
-      - "|@free4allVPN|183.69"
-      - "|@free4allVPN|167.36"
+      - "|@OutlineVpnOfficial|169.9"
+      - "|@OutlineVpnOfficial|668.81"
+      - "|@OutlineVpnOfficial|238.56"
+      - "|@vmess_vless_v2rayng|137.81"
+      - "|@free4allVPN|171.33"
+      - "|@free4allVPN|157.79"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 MANUAL
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@OutlineVpnOfficial|153.33"
-      - "|@OutlineVpnOfficial|356.35"
-      - "|@OutlineVpnOfficial|192.81"
-      - "|@vmess_vless_v2rayng|152.5"
-      - "|@free4allVPN|183.69"
-      - "|@free4allVPN|167.36"
+      - "|@OutlineVpnOfficial|169.9"
+      - "|@OutlineVpnOfficial|668.81"
+      - "|@OutlineVpnOfficial|238.56"
+      - "|@vmess_vless_v2rayng|137.81"
+      - "|@free4allVPN|171.33"
+      - "|@free4allVPN|157.79"
   - name: ⛔️ AD BLOCK
     type: select
     proxies:
@@ -68,12 +68,12 @@ proxy-groups:
       - 🔰 MANUAL
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@OutlineVpnOfficial|153.33"
-      - "|@OutlineVpnOfficial|356.35"
-      - "|@OutlineVpnOfficial|192.81"
-      - "|@vmess_vless_v2rayng|152.5"
-      - "|@free4allVPN|183.69"
-      - "|@free4allVPN|167.36"
+      - "|@OutlineVpnOfficial|169.9"
+      - "|@OutlineVpnOfficial|668.81"
+      - "|@OutlineVpnOfficial|238.56"
+      - "|@vmess_vless_v2rayng|137.81"
+      - "|@free4allVPN|171.33"
+      - "|@free4allVPN|157.79"
   - name: 🌏 DOMESTIC MEDIA
     type: select
     proxies:
@@ -84,35 +84,35 @@ proxy-groups:
     proxies:
       - 🎯 GLOBAL DIRECT
       - 🔰 MANUAL
-      - "|@OutlineVpnOfficial|153.33"
-      - "|@OutlineVpnOfficial|356.35"
-      - "|@OutlineVpnOfficial|192.81"
-      - "|@vmess_vless_v2rayng|152.5"
-      - "|@free4allVPN|183.69"
-      - "|@free4allVPN|167.36"
+      - "|@OutlineVpnOfficial|169.9"
+      - "|@OutlineVpnOfficial|668.81"
+      - "|@OutlineVpnOfficial|238.56"
+      - "|@vmess_vless_v2rayng|137.81"
+      - "|@free4allVPN|171.33"
+      - "|@free4allVPN|157.79"
   - name: 📲 TELEGRAM
     type: select
     proxies:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
-      - "|@OutlineVpnOfficial|153.33"
-      - "|@OutlineVpnOfficial|356.35"
-      - "|@OutlineVpnOfficial|192.81"
-      - "|@vmess_vless_v2rayng|152.5"
-      - "|@free4allVPN|183.69"
-      - "|@free4allVPN|167.36"
+      - "|@OutlineVpnOfficial|169.9"
+      - "|@OutlineVpnOfficial|668.81"
+      - "|@OutlineVpnOfficial|238.56"
+      - "|@vmess_vless_v2rayng|137.81"
+      - "|@free4allVPN|171.33"
+      - "|@free4allVPN|157.79"
   - name: 🍎 APPLE
     type: select
     proxies:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
-      - "|@OutlineVpnOfficial|153.33"
-      - "|@OutlineVpnOfficial|356.35"
-      - "|@OutlineVpnOfficial|192.81"
-      - "|@vmess_vless_v2rayng|152.5"
-      - "|@free4allVPN|183.69"
-      - "|@free4allVPN|167.36"
+      - "|@OutlineVpnOfficial|169.9"
+      - "|@OutlineVpnOfficial|668.81"
+      - "|@OutlineVpnOfficial|238.56"
+      - "|@vmess_vless_v2rayng|137.81"
+      - "|@free4allVPN|171.33"
+      - "|@free4allVPN|157.79"
   - name: 🎯 GLOBAL DIRECT
     type: select
     proxies:
@@ -128,12 +128,12 @@ proxy-groups:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
-      - "|@OutlineVpnOfficial|153.33"
-      - "|@OutlineVpnOfficial|356.35"
-      - "|@OutlineVpnOfficial|192.81"
-      - "|@vmess_vless_v2rayng|152.5"
-      - "|@free4allVPN|183.69"
-      - "|@free4allVPN|167.36"
+      - "|@OutlineVpnOfficial|169.9"
+      - "|@OutlineVpnOfficial|668.81"
+      - "|@OutlineVpnOfficial|238.56"
+      - "|@vmess_vless_v2rayng|137.81"
+      - "|@free4allVPN|171.33"
+      - "|@free4allVPN|157.79"
 rules:
   - DOMAIN-SUFFIX,local,🎯 GLOBAL DIRECT
   - IP-CIDR,192.168.0.0/16,🎯 GLOBAL DIRECT,no-resolve
