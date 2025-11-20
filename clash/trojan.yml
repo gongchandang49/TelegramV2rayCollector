@@ -9,55 +9,67 @@ unified-delay: true
 global-client-fingerprint: chrome
 keep-alive-interval: 360
 proxies:
-  - {name: "|@ovpn2|18.32", server: 162.159.138.232, port: 443, type: trojan, password: dQDQCtns4R, sni: fadaei.movieland.top, skip-cert-verify: true, network: ws, ws-opts: {path: static34528, headers: {Host: fadaei.movieland.top}}, udp: true}
-  - {name: "|@VmessProtocol|153.24", server: 5.188.108.13, port: 11790, type: trojan, password: .+QAJot50sDi6mvb, sni: runningshoes.purpletornado.click, skip-cert-verify: true, udp: true}
-  - {name: "|@vmess_vless_v2rayng|18.5", server: creativecommons.org, port: 2053, type: trojan, password: YwuvGJk36B, sni: kotlet.arshiacomplus.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: /yamtekodasayahhh, headers: {Host: kotlet.arshiacomplus.dpdns.org}}, udp: true}
-  - {name: "|@oneclickvpnkeys|160.14", server: 103.43.75.230, port: 13536, type: trojan, password: S40Vr.vnDP2BsCKF, sni: smartphone.angrypiano.click, skip-cert-verify: true, udp: true}
-  - {name: "|@oneclickvpnkeys|136.09", server: 64.176.13.78, port: 18010, type: trojan, password: R_UGZWorVec#sqyB, sni: ukmydxecn.jidxalgzyh.click, skip-cert-verify: true, udp: true}
-  - {name: "|@oneclickvpnkeys|153.29", server: 216.238.120.105, port: 16555, type: trojan, password: V8cbmRo4T2Qd JwW, sni: qdsbwfvjal.zwodhfgqaps.click, skip-cert-verify: true, udp: true}
-  - {name: "|@DirectVPN|167.02", server: 63.179.9.91, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
-  - {name: "|@PrivateVPNs|154.85", server: 63.179.9.91, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
+  - {name: "|@ovpn2|14.82", server: 162.159.138.232, port: 443, type: trojan, password: dQDQCtns4R, sni: fadaei.movieland.top, skip-cert-verify: true, network: ws, ws-opts: {path: static34528, headers: {Host: fadaei.movieland.top}}, udp: true}
+  - {name: "|@VmessProtocol|133.46", server: 5.188.108.13, port: 11790, type: trojan, password: .+QAJot50sDi6mvb, sni: runningshoes.purpletornado.click, skip-cert-verify: true, udp: true}
+  - {name: "|@vmess_vless_v2rayng|29.09", server: creativecommons.org, port: 2053, type: trojan, password: YwuvGJk36B, sni: kotlet.arshiacomplus.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: /yamtekodasayahhh, headers: {Host: kotlet.arshiacomplus.dpdns.org}}, udp: true}
+  - {name: "|@oneclickvpnkeys|185.69", server: 116.49.237.130, port: 2673, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: "|@oneclickvpnkeys|137.6", server: 153.121.51.29, port: 127, type: trojan, password: 2274c52572e721086f8bd8f88984643c, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
+  - {name: "|@DirectVPN|176.79", server: 15.188.170.162, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
+  - {name: "|@DirectVPN|124.22", server: 63.180.215.39, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
+  - {name: "|@DirectVPN|119.71", server: 52.29.189.85, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
+  - {name: "|@PrivateVPNs|119.39", server: 15.188.170.162, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
+  - {name: "|@PrivateVPNs|124.61", server: 63.180.215.39, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
+  - {name: "|@PrivateVPNs|122.02", server: 52.29.189.85, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 MANUAL
     type: select
     proxies:
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@ovpn2|18.32"
-      - "|@VmessProtocol|153.24"
-      - "|@vmess_vless_v2rayng|18.5"
-      - "|@oneclickvpnkeys|160.14"
-      - "|@oneclickvpnkeys|136.09"
-      - "|@oneclickvpnkeys|153.29"
-      - "|@DirectVPN|167.02"
-      - "|@PrivateVPNs|154.85"
+      - "|@ovpn2|14.82"
+      - "|@VmessProtocol|133.46"
+      - "|@vmess_vless_v2rayng|29.09"
+      - "|@oneclickvpnkeys|185.69"
+      - "|@oneclickvpnkeys|137.6"
+      - "|@DirectVPN|176.79"
+      - "|@DirectVPN|124.22"
+      - "|@DirectVPN|119.71"
+      - "|@PrivateVPNs|119.39"
+      - "|@PrivateVPNs|124.61"
+      - "|@PrivateVPNs|122.02"
   - name: ♻️ AUTO SELECT
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "|@ovpn2|18.32"
-      - "|@VmessProtocol|153.24"
-      - "|@vmess_vless_v2rayng|18.5"
-      - "|@oneclickvpnkeys|160.14"
-      - "|@oneclickvpnkeys|136.09"
-      - "|@oneclickvpnkeys|153.29"
-      - "|@DirectVPN|167.02"
-      - "|@PrivateVPNs|154.85"
+      - "|@ovpn2|14.82"
+      - "|@VmessProtocol|133.46"
+      - "|@vmess_vless_v2rayng|29.09"
+      - "|@oneclickvpnkeys|185.69"
+      - "|@oneclickvpnkeys|137.6"
+      - "|@DirectVPN|176.79"
+      - "|@DirectVPN|124.22"
+      - "|@DirectVPN|119.71"
+      - "|@PrivateVPNs|119.39"
+      - "|@PrivateVPNs|124.61"
+      - "|@PrivateVPNs|122.02"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 MANUAL
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@ovpn2|18.32"
-      - "|@VmessProtocol|153.24"
-      - "|@vmess_vless_v2rayng|18.5"
-      - "|@oneclickvpnkeys|160.14"
-      - "|@oneclickvpnkeys|136.09"
-      - "|@oneclickvpnkeys|153.29"
-      - "|@DirectVPN|167.02"
-      - "|@PrivateVPNs|154.85"
+      - "|@ovpn2|14.82"
+      - "|@VmessProtocol|133.46"
+      - "|@vmess_vless_v2rayng|29.09"
+      - "|@oneclickvpnkeys|185.69"
+      - "|@oneclickvpnkeys|137.6"
+      - "|@DirectVPN|176.79"
+      - "|@DirectVPN|124.22"
+      - "|@DirectVPN|119.71"
+      - "|@PrivateVPNs|119.39"
+      - "|@PrivateVPNs|124.61"
+      - "|@PrivateVPNs|122.02"
   - name: ⛔️ AD BLOCK
     type: select
     proxies:
@@ -76,14 +88,17 @@ proxy-groups:
       - 🔰 MANUAL
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@ovpn2|18.32"
-      - "|@VmessProtocol|153.24"
-      - "|@vmess_vless_v2rayng|18.5"
-      - "|@oneclickvpnkeys|160.14"
-      - "|@oneclickvpnkeys|136.09"
-      - "|@oneclickvpnkeys|153.29"
-      - "|@DirectVPN|167.02"
-      - "|@PrivateVPNs|154.85"
+      - "|@ovpn2|14.82"
+      - "|@VmessProtocol|133.46"
+      - "|@vmess_vless_v2rayng|29.09"
+      - "|@oneclickvpnkeys|185.69"
+      - "|@oneclickvpnkeys|137.6"
+      - "|@DirectVPN|176.79"
+      - "|@DirectVPN|124.22"
+      - "|@DirectVPN|119.71"
+      - "|@PrivateVPNs|119.39"
+      - "|@PrivateVPNs|124.61"
+      - "|@PrivateVPNs|122.02"
   - name: 🌏 DOMESTIC MEDIA
     type: select
     proxies:
@@ -94,41 +109,50 @@ proxy-groups:
     proxies:
       - 🎯 GLOBAL DIRECT
       - 🔰 MANUAL
-      - "|@ovpn2|18.32"
-      - "|@VmessProtocol|153.24"
-      - "|@vmess_vless_v2rayng|18.5"
-      - "|@oneclickvpnkeys|160.14"
-      - "|@oneclickvpnkeys|136.09"
-      - "|@oneclickvpnkeys|153.29"
-      - "|@DirectVPN|167.02"
-      - "|@PrivateVPNs|154.85"
+      - "|@ovpn2|14.82"
+      - "|@VmessProtocol|133.46"
+      - "|@vmess_vless_v2rayng|29.09"
+      - "|@oneclickvpnkeys|185.69"
+      - "|@oneclickvpnkeys|137.6"
+      - "|@DirectVPN|176.79"
+      - "|@DirectVPN|124.22"
+      - "|@DirectVPN|119.71"
+      - "|@PrivateVPNs|119.39"
+      - "|@PrivateVPNs|124.61"
+      - "|@PrivateVPNs|122.02"
   - name: 📲 TELEGRAM
     type: select
     proxies:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
-      - "|@ovpn2|18.32"
-      - "|@VmessProtocol|153.24"
-      - "|@vmess_vless_v2rayng|18.5"
-      - "|@oneclickvpnkeys|160.14"
-      - "|@oneclickvpnkeys|136.09"
-      - "|@oneclickvpnkeys|153.29"
-      - "|@DirectVPN|167.02"
-      - "|@PrivateVPNs|154.85"
+      - "|@ovpn2|14.82"
+      - "|@VmessProtocol|133.46"
+      - "|@vmess_vless_v2rayng|29.09"
+      - "|@oneclickvpnkeys|185.69"
+      - "|@oneclickvpnkeys|137.6"
+      - "|@DirectVPN|176.79"
+      - "|@DirectVPN|124.22"
+      - "|@DirectVPN|119.71"
+      - "|@PrivateVPNs|119.39"
+      - "|@PrivateVPNs|124.61"
+      - "|@PrivateVPNs|122.02"
   - name: 🍎 APPLE
     type: select
     proxies:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
-      - "|@ovpn2|18.32"
-      - "|@VmessProtocol|153.24"
-      - "|@vmess_vless_v2rayng|18.5"
-      - "|@oneclickvpnkeys|160.14"
-      - "|@oneclickvpnkeys|136.09"
-      - "|@oneclickvpnkeys|153.29"
-      - "|@DirectVPN|167.02"
-      - "|@PrivateVPNs|154.85"
+      - "|@ovpn2|14.82"
+      - "|@VmessProtocol|133.46"
+      - "|@vmess_vless_v2rayng|29.09"
+      - "|@oneclickvpnkeys|185.69"
+      - "|@oneclickvpnkeys|137.6"
+      - "|@DirectVPN|176.79"
+      - "|@DirectVPN|124.22"
+      - "|@DirectVPN|119.71"
+      - "|@PrivateVPNs|119.39"
+      - "|@PrivateVPNs|124.61"
+      - "|@PrivateVPNs|122.02"
   - name: 🎯 GLOBAL DIRECT
     type: select
     proxies:
@@ -144,14 +168,17 @@ proxy-groups:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
-      - "|@ovpn2|18.32"
-      - "|@VmessProtocol|153.24"
-      - "|@vmess_vless_v2rayng|18.5"
-      - "|@oneclickvpnkeys|160.14"
-      - "|@oneclickvpnkeys|136.09"
-      - "|@oneclickvpnkeys|153.29"
-      - "|@DirectVPN|167.02"
-      - "|@PrivateVPNs|154.85"
+      - "|@ovpn2|14.82"
+      - "|@VmessProtocol|133.46"
+      - "|@vmess_vless_v2rayng|29.09"
+      - "|@oneclickvpnkeys|185.69"
+      - "|@oneclickvpnkeys|137.6"
+      - "|@DirectVPN|176.79"
+      - "|@DirectVPN|124.22"
+      - "|@DirectVPN|119.71"
+      - "|@PrivateVPNs|119.39"
+      - "|@PrivateVPNs|124.61"
+      - "|@PrivateVPNs|122.02"
 rules:
   - DOMAIN-SUFFIX,local,🎯 GLOBAL DIRECT
   - IP-CIDR,192.168.0.0/16,🎯 GLOBAL DIRECT,no-resolve
