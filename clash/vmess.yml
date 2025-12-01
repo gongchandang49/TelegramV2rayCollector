@@ -9,35 +9,39 @@ unified-delay: true
 global-client-fingerprint: chrome
 keep-alive-interval: 360
 proxies:
-  - {name: "|@vpn_tehran|250.46", server: 57.129.59.195, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: kampong.org, network: ws, ws-opts: {path: linkvws, headers: {Host: kampong.org}}, udp: true}
-  - {name: "|@v2ray1_ng|130.34", server: 45.136.244.201, port: 49934, type: vmess, uuid: 90afa47d-341a-497d-ae25-1d81258804d5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "|@v2rayvmess|5.92", server: id-lb.vhax.net, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sshkit/Arsham85231/6347d08022b91/, headers: {Host: zoom.us}}, udp: true}
+  - {name: "|@ConfigsHUB|151.58", server: 178.62.220.64, port: 35416, type: vmess, uuid: e017d65d-6da7-4cfe-bfaa-85b46158b82e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "|@vpn_tehran|319.57", server: 57.129.59.195, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: kampong.org, network: ws, ws-opts: {path: linkvws, headers: {Host: kampong.org}}, udp: true}
+  - {name: "|@v2ray1_ng|189.57", server: 45.136.244.201, port: 49934, type: vmess, uuid: 90afa47d-341a-497d-ae25-1d81258804d5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "|@v2rayvmess|2.38", server: id-lb.vhax.net, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sshkit/Arsham85231/6347d08022b91/, headers: {Host: zoom.us}}, udp: true}
 proxy-groups:
   - name: 🔰 MANUAL
     type: select
     proxies:
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@vpn_tehran|250.46"
-      - "|@v2ray1_ng|130.34"
-      - "|@v2rayvmess|5.92"
+      - "|@ConfigsHUB|151.58"
+      - "|@vpn_tehran|319.57"
+      - "|@v2ray1_ng|189.57"
+      - "|@v2rayvmess|2.38"
   - name: ♻️ AUTO SELECT
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "|@vpn_tehran|250.46"
-      - "|@v2ray1_ng|130.34"
-      - "|@v2rayvmess|5.92"
+      - "|@ConfigsHUB|151.58"
+      - "|@vpn_tehran|319.57"
+      - "|@v2ray1_ng|189.57"
+      - "|@v2rayvmess|2.38"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 MANUAL
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@vpn_tehran|250.46"
-      - "|@v2ray1_ng|130.34"
-      - "|@v2rayvmess|5.92"
+      - "|@ConfigsHUB|151.58"
+      - "|@vpn_tehran|319.57"
+      - "|@v2ray1_ng|189.57"
+      - "|@v2rayvmess|2.38"
   - name: ⛔️ AD BLOCK
     type: select
     proxies:
@@ -56,9 +60,10 @@ proxy-groups:
       - 🔰 MANUAL
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@vpn_tehran|250.46"
-      - "|@v2ray1_ng|130.34"
-      - "|@v2rayvmess|5.92"
+      - "|@ConfigsHUB|151.58"
+      - "|@vpn_tehran|319.57"
+      - "|@v2ray1_ng|189.57"
+      - "|@v2rayvmess|2.38"
   - name: 🌏 DOMESTIC MEDIA
     type: select
     proxies:
@@ -69,26 +74,29 @@ proxy-groups:
     proxies:
       - 🎯 GLOBAL DIRECT
       - 🔰 MANUAL
-      - "|@vpn_tehran|250.46"
-      - "|@v2ray1_ng|130.34"
-      - "|@v2rayvmess|5.92"
+      - "|@ConfigsHUB|151.58"
+      - "|@vpn_tehran|319.57"
+      - "|@v2ray1_ng|189.57"
+      - "|@v2rayvmess|2.38"
   - name: 📲 TELEGRAM
     type: select
     proxies:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
-      - "|@vpn_tehran|250.46"
-      - "|@v2ray1_ng|130.34"
-      - "|@v2rayvmess|5.92"
+      - "|@ConfigsHUB|151.58"
+      - "|@vpn_tehran|319.57"
+      - "|@v2ray1_ng|189.57"
+      - "|@v2rayvmess|2.38"
   - name: 🍎 APPLE
     type: select
     proxies:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
-      - "|@vpn_tehran|250.46"
-      - "|@v2ray1_ng|130.34"
-      - "|@v2rayvmess|5.92"
+      - "|@ConfigsHUB|151.58"
+      - "|@vpn_tehran|319.57"
+      - "|@v2ray1_ng|189.57"
+      - "|@v2rayvmess|2.38"
   - name: 🎯 GLOBAL DIRECT
     type: select
     proxies:
@@ -104,9 +112,10 @@ proxy-groups:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
-      - "|@vpn_tehran|250.46"
-      - "|@v2ray1_ng|130.34"
-      - "|@v2rayvmess|5.92"
+      - "|@ConfigsHUB|151.58"
+      - "|@vpn_tehran|319.57"
+      - "|@v2ray1_ng|189.57"
+      - "|@v2rayvmess|2.38"
 rules:
   - DOMAIN-SUFFIX,local,🎯 GLOBAL DIRECT
   - IP-CIDR,192.168.0.0/16,🎯 GLOBAL DIRECT,no-resolve
