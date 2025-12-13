@@ -9,31 +9,39 @@ unified-delay: true
 global-client-fingerprint: chrome
 keep-alive-interval: 360
 proxies:
-  - {name: "|@ConfigsHUB|170.41", server: a.confignor.site, port: 7443, type: vmess, uuid: da4afba1-d003-4bb0-a09c-538468199559, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "|@v2rayvmess|9.62", server: id-lb.vhax.net, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sshkit/Arsham85231/6347d08022b91/, headers: {Host: zoom.us}}, udp: true}
+  - {name: "|@ConfigsHUB|140.24", server: 209.126.84.189, port: 443, type: vmess, uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmessws, headers: {Host: 209.126.84.189}}, udp: true}
+  - {name: "|@ConfigsHUB|118.21", server: a.confignor.site, port: 7443, type: vmess, uuid: da4afba1-d003-4bb0-a09c-538468199559, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "|@v2rayvmess|6.16", server: id-lb.vhax.net, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sshkit/Arsham85231/6347d08022b91/, headers: {Host: zoom.us}}, udp: true}
+  - {name: "|@oneclickvpnkeys|127.92", server: 38.180.16.86, port: 36236, type: vmess, uuid: a58bc1a5-8c18-49ff-9453-c331b52f45dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 MANUAL
     type: select
     proxies:
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@ConfigsHUB|170.41"
-      - "|@v2rayvmess|9.62"
+      - "|@ConfigsHUB|140.24"
+      - "|@ConfigsHUB|118.21"
+      - "|@v2rayvmess|6.16"
+      - "|@oneclickvpnkeys|127.92"
   - name: ♻️ AUTO SELECT
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "|@ConfigsHUB|170.41"
-      - "|@v2rayvmess|9.62"
+      - "|@ConfigsHUB|140.24"
+      - "|@ConfigsHUB|118.21"
+      - "|@v2rayvmess|6.16"
+      - "|@oneclickvpnkeys|127.92"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 MANUAL
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@ConfigsHUB|170.41"
-      - "|@v2rayvmess|9.62"
+      - "|@ConfigsHUB|140.24"
+      - "|@ConfigsHUB|118.21"
+      - "|@v2rayvmess|6.16"
+      - "|@oneclickvpnkeys|127.92"
   - name: ⛔️ AD BLOCK
     type: select
     proxies:
@@ -52,8 +60,10 @@ proxy-groups:
       - 🔰 MANUAL
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@ConfigsHUB|170.41"
-      - "|@v2rayvmess|9.62"
+      - "|@ConfigsHUB|140.24"
+      - "|@ConfigsHUB|118.21"
+      - "|@v2rayvmess|6.16"
+      - "|@oneclickvpnkeys|127.92"
   - name: 🌏 DOMESTIC MEDIA
     type: select
     proxies:
@@ -64,23 +74,29 @@ proxy-groups:
     proxies:
       - 🎯 GLOBAL DIRECT
       - 🔰 MANUAL
-      - "|@ConfigsHUB|170.41"
-      - "|@v2rayvmess|9.62"
+      - "|@ConfigsHUB|140.24"
+      - "|@ConfigsHUB|118.21"
+      - "|@v2rayvmess|6.16"
+      - "|@oneclickvpnkeys|127.92"
   - name: 📲 TELEGRAM
     type: select
     proxies:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
-      - "|@ConfigsHUB|170.41"
-      - "|@v2rayvmess|9.62"
+      - "|@ConfigsHUB|140.24"
+      - "|@ConfigsHUB|118.21"
+      - "|@v2rayvmess|6.16"
+      - "|@oneclickvpnkeys|127.92"
   - name: 🍎 APPLE
     type: select
     proxies:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
-      - "|@ConfigsHUB|170.41"
-      - "|@v2rayvmess|9.62"
+      - "|@ConfigsHUB|140.24"
+      - "|@ConfigsHUB|118.21"
+      - "|@v2rayvmess|6.16"
+      - "|@oneclickvpnkeys|127.92"
   - name: 🎯 GLOBAL DIRECT
     type: select
     proxies:
@@ -96,8 +112,10 @@ proxy-groups:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
-      - "|@ConfigsHUB|170.41"
-      - "|@v2rayvmess|9.62"
+      - "|@ConfigsHUB|140.24"
+      - "|@ConfigsHUB|118.21"
+      - "|@v2rayvmess|6.16"
+      - "|@oneclickvpnkeys|127.92"
 rules:
   - DOMAIN-SUFFIX,local,🎯 GLOBAL DIRECT
   - IP-CIDR,192.168.0.0/16,🎯 GLOBAL DIRECT,no-resolve
