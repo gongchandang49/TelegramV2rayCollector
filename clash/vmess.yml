@@ -9,27 +9,31 @@ unified-delay: true
 global-client-fingerprint: chrome
 keep-alive-interval: 360
 proxies:
-  - {name: "|@v2rayvmess|52.94", server: id-lb.vhax.net, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sshkit/Arsham85231/6347d08022b91/, headers: {Host: zoom.us}}, udp: true}
+  - {name: "|@ConfigsHUB|116.96", server: 956030a4800ad773.hhshdihasgifghleagfuwefogybweufwef.ir, port: 80, type: vmess, uuid: 42011c65-1de9-4642-9ada-aa626805c2ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 956030a4800ad773.gdjkhwgedhujkgwehkudadasdasdas.ir}}, udp: true}
+  - {name: "|@v2rayvmess|19.4", server: id-lb.vhax.net, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sshkit/Arsham85231/6347d08022b91/, headers: {Host: zoom.us}}, udp: true}
 proxy-groups:
   - name: 🔰 MANUAL
     type: select
     proxies:
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@v2rayvmess|52.94"
+      - "|@ConfigsHUB|116.96"
+      - "|@v2rayvmess|19.4"
   - name: ♻️ AUTO SELECT
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "|@v2rayvmess|52.94"
+      - "|@ConfigsHUB|116.96"
+      - "|@v2rayvmess|19.4"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 MANUAL
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@v2rayvmess|52.94"
+      - "|@ConfigsHUB|116.96"
+      - "|@v2rayvmess|19.4"
   - name: ⛔️ AD BLOCK
     type: select
     proxies:
@@ -48,7 +52,8 @@ proxy-groups:
       - 🔰 MANUAL
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@v2rayvmess|52.94"
+      - "|@ConfigsHUB|116.96"
+      - "|@v2rayvmess|19.4"
   - name: 🌏 DOMESTIC MEDIA
     type: select
     proxies:
@@ -59,20 +64,23 @@ proxy-groups:
     proxies:
       - 🎯 GLOBAL DIRECT
       - 🔰 MANUAL
-      - "|@v2rayvmess|52.94"
+      - "|@ConfigsHUB|116.96"
+      - "|@v2rayvmess|19.4"
   - name: 📲 TELEGRAM
     type: select
     proxies:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
-      - "|@v2rayvmess|52.94"
+      - "|@ConfigsHUB|116.96"
+      - "|@v2rayvmess|19.4"
   - name: 🍎 APPLE
     type: select
     proxies:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
-      - "|@v2rayvmess|52.94"
+      - "|@ConfigsHUB|116.96"
+      - "|@v2rayvmess|19.4"
   - name: 🎯 GLOBAL DIRECT
     type: select
     proxies:
@@ -88,7 +96,8 @@ proxy-groups:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
-      - "|@v2rayvmess|52.94"
+      - "|@ConfigsHUB|116.96"
+      - "|@v2rayvmess|19.4"
 rules:
   - DOMAIN-SUFFIX,local,🎯 GLOBAL DIRECT
   - IP-CIDR,192.168.0.0/16,🎯 GLOBAL DIRECT,no-resolve
