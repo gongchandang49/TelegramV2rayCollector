@@ -9,39 +9,39 @@ unified-delay: true
 global-client-fingerprint: chrome
 keep-alive-interval: 360
 proxies:
-  - {name: "|@v2rayvmess|6.75", server: id-lb.vhax.net, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sshkit/Arsham85231/6347d08022b91/, headers: {Host: zoom.us}}, udp: true}
-  - {name: "|@oneclickvpnkeys|6.52", server: ddDFHhj.922922.Shop, port: 80, type: vmess, uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /RkUUbqhA9GJZBROjL3Q5vTymr, headers: {Host: ddDFHhj.922922.Shop}}, udp: true}
-  - {name: "|@oneclickvpnkeys|6.54", server: vvVBgHyu.922922.SHoP, port: 80, type: vmess, uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /RkUUbqhA9GJZBROjL3Q5vTymr, headers: {Host: vvVBgHyu.922922.SHoP}}, udp: true}
-  - {name: "|@oneclickvpnkeys|7.02", server: XXXccFrt.922922.ShOP, port: 80, type: vmess, uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /RkUUbqhA9GJZBROjL3Q5vTymr, headers: {Host: XXXccFrt.922922.ShOP}}, udp: true}
+  - {name: "|@v2rayvmess|2.61", server: id-lb.vhax.net, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sshkit/Arsham85231/6347d08022b91/, headers: {Host: zoom.us}}, udp: true}
+  - {name: "|@oneclickvpnkeys|2.4", server: ddDFHhj.922922.Shop, port: 80, type: vmess, uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /RkUUbqhA9GJZBROjL3Q5vTymr, headers: {Host: ddDFHhj.922922.Shop}}, udp: true}
+  - {name: "|@oneclickvpnkeys|2.86", server: vvVBgHyu.922922.SHoP, port: 80, type: vmess, uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /RkUUbqhA9GJZBROjL3Q5vTymr, headers: {Host: vvVBgHyu.922922.SHoP}}, udp: true}
+  - {name: "|@oneclickvpnkeys|2.6", server: XXXccFrt.922922.ShOP, port: 80, type: vmess, uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /RkUUbqhA9GJZBROjL3Q5vTymr, headers: {Host: XXXccFrt.922922.ShOP}}, udp: true}
 proxy-groups:
   - name: 🔰 MANUAL
     type: select
     proxies:
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@v2rayvmess|6.75"
-      - "|@oneclickvpnkeys|6.52"
-      - "|@oneclickvpnkeys|6.54"
-      - "|@oneclickvpnkeys|7.02"
+      - "|@v2rayvmess|2.61"
+      - "|@oneclickvpnkeys|2.4"
+      - "|@oneclickvpnkeys|2.86"
+      - "|@oneclickvpnkeys|2.6"
   - name: ♻️ AUTO SELECT
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "|@v2rayvmess|6.75"
-      - "|@oneclickvpnkeys|6.52"
-      - "|@oneclickvpnkeys|6.54"
-      - "|@oneclickvpnkeys|7.02"
+      - "|@v2rayvmess|2.61"
+      - "|@oneclickvpnkeys|2.4"
+      - "|@oneclickvpnkeys|2.86"
+      - "|@oneclickvpnkeys|2.6"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 MANUAL
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@v2rayvmess|6.75"
-      - "|@oneclickvpnkeys|6.52"
-      - "|@oneclickvpnkeys|6.54"
-      - "|@oneclickvpnkeys|7.02"
+      - "|@v2rayvmess|2.61"
+      - "|@oneclickvpnkeys|2.4"
+      - "|@oneclickvpnkeys|2.86"
+      - "|@oneclickvpnkeys|2.6"
   - name: ⛔️ AD BLOCK
     type: select
     proxies:
@@ -60,10 +60,10 @@ proxy-groups:
       - 🔰 MANUAL
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@v2rayvmess|6.75"
-      - "|@oneclickvpnkeys|6.52"
-      - "|@oneclickvpnkeys|6.54"
-      - "|@oneclickvpnkeys|7.02"
+      - "|@v2rayvmess|2.61"
+      - "|@oneclickvpnkeys|2.4"
+      - "|@oneclickvpnkeys|2.86"
+      - "|@oneclickvpnkeys|2.6"
   - name: 🌏 DOMESTIC MEDIA
     type: select
     proxies:
@@ -74,29 +74,29 @@ proxy-groups:
     proxies:
       - 🎯 GLOBAL DIRECT
       - 🔰 MANUAL
-      - "|@v2rayvmess|6.75"
-      - "|@oneclickvpnkeys|6.52"
-      - "|@oneclickvpnkeys|6.54"
-      - "|@oneclickvpnkeys|7.02"
+      - "|@v2rayvmess|2.61"
+      - "|@oneclickvpnkeys|2.4"
+      - "|@oneclickvpnkeys|2.86"
+      - "|@oneclickvpnkeys|2.6"
   - name: 📲 TELEGRAM
     type: select
     proxies:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
-      - "|@v2rayvmess|6.75"
-      - "|@oneclickvpnkeys|6.52"
-      - "|@oneclickvpnkeys|6.54"
-      - "|@oneclickvpnkeys|7.02"
+      - "|@v2rayvmess|2.61"
+      - "|@oneclickvpnkeys|2.4"
+      - "|@oneclickvpnkeys|2.86"
+      - "|@oneclickvpnkeys|2.6"
   - name: 🍎 APPLE
     type: select
     proxies:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
-      - "|@v2rayvmess|6.75"
-      - "|@oneclickvpnkeys|6.52"
-      - "|@oneclickvpnkeys|6.54"
-      - "|@oneclickvpnkeys|7.02"
+      - "|@v2rayvmess|2.61"
+      - "|@oneclickvpnkeys|2.4"
+      - "|@oneclickvpnkeys|2.86"
+      - "|@oneclickvpnkeys|2.6"
   - name: 🎯 GLOBAL DIRECT
     type: select
     proxies:
@@ -112,10 +112,10 @@ proxy-groups:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
-      - "|@v2rayvmess|6.75"
-      - "|@oneclickvpnkeys|6.52"
-      - "|@oneclickvpnkeys|6.54"
-      - "|@oneclickvpnkeys|7.02"
+      - "|@v2rayvmess|2.61"
+      - "|@oneclickvpnkeys|2.4"
+      - "|@oneclickvpnkeys|2.86"
+      - "|@oneclickvpnkeys|2.6"
 rules:
   - DOMAIN-SUFFIX,local,🎯 GLOBAL DIRECT
   - IP-CIDR,192.168.0.0/16,🎯 GLOBAL DIRECT,no-resolve
