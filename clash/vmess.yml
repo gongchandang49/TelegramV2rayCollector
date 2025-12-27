@@ -10,7 +10,7 @@ global-client-fingerprint: chrome
 keep-alive-interval: 360
 proxies:
   - {name: "|@v2rayvmess|2.16", server: id-lb.vhax.net, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sshkit/Arsham85231/6347d08022b91/, headers: {Host: zoom.us}}, udp: true}
-  - {name: "|@oneclickvpnkeys|8.65", server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "|@oneclickvpnkeys|8.83", server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 MANUAL
     type: select
@@ -18,14 +18,14 @@ proxy-groups:
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
       - "|@v2rayvmess|2.16"
-      - "|@oneclickvpnkeys|8.65"
+      - "|@oneclickvpnkeys|8.83"
   - name: ♻️ AUTO SELECT
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - "|@v2rayvmess|2.16"
-      - "|@oneclickvpnkeys|8.65"
+      - "|@oneclickvpnkeys|8.83"
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -33,7 +33,7 @@ proxy-groups:
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
       - "|@v2rayvmess|2.16"
-      - "|@oneclickvpnkeys|8.65"
+      - "|@oneclickvpnkeys|8.83"
   - name: ⛔️ AD BLOCK
     type: select
     proxies:
@@ -53,7 +53,7 @@ proxy-groups:
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
       - "|@v2rayvmess|2.16"
-      - "|@oneclickvpnkeys|8.65"
+      - "|@oneclickvpnkeys|8.83"
   - name: 🌏 DOMESTIC MEDIA
     type: select
     proxies:
@@ -65,14 +65,14 @@ proxy-groups:
       - 🎯 GLOBAL DIRECT
       - 🔰 MANUAL
       - "|@v2rayvmess|2.16"
-      - "|@oneclickvpnkeys|8.65"
+      - "|@oneclickvpnkeys|8.83"
   - name: 📲 TELEGRAM
     type: select
     proxies:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
       - "|@v2rayvmess|2.16"
-      - "|@oneclickvpnkeys|8.65"
+      - "|@oneclickvpnkeys|8.83"
   - name: 🍎 APPLE
     type: select
     proxies:
@@ -80,7 +80,7 @@ proxy-groups:
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
       - "|@v2rayvmess|2.16"
-      - "|@oneclickvpnkeys|8.65"
+      - "|@oneclickvpnkeys|8.83"
   - name: 🎯 GLOBAL DIRECT
     type: select
     proxies:
@@ -97,7 +97,7 @@ proxy-groups:
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
       - "|@v2rayvmess|2.16"
-      - "|@oneclickvpnkeys|8.65"
+      - "|@oneclickvpnkeys|8.83"
 rules:
   - DOMAIN-SUFFIX,local,🎯 GLOBAL DIRECT
   - IP-CIDR,192.168.0.0/16,🎯 GLOBAL DIRECT,no-resolve
