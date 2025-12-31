@@ -9,8 +9,7 @@ unified-delay: true
 global-client-fingerprint: chrome
 keep-alive-interval: 360
 proxies:
-  - {name: "|@v2ray1_ng|220.13", server: f3rivpnserver1.irctf.ir, port: 24886, type: vmess, uuid: 3ee5d93f-8b8e-4206-8a1d-516d00de4557, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: f3rivpnserver1.irctf.ir}}, udp: true}
-  - {name: "|@v2ray1_ng|3.41", server: 104.26.15.141, port: 8080, type: vmess, uuid: 239ed41c-4af6-49ba-8156-ff2310ea5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /14351/Nextlife, headers: {Host: pn2w1nweb.sigmachemicals.ir}}, udp: true}
+  - {name: "|@v2ray1_ng|2.31", server: 104.26.15.141, port: 8080, type: vmess, uuid: 239ed41c-4af6-49ba-8156-ff2310ea5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /14351/Nextlife, headers: {Host: pn2w1nweb.sigmachemicals.ir}}, udp: true}
   - {name: "|@v2rayvmess|2.13", server: id-lb.vhax.net, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sshkit/Arsham85231/6347d08022b91/, headers: {Host: zoom.us}}, udp: true}
 proxy-groups:
   - name: 🔰 MANUAL
@@ -18,16 +17,14 @@ proxy-groups:
     proxies:
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@v2ray1_ng|220.13"
-      - "|@v2ray1_ng|3.41"
+      - "|@v2ray1_ng|2.31"
       - "|@v2rayvmess|2.13"
   - name: ♻️ AUTO SELECT
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "|@v2ray1_ng|220.13"
-      - "|@v2ray1_ng|3.41"
+      - "|@v2ray1_ng|2.31"
       - "|@v2rayvmess|2.13"
   - name: 🎥 NETFLIX
     type: select
@@ -35,8 +32,7 @@ proxy-groups:
       - 🔰 MANUAL
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@v2ray1_ng|220.13"
-      - "|@v2ray1_ng|3.41"
+      - "|@v2ray1_ng|2.31"
       - "|@v2rayvmess|2.13"
   - name: ⛔️ AD BLOCK
     type: select
@@ -56,8 +52,7 @@ proxy-groups:
       - 🔰 MANUAL
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@v2ray1_ng|220.13"
-      - "|@v2ray1_ng|3.41"
+      - "|@v2ray1_ng|2.31"
       - "|@v2rayvmess|2.13"
   - name: 🌏 DOMESTIC MEDIA
     type: select
@@ -69,16 +64,14 @@ proxy-groups:
     proxies:
       - 🎯 GLOBAL DIRECT
       - 🔰 MANUAL
-      - "|@v2ray1_ng|220.13"
-      - "|@v2ray1_ng|3.41"
+      - "|@v2ray1_ng|2.31"
       - "|@v2rayvmess|2.13"
   - name: 📲 TELEGRAM
     type: select
     proxies:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
-      - "|@v2ray1_ng|220.13"
-      - "|@v2ray1_ng|3.41"
+      - "|@v2ray1_ng|2.31"
       - "|@v2rayvmess|2.13"
   - name: 🍎 APPLE
     type: select
@@ -86,8 +79,7 @@ proxy-groups:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
-      - "|@v2ray1_ng|220.13"
-      - "|@v2ray1_ng|3.41"
+      - "|@v2ray1_ng|2.31"
       - "|@v2rayvmess|2.13"
   - name: 🎯 GLOBAL DIRECT
     type: select
@@ -104,8 +96,7 @@ proxy-groups:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
-      - "|@v2ray1_ng|220.13"
-      - "|@v2ray1_ng|3.41"
+      - "|@v2ray1_ng|2.31"
       - "|@v2rayvmess|2.13"
 rules:
   - DOMAIN-SUFFIX,local,🎯 GLOBAL DIRECT
