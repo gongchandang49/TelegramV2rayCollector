@@ -9,47 +9,43 @@ unified-delay: true
 global-client-fingerprint: chrome
 keep-alive-interval: 360
 proxies:
-  - {name: "|@ConfigsHUB|180.13", server: 2.56.242.210, port: 34895, type: vmess, uuid: 6fe6b62a-dfbe-4753-d795-e02f2561edea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "|@v2ray1_ng|159.97", server: v1.mehradservice.com, port: 43324, type: vmess, uuid: 79b4d81b-6602-4b55-beb9-485b765c83ff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "|@v2ray1_ng|159.42", server: 162.19.248.238, port: 550, type: vmess, uuid: ede27a79-b039-490b-932c-495de4b68880, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "|@v2rayvmess|2.44", server: id-lb.vhax.net, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sshkit/Arsham85231/6347d08022b91/, headers: {Host: zoom.us}}, udp: true}
-  - {name: "|@prrofile_purple|153.48", server: 81.22.134.96, port: 10086, type: vmess, uuid: bf926eb1-4089-4a8c-b101-6c6281e4e03a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "|@oneclickvpnkeys|189.81", server: 2.56.242.210, port: 34895, type: vmess, uuid: 6fe6b62a-dfbe-4753-d795-e02f2561edea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "|@ConfigsHUB|152.81", server: 2.56.242.210, port: 34895, type: vmess, uuid: 6fe6b62a-dfbe-4753-d795-e02f2561edea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "|@ConfigsHUB|116.58", server: 162.19.248.238, port: 550, type: vmess, uuid: ede27a79-b039-490b-932c-495de4b68880, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "|@v2rayvmess|6.32", server: id-lb.vhax.net, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sshkit/Arsham85231/6347d08022b91/, headers: {Host: zoom.us}}, udp: true}
+  - {name: "|@prrofile_purple|224.39", server: s8.rookari.com, port: 9016, type: vmess, uuid: cf1d3cd8-c544-47db-b074-49641b026e83, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "|@oneclickvpnkeys|138.95", server: 2.56.242.210, port: 34895, type: vmess, uuid: 6fe6b62a-dfbe-4753-d795-e02f2561edea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 MANUAL
     type: select
     proxies:
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@ConfigsHUB|180.13"
-      - "|@v2ray1_ng|159.97"
-      - "|@v2ray1_ng|159.42"
-      - "|@v2rayvmess|2.44"
-      - "|@prrofile_purple|153.48"
-      - "|@oneclickvpnkeys|189.81"
+      - "|@ConfigsHUB|152.81"
+      - "|@ConfigsHUB|116.58"
+      - "|@v2rayvmess|6.32"
+      - "|@prrofile_purple|224.39"
+      - "|@oneclickvpnkeys|138.95"
   - name: ♻️ AUTO SELECT
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "|@ConfigsHUB|180.13"
-      - "|@v2ray1_ng|159.97"
-      - "|@v2ray1_ng|159.42"
-      - "|@v2rayvmess|2.44"
-      - "|@prrofile_purple|153.48"
-      - "|@oneclickvpnkeys|189.81"
+      - "|@ConfigsHUB|152.81"
+      - "|@ConfigsHUB|116.58"
+      - "|@v2rayvmess|6.32"
+      - "|@prrofile_purple|224.39"
+      - "|@oneclickvpnkeys|138.95"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 MANUAL
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@ConfigsHUB|180.13"
-      - "|@v2ray1_ng|159.97"
-      - "|@v2ray1_ng|159.42"
-      - "|@v2rayvmess|2.44"
-      - "|@prrofile_purple|153.48"
-      - "|@oneclickvpnkeys|189.81"
+      - "|@ConfigsHUB|152.81"
+      - "|@ConfigsHUB|116.58"
+      - "|@v2rayvmess|6.32"
+      - "|@prrofile_purple|224.39"
+      - "|@oneclickvpnkeys|138.95"
   - name: ⛔️ AD BLOCK
     type: select
     proxies:
@@ -68,12 +64,11 @@ proxy-groups:
       - 🔰 MANUAL
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@ConfigsHUB|180.13"
-      - "|@v2ray1_ng|159.97"
-      - "|@v2ray1_ng|159.42"
-      - "|@v2rayvmess|2.44"
-      - "|@prrofile_purple|153.48"
-      - "|@oneclickvpnkeys|189.81"
+      - "|@ConfigsHUB|152.81"
+      - "|@ConfigsHUB|116.58"
+      - "|@v2rayvmess|6.32"
+      - "|@prrofile_purple|224.39"
+      - "|@oneclickvpnkeys|138.95"
   - name: 🌏 DOMESTIC MEDIA
     type: select
     proxies:
@@ -84,35 +79,32 @@ proxy-groups:
     proxies:
       - 🎯 GLOBAL DIRECT
       - 🔰 MANUAL
-      - "|@ConfigsHUB|180.13"
-      - "|@v2ray1_ng|159.97"
-      - "|@v2ray1_ng|159.42"
-      - "|@v2rayvmess|2.44"
-      - "|@prrofile_purple|153.48"
-      - "|@oneclickvpnkeys|189.81"
+      - "|@ConfigsHUB|152.81"
+      - "|@ConfigsHUB|116.58"
+      - "|@v2rayvmess|6.32"
+      - "|@prrofile_purple|224.39"
+      - "|@oneclickvpnkeys|138.95"
   - name: 📲 TELEGRAM
     type: select
     proxies:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
-      - "|@ConfigsHUB|180.13"
-      - "|@v2ray1_ng|159.97"
-      - "|@v2ray1_ng|159.42"
-      - "|@v2rayvmess|2.44"
-      - "|@prrofile_purple|153.48"
-      - "|@oneclickvpnkeys|189.81"
+      - "|@ConfigsHUB|152.81"
+      - "|@ConfigsHUB|116.58"
+      - "|@v2rayvmess|6.32"
+      - "|@prrofile_purple|224.39"
+      - "|@oneclickvpnkeys|138.95"
   - name: 🍎 APPLE
     type: select
     proxies:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
-      - "|@ConfigsHUB|180.13"
-      - "|@v2ray1_ng|159.97"
-      - "|@v2ray1_ng|159.42"
-      - "|@v2rayvmess|2.44"
-      - "|@prrofile_purple|153.48"
-      - "|@oneclickvpnkeys|189.81"
+      - "|@ConfigsHUB|152.81"
+      - "|@ConfigsHUB|116.58"
+      - "|@v2rayvmess|6.32"
+      - "|@prrofile_purple|224.39"
+      - "|@oneclickvpnkeys|138.95"
   - name: 🎯 GLOBAL DIRECT
     type: select
     proxies:
@@ -128,12 +120,11 @@ proxy-groups:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
-      - "|@ConfigsHUB|180.13"
-      - "|@v2ray1_ng|159.97"
-      - "|@v2ray1_ng|159.42"
-      - "|@v2rayvmess|2.44"
-      - "|@prrofile_purple|153.48"
-      - "|@oneclickvpnkeys|189.81"
+      - "|@ConfigsHUB|152.81"
+      - "|@ConfigsHUB|116.58"
+      - "|@v2rayvmess|6.32"
+      - "|@prrofile_purple|224.39"
+      - "|@oneclickvpnkeys|138.95"
 rules:
   - DOMAIN-SUFFIX,local,🎯 GLOBAL DIRECT
   - IP-CIDR,192.168.0.0/16,🎯 GLOBAL DIRECT,no-resolve
