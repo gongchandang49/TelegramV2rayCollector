@@ -9,35 +9,35 @@ unified-delay: true
 global-client-fingerprint: chrome
 keep-alive-interval: 360
 proxies:
-  - {name: "|@ConfigsHUB|90.59", server: 162.19.248.238, port: 550, type: vmess, uuid: ede27a79-b039-490b-932c-495de4b68880, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "|@v2rayvmess|6.89", server: id-lb.vhax.net, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sshkit/Arsham85231/6347d08022b91/, headers: {Host: zoom.us}}, udp: true}
-  - {name: "|@prrofile_purple|220.36", server: s8.rookari.com, port: 9016, type: vmess, uuid: cf1d3cd8-c544-47db-b074-49641b026e83, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "|@v2rayvmess|15.09", server: id-lb.vhax.net, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sshkit/Arsham85231/6347d08022b91/, headers: {Host: zoom.us}}, udp: true}
+  - {name: "|@customv2ray|125.17", server: 162.19.248.238, port: 550, type: vmess, uuid: ede27a79-b039-490b-932c-495de4b68880, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "|@prrofile_purple|306.48", server: s8.rookari.com, port: 9016, type: vmess, uuid: cf1d3cd8-c544-47db-b074-49641b026e83, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 MANUAL
     type: select
     proxies:
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@ConfigsHUB|90.59"
-      - "|@v2rayvmess|6.89"
-      - "|@prrofile_purple|220.36"
+      - "|@v2rayvmess|15.09"
+      - "|@customv2ray|125.17"
+      - "|@prrofile_purple|306.48"
   - name: ♻️ AUTO SELECT
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "|@ConfigsHUB|90.59"
-      - "|@v2rayvmess|6.89"
-      - "|@prrofile_purple|220.36"
+      - "|@v2rayvmess|15.09"
+      - "|@customv2ray|125.17"
+      - "|@prrofile_purple|306.48"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 MANUAL
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@ConfigsHUB|90.59"
-      - "|@v2rayvmess|6.89"
-      - "|@prrofile_purple|220.36"
+      - "|@v2rayvmess|15.09"
+      - "|@customv2ray|125.17"
+      - "|@prrofile_purple|306.48"
   - name: ⛔️ AD BLOCK
     type: select
     proxies:
@@ -56,9 +56,9 @@ proxy-groups:
       - 🔰 MANUAL
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@ConfigsHUB|90.59"
-      - "|@v2rayvmess|6.89"
-      - "|@prrofile_purple|220.36"
+      - "|@v2rayvmess|15.09"
+      - "|@customv2ray|125.17"
+      - "|@prrofile_purple|306.48"
   - name: 🌏 DOMESTIC MEDIA
     type: select
     proxies:
@@ -69,26 +69,26 @@ proxy-groups:
     proxies:
       - 🎯 GLOBAL DIRECT
       - 🔰 MANUAL
-      - "|@ConfigsHUB|90.59"
-      - "|@v2rayvmess|6.89"
-      - "|@prrofile_purple|220.36"
+      - "|@v2rayvmess|15.09"
+      - "|@customv2ray|125.17"
+      - "|@prrofile_purple|306.48"
   - name: 📲 TELEGRAM
     type: select
     proxies:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
-      - "|@ConfigsHUB|90.59"
-      - "|@v2rayvmess|6.89"
-      - "|@prrofile_purple|220.36"
+      - "|@v2rayvmess|15.09"
+      - "|@customv2ray|125.17"
+      - "|@prrofile_purple|306.48"
   - name: 🍎 APPLE
     type: select
     proxies:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
-      - "|@ConfigsHUB|90.59"
-      - "|@v2rayvmess|6.89"
-      - "|@prrofile_purple|220.36"
+      - "|@v2rayvmess|15.09"
+      - "|@customv2ray|125.17"
+      - "|@prrofile_purple|306.48"
   - name: 🎯 GLOBAL DIRECT
     type: select
     proxies:
@@ -104,9 +104,9 @@ proxy-groups:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
-      - "|@ConfigsHUB|90.59"
-      - "|@v2rayvmess|6.89"
-      - "|@prrofile_purple|220.36"
+      - "|@v2rayvmess|15.09"
+      - "|@customv2ray|125.17"
+      - "|@prrofile_purple|306.48"
 rules:
   - DOMAIN-SUFFIX,local,🎯 GLOBAL DIRECT
   - IP-CIDR,192.168.0.0/16,🎯 GLOBAL DIRECT,no-resolve
