@@ -9,35 +9,31 @@ unified-delay: true
 global-client-fingerprint: chrome
 keep-alive-interval: 360
 proxies:
-  - {name: "|@ConfigsHUB|181.83", server: 150.109.11.193, port: 80, type: vmess, uuid: b7118dcc-a234-4784-e487-4064c2920808, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: "|@v2rayvmess|9.24", server: id-lb.vhax.net, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sshkit/Arsham85231/6347d08022b91/, headers: {Host: zoom.us}}, udp: true}
-  - {name: "|@prrofile_purple|254.7", server: s8.rookari.com, port: 9016, type: vmess, uuid: cf1d3cd8-c544-47db-b074-49641b026e83, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "|@v2ray1_ng|144.22", server: fast38.funfil.link, port: 31541, type: vmess, uuid: 41792324-68e1-413b-be71-f26a28213e21, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "|@v2rayvmess|3.14", server: id-lb.vhax.net, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sshkit/Arsham85231/6347d08022b91/, headers: {Host: zoom.us}}, udp: true}
 proxy-groups:
   - name: 🔰 MANUAL
     type: select
     proxies:
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@ConfigsHUB|181.83"
-      - "|@v2rayvmess|9.24"
-      - "|@prrofile_purple|254.7"
+      - "|@v2ray1_ng|144.22"
+      - "|@v2rayvmess|3.14"
   - name: ♻️ AUTO SELECT
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "|@ConfigsHUB|181.83"
-      - "|@v2rayvmess|9.24"
-      - "|@prrofile_purple|254.7"
+      - "|@v2ray1_ng|144.22"
+      - "|@v2rayvmess|3.14"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 MANUAL
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@ConfigsHUB|181.83"
-      - "|@v2rayvmess|9.24"
-      - "|@prrofile_purple|254.7"
+      - "|@v2ray1_ng|144.22"
+      - "|@v2rayvmess|3.14"
   - name: ⛔️ AD BLOCK
     type: select
     proxies:
@@ -56,9 +52,8 @@ proxy-groups:
       - 🔰 MANUAL
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@ConfigsHUB|181.83"
-      - "|@v2rayvmess|9.24"
-      - "|@prrofile_purple|254.7"
+      - "|@v2ray1_ng|144.22"
+      - "|@v2rayvmess|3.14"
   - name: 🌏 DOMESTIC MEDIA
     type: select
     proxies:
@@ -69,26 +64,23 @@ proxy-groups:
     proxies:
       - 🎯 GLOBAL DIRECT
       - 🔰 MANUAL
-      - "|@ConfigsHUB|181.83"
-      - "|@v2rayvmess|9.24"
-      - "|@prrofile_purple|254.7"
+      - "|@v2ray1_ng|144.22"
+      - "|@v2rayvmess|3.14"
   - name: 📲 TELEGRAM
     type: select
     proxies:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
-      - "|@ConfigsHUB|181.83"
-      - "|@v2rayvmess|9.24"
-      - "|@prrofile_purple|254.7"
+      - "|@v2ray1_ng|144.22"
+      - "|@v2rayvmess|3.14"
   - name: 🍎 APPLE
     type: select
     proxies:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
-      - "|@ConfigsHUB|181.83"
-      - "|@v2rayvmess|9.24"
-      - "|@prrofile_purple|254.7"
+      - "|@v2ray1_ng|144.22"
+      - "|@v2rayvmess|3.14"
   - name: 🎯 GLOBAL DIRECT
     type: select
     proxies:
@@ -104,9 +96,8 @@ proxy-groups:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
-      - "|@ConfigsHUB|181.83"
-      - "|@v2rayvmess|9.24"
-      - "|@prrofile_purple|254.7"
+      - "|@v2ray1_ng|144.22"
+      - "|@v2rayvmess|3.14"
 rules:
   - DOMAIN-SUFFIX,local,🎯 GLOBAL DIRECT
   - IP-CIDR,192.168.0.0/16,🎯 GLOBAL DIRECT,no-resolve
