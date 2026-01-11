@@ -9,35 +9,35 @@ unified-delay: true
 global-client-fingerprint: chrome
 keep-alive-interval: 360
 proxies:
-  - {name: "|@ConfigsHUB|91.11", server: 162.19.248.238, port: 550, type: vmess, uuid: ede27a79-b039-490b-932c-495de4b68880, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "|@ConfigsHUB|95.77", server: 85.195.101.122, port: 40878, type: vmess, uuid: f3d4167e-b15e-4e46-82e9-9286ef93fda7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "|@v2rayvmess|3.32", server: id-lb.vhax.net, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sshkit/Arsham85231/6347d08022b91/, headers: {Host: zoom.us}}, udp: true}
+  - {name: "|@v2rayvmess|3.36", server: id-lb.vhax.net, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sshkit/Arsham85231/6347d08022b91/, headers: {Host: zoom.us}}, udp: true}
+  - {name: "|@oneclickvpnkeys|91.03", server: 162.19.248.238, port: 550, type: vmess, uuid: ede27a79-b039-490b-932c-495de4b68880, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "|@oneclickvpnkeys|92.41", server: 85.195.101.122, port: 40878, type: vmess, uuid: f3d4167e-b15e-4e46-82e9-9286ef93fda7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 MANUAL
     type: select
     proxies:
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@ConfigsHUB|91.11"
-      - "|@ConfigsHUB|95.77"
-      - "|@v2rayvmess|3.32"
+      - "|@v2rayvmess|3.36"
+      - "|@oneclickvpnkeys|91.03"
+      - "|@oneclickvpnkeys|92.41"
   - name: ♻️ AUTO SELECT
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "|@ConfigsHUB|91.11"
-      - "|@ConfigsHUB|95.77"
-      - "|@v2rayvmess|3.32"
+      - "|@v2rayvmess|3.36"
+      - "|@oneclickvpnkeys|91.03"
+      - "|@oneclickvpnkeys|92.41"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 MANUAL
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@ConfigsHUB|91.11"
-      - "|@ConfigsHUB|95.77"
-      - "|@v2rayvmess|3.32"
+      - "|@v2rayvmess|3.36"
+      - "|@oneclickvpnkeys|91.03"
+      - "|@oneclickvpnkeys|92.41"
   - name: ⛔️ AD BLOCK
     type: select
     proxies:
@@ -56,9 +56,9 @@ proxy-groups:
       - 🔰 MANUAL
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@ConfigsHUB|91.11"
-      - "|@ConfigsHUB|95.77"
-      - "|@v2rayvmess|3.32"
+      - "|@v2rayvmess|3.36"
+      - "|@oneclickvpnkeys|91.03"
+      - "|@oneclickvpnkeys|92.41"
   - name: 🌏 DOMESTIC MEDIA
     type: select
     proxies:
@@ -69,26 +69,26 @@ proxy-groups:
     proxies:
       - 🎯 GLOBAL DIRECT
       - 🔰 MANUAL
-      - "|@ConfigsHUB|91.11"
-      - "|@ConfigsHUB|95.77"
-      - "|@v2rayvmess|3.32"
+      - "|@v2rayvmess|3.36"
+      - "|@oneclickvpnkeys|91.03"
+      - "|@oneclickvpnkeys|92.41"
   - name: 📲 TELEGRAM
     type: select
     proxies:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
-      - "|@ConfigsHUB|91.11"
-      - "|@ConfigsHUB|95.77"
-      - "|@v2rayvmess|3.32"
+      - "|@v2rayvmess|3.36"
+      - "|@oneclickvpnkeys|91.03"
+      - "|@oneclickvpnkeys|92.41"
   - name: 🍎 APPLE
     type: select
     proxies:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
-      - "|@ConfigsHUB|91.11"
-      - "|@ConfigsHUB|95.77"
-      - "|@v2rayvmess|3.32"
+      - "|@v2rayvmess|3.36"
+      - "|@oneclickvpnkeys|91.03"
+      - "|@oneclickvpnkeys|92.41"
   - name: 🎯 GLOBAL DIRECT
     type: select
     proxies:
@@ -104,9 +104,9 @@ proxy-groups:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
-      - "|@ConfigsHUB|91.11"
-      - "|@ConfigsHUB|95.77"
-      - "|@v2rayvmess|3.32"
+      - "|@v2rayvmess|3.36"
+      - "|@oneclickvpnkeys|91.03"
+      - "|@oneclickvpnkeys|92.41"
 rules:
   - DOMAIN-SUFFIX,local,🎯 GLOBAL DIRECT
   - IP-CIDR,192.168.0.0/16,🎯 GLOBAL DIRECT,no-resolve
