@@ -9,39 +9,39 @@ unified-delay: true
 global-client-fingerprint: chrome
 keep-alive-interval: 360
 proxies:
-  - {name: "|@v2rayvmess|27.85", server: id-lb.vhax.net, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sshkit/Arsham85231/6347d08022b91/, headers: {Host: zoom.us}}, udp: true}
-  - {name: "|@prrofile_purple|286.66", server: sr6.vopnik.fun, port: 8080, type: vmess, uuid: 677ca848-ab69-487e-91bf-111c5113735a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "|@prrofile_purple|319", server: force12.goldspeed.org, port: 40872, type: vmess, uuid: bf951708-9f75-47a7-8649-3ab0a7d2cc15, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: force12.goldspeed.org}}, udp: true}
-  - {name: "|@prrofile_purple|237.44", server: gold6.goldspeed.org, port: 40973, type: vmess, uuid: a7918501-9245-42f5-9393-f6e84bda9497, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "|@vpn_tehran|8.53", server: 68.167.181.220, port: 10010, type: vmess, uuid: b4f7c326-5c4f-4e19-83d5-bfa43b461002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "|@v2rayvmess|2.11", server: id-lb.vhax.net, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sshkit/Arsham85231/6347d08022b91/, headers: {Host: zoom.us}}, udp: true}
+  - {name: "|@prrofile_purple|273.35", server: force12.goldspeed.org, port: 40872, type: vmess, uuid: bf951708-9f75-47a7-8649-3ab0a7d2cc15, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: force12.goldspeed.org}}, udp: true}
+  - {name: "|@prrofile_purple|300.27", server: gold6.goldspeed.org, port: 40973, type: vmess, uuid: a7918501-9245-42f5-9393-f6e84bda9497, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 MANUAL
     type: select
     proxies:
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@v2rayvmess|27.85"
-      - "|@prrofile_purple|286.66"
-      - "|@prrofile_purple|319"
-      - "|@prrofile_purple|237.44"
+      - "|@vpn_tehran|8.53"
+      - "|@v2rayvmess|2.11"
+      - "|@prrofile_purple|273.35"
+      - "|@prrofile_purple|300.27"
   - name: ♻️ AUTO SELECT
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "|@v2rayvmess|27.85"
-      - "|@prrofile_purple|286.66"
-      - "|@prrofile_purple|319"
-      - "|@prrofile_purple|237.44"
+      - "|@vpn_tehran|8.53"
+      - "|@v2rayvmess|2.11"
+      - "|@prrofile_purple|273.35"
+      - "|@prrofile_purple|300.27"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 MANUAL
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@v2rayvmess|27.85"
-      - "|@prrofile_purple|286.66"
-      - "|@prrofile_purple|319"
-      - "|@prrofile_purple|237.44"
+      - "|@vpn_tehran|8.53"
+      - "|@v2rayvmess|2.11"
+      - "|@prrofile_purple|273.35"
+      - "|@prrofile_purple|300.27"
   - name: ⛔️ AD BLOCK
     type: select
     proxies:
@@ -60,10 +60,10 @@ proxy-groups:
       - 🔰 MANUAL
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@v2rayvmess|27.85"
-      - "|@prrofile_purple|286.66"
-      - "|@prrofile_purple|319"
-      - "|@prrofile_purple|237.44"
+      - "|@vpn_tehran|8.53"
+      - "|@v2rayvmess|2.11"
+      - "|@prrofile_purple|273.35"
+      - "|@prrofile_purple|300.27"
   - name: 🌏 DOMESTIC MEDIA
     type: select
     proxies:
@@ -74,29 +74,29 @@ proxy-groups:
     proxies:
       - 🎯 GLOBAL DIRECT
       - 🔰 MANUAL
-      - "|@v2rayvmess|27.85"
-      - "|@prrofile_purple|286.66"
-      - "|@prrofile_purple|319"
-      - "|@prrofile_purple|237.44"
+      - "|@vpn_tehran|8.53"
+      - "|@v2rayvmess|2.11"
+      - "|@prrofile_purple|273.35"
+      - "|@prrofile_purple|300.27"
   - name: 📲 TELEGRAM
     type: select
     proxies:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
-      - "|@v2rayvmess|27.85"
-      - "|@prrofile_purple|286.66"
-      - "|@prrofile_purple|319"
-      - "|@prrofile_purple|237.44"
+      - "|@vpn_tehran|8.53"
+      - "|@v2rayvmess|2.11"
+      - "|@prrofile_purple|273.35"
+      - "|@prrofile_purple|300.27"
   - name: 🍎 APPLE
     type: select
     proxies:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
-      - "|@v2rayvmess|27.85"
-      - "|@prrofile_purple|286.66"
-      - "|@prrofile_purple|319"
-      - "|@prrofile_purple|237.44"
+      - "|@vpn_tehran|8.53"
+      - "|@v2rayvmess|2.11"
+      - "|@prrofile_purple|273.35"
+      - "|@prrofile_purple|300.27"
   - name: 🎯 GLOBAL DIRECT
     type: select
     proxies:
@@ -112,10 +112,10 @@ proxy-groups:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
-      - "|@v2rayvmess|27.85"
-      - "|@prrofile_purple|286.66"
-      - "|@prrofile_purple|319"
-      - "|@prrofile_purple|237.44"
+      - "|@vpn_tehran|8.53"
+      - "|@v2rayvmess|2.11"
+      - "|@prrofile_purple|273.35"
+      - "|@prrofile_purple|300.27"
 rules:
   - DOMAIN-SUFFIX,local,🎯 GLOBAL DIRECT
   - IP-CIDR,192.168.0.0/16,🎯 GLOBAL DIRECT,no-resolve
