@@ -9,51 +9,51 @@ unified-delay: true
 global-client-fingerprint: chrome
 keep-alive-interval: 360
 proxies:
-  - {name: "|@vpn_tehran|51.99", server: 68.167.181.220, port: 10010, type: vmess, uuid: b4f7c326-5c4f-4e19-83d5-bfa43b461002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "|@v2ray1_ng|3.68", server: 104.21.69.44, port: 8080, type: vmess, uuid: nasnet, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /nasnet/cdn, headers: {Host: nasnet-511952424.mcitel.co}}, udp: true}
-  - {name: "|@v2ray1_ng|2.74", server: 172.67.204.84, port: 8080, type: vmess, uuid: nasnet, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /nasnet/cdn, headers: {Host: nasnet-511952424.mcitel.co}}, udp: true}
-  - {name: "|@server01012|3.49", server: tgju.org, port: 8080, type: vmess, uuid: nasnet, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/nasnet/cdn?ed=2560", headers: {Host: nasnet-162191099.sharghdaily.co}}, udp: true}
-  - {name: "|@v2rayvmess|3.14", server: id-lb.vhax.net, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sshkit/Arsham85231/6347d08022b91/, headers: {Host: zoom.us}}, udp: true}
-  - {name: "|@prrofile_purple|250.29", server: 81.12.33.180, port: 2078, type: vmess, uuid: c92b7747-4222-4aa0-8c91-5753b8c759f4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "|@prrofile_purple|191.82", server: 8.217.13.74, port: 31769, type: vmess, uuid: cf1ad6c7-5987-4314-82bb-b4399040d047, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "|@vpn_tehran|37.39", server: 68.167.181.220, port: 10010, type: vmess, uuid: b4f7c326-5c4f-4e19-83d5-bfa43b461002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "|@v2ray1_ng|15.8", server: 104.21.69.44, port: 8080, type: vmess, uuid: nasnet, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /nasnet/cdn, headers: {Host: nasnet-511952424.mcitel.co}}, udp: true}
+  - {name: "|@v2ray1_ng|10.54", server: 172.67.204.84, port: 8080, type: vmess, uuid: nasnet, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /nasnet/cdn, headers: {Host: nasnet-511952424.mcitel.co}}, udp: true}
+  - {name: "|@server01012|14.96", server: tgju.org, port: 8080, type: vmess, uuid: nasnet, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/nasnet/cdn?ed=2560", headers: {Host: nasnet-162191099.sharghdaily.co}}, udp: true}
+  - {name: "|@v2rayvmess|14.9", server: id-lb.vhax.net, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sshkit/Arsham85231/6347d08022b91/, headers: {Host: zoom.us}}, udp: true}
+  - {name: "|@customv2ray|175.18", server: 8.217.13.74, port: 31769, type: vmess, uuid: cf1ad6c7-5987-4314-82bb-b4399040d047, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "|@prrofile_purple|232.85", server: 81.12.33.180, port: 2078, type: vmess, uuid: c92b7747-4222-4aa0-8c91-5753b8c759f4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 MANUAL
     type: select
     proxies:
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@vpn_tehran|51.99"
-      - "|@v2ray1_ng|3.68"
-      - "|@v2ray1_ng|2.74"
-      - "|@server01012|3.49"
-      - "|@v2rayvmess|3.14"
-      - "|@prrofile_purple|250.29"
-      - "|@prrofile_purple|191.82"
+      - "|@vpn_tehran|37.39"
+      - "|@v2ray1_ng|15.8"
+      - "|@v2ray1_ng|10.54"
+      - "|@server01012|14.96"
+      - "|@v2rayvmess|14.9"
+      - "|@customv2ray|175.18"
+      - "|@prrofile_purple|232.85"
   - name: ♻️ AUTO SELECT
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "|@vpn_tehran|51.99"
-      - "|@v2ray1_ng|3.68"
-      - "|@v2ray1_ng|2.74"
-      - "|@server01012|3.49"
-      - "|@v2rayvmess|3.14"
-      - "|@prrofile_purple|250.29"
-      - "|@prrofile_purple|191.82"
+      - "|@vpn_tehran|37.39"
+      - "|@v2ray1_ng|15.8"
+      - "|@v2ray1_ng|10.54"
+      - "|@server01012|14.96"
+      - "|@v2rayvmess|14.9"
+      - "|@customv2ray|175.18"
+      - "|@prrofile_purple|232.85"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 MANUAL
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@vpn_tehran|51.99"
-      - "|@v2ray1_ng|3.68"
-      - "|@v2ray1_ng|2.74"
-      - "|@server01012|3.49"
-      - "|@v2rayvmess|3.14"
-      - "|@prrofile_purple|250.29"
-      - "|@prrofile_purple|191.82"
+      - "|@vpn_tehran|37.39"
+      - "|@v2ray1_ng|15.8"
+      - "|@v2ray1_ng|10.54"
+      - "|@server01012|14.96"
+      - "|@v2rayvmess|14.9"
+      - "|@customv2ray|175.18"
+      - "|@prrofile_purple|232.85"
   - name: ⛔️ AD BLOCK
     type: select
     proxies:
@@ -72,13 +72,13 @@ proxy-groups:
       - 🔰 MANUAL
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@vpn_tehran|51.99"
-      - "|@v2ray1_ng|3.68"
-      - "|@v2ray1_ng|2.74"
-      - "|@server01012|3.49"
-      - "|@v2rayvmess|3.14"
-      - "|@prrofile_purple|250.29"
-      - "|@prrofile_purple|191.82"
+      - "|@vpn_tehran|37.39"
+      - "|@v2ray1_ng|15.8"
+      - "|@v2ray1_ng|10.54"
+      - "|@server01012|14.96"
+      - "|@v2rayvmess|14.9"
+      - "|@customv2ray|175.18"
+      - "|@prrofile_purple|232.85"
   - name: 🌏 DOMESTIC MEDIA
     type: select
     proxies:
@@ -89,38 +89,38 @@ proxy-groups:
     proxies:
       - 🎯 GLOBAL DIRECT
       - 🔰 MANUAL
-      - "|@vpn_tehran|51.99"
-      - "|@v2ray1_ng|3.68"
-      - "|@v2ray1_ng|2.74"
-      - "|@server01012|3.49"
-      - "|@v2rayvmess|3.14"
-      - "|@prrofile_purple|250.29"
-      - "|@prrofile_purple|191.82"
+      - "|@vpn_tehran|37.39"
+      - "|@v2ray1_ng|15.8"
+      - "|@v2ray1_ng|10.54"
+      - "|@server01012|14.96"
+      - "|@v2rayvmess|14.9"
+      - "|@customv2ray|175.18"
+      - "|@prrofile_purple|232.85"
   - name: 📲 TELEGRAM
     type: select
     proxies:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
-      - "|@vpn_tehran|51.99"
-      - "|@v2ray1_ng|3.68"
-      - "|@v2ray1_ng|2.74"
-      - "|@server01012|3.49"
-      - "|@v2rayvmess|3.14"
-      - "|@prrofile_purple|250.29"
-      - "|@prrofile_purple|191.82"
+      - "|@vpn_tehran|37.39"
+      - "|@v2ray1_ng|15.8"
+      - "|@v2ray1_ng|10.54"
+      - "|@server01012|14.96"
+      - "|@v2rayvmess|14.9"
+      - "|@customv2ray|175.18"
+      - "|@prrofile_purple|232.85"
   - name: 🍎 APPLE
     type: select
     proxies:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
-      - "|@vpn_tehran|51.99"
-      - "|@v2ray1_ng|3.68"
-      - "|@v2ray1_ng|2.74"
-      - "|@server01012|3.49"
-      - "|@v2rayvmess|3.14"
-      - "|@prrofile_purple|250.29"
-      - "|@prrofile_purple|191.82"
+      - "|@vpn_tehran|37.39"
+      - "|@v2ray1_ng|15.8"
+      - "|@v2ray1_ng|10.54"
+      - "|@server01012|14.96"
+      - "|@v2rayvmess|14.9"
+      - "|@customv2ray|175.18"
+      - "|@prrofile_purple|232.85"
   - name: 🎯 GLOBAL DIRECT
     type: select
     proxies:
@@ -136,13 +136,13 @@ proxy-groups:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
-      - "|@vpn_tehran|51.99"
-      - "|@v2ray1_ng|3.68"
-      - "|@v2ray1_ng|2.74"
-      - "|@server01012|3.49"
-      - "|@v2rayvmess|3.14"
-      - "|@prrofile_purple|250.29"
-      - "|@prrofile_purple|191.82"
+      - "|@vpn_tehran|37.39"
+      - "|@v2ray1_ng|15.8"
+      - "|@v2ray1_ng|10.54"
+      - "|@server01012|14.96"
+      - "|@v2rayvmess|14.9"
+      - "|@customv2ray|175.18"
+      - "|@prrofile_purple|232.85"
 rules:
   - DOMAIN-SUFFIX,local,🎯 GLOBAL DIRECT
   - IP-CIDR,192.168.0.0/16,🎯 GLOBAL DIRECT,no-resolve
