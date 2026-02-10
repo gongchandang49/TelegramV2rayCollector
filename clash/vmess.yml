@@ -9,43 +9,43 @@ unified-delay: true
 global-client-fingerprint: chrome
 keep-alive-interval: 360
 proxies:
-  - {name: "|@vpn_tehran|12.63", server: 172.64.149.182, port: 8080, type: vmess, uuid: nasnet, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/nasnet/cdn?ed=2560", headers: {Host: nasnet-5712964102.sharghdaily.co}}, udp: true}
-  - {name: "|@v2rayvmess|15.16", server: id-lb.vhax.net, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sshkit/Arsham85231/6347d08022b91/, headers: {Host: zoom.us}}, udp: true}
-  - {name: "|@customv2ray|126.99", server: 147.135.211.61, port: 8080, type: vmess, uuid: cdc27880-ac2b-591f-b677-fcb02fcb428a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "|@prrofile_purple|19.15", server: 57.129.132.223, port: 80, type: vmess, uuid: a25cbf11-2908-4a1b-a3a8-9a571777dca3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess/, headers: {Host: google.com}}, udp: true}
-  - {name: "|@prrofile_purple|27.59", server: 172.233.229.91, port: 14102, type: vmess, uuid: 27ba87fc-583f-4763-9060-83cf0b9264db, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "|@vpn_tehran|6.92", server: 172.64.149.182, port: 8080, type: vmess, uuid: nasnet, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/nasnet/cdn?ed=2560", headers: {Host: nasnet-5712964102.sharghdaily.co}}, udp: true}
+  - {name: "|@v2rayvmess|6.69", server: id-lb.vhax.net, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sshkit/Arsham85231/6347d08022b91/, headers: {Host: zoom.us}}, udp: true}
+  - {name: "|@customv2ray|110.11", server: 147.135.211.61, port: 8080, type: vmess, uuid: cdc27880-ac2b-591f-b677-fcb02fcb428a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "|@prrofile_purple|6.97", server: 57.129.132.223, port: 80, type: vmess, uuid: a25cbf11-2908-4a1b-a3a8-9a571777dca3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess/, headers: {Host: google.com}}, udp: true}
+  - {name: "|@prrofile_purple|6.2", server: 172.233.229.91, port: 14102, type: vmess, uuid: 27ba87fc-583f-4763-9060-83cf0b9264db, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 MANUAL
     type: select
     proxies:
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@vpn_tehran|12.63"
-      - "|@v2rayvmess|15.16"
-      - "|@customv2ray|126.99"
-      - "|@prrofile_purple|19.15"
-      - "|@prrofile_purple|27.59"
+      - "|@vpn_tehran|6.92"
+      - "|@v2rayvmess|6.69"
+      - "|@customv2ray|110.11"
+      - "|@prrofile_purple|6.97"
+      - "|@prrofile_purple|6.2"
   - name: ♻️ AUTO SELECT
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "|@vpn_tehran|12.63"
-      - "|@v2rayvmess|15.16"
-      - "|@customv2ray|126.99"
-      - "|@prrofile_purple|19.15"
-      - "|@prrofile_purple|27.59"
+      - "|@vpn_tehran|6.92"
+      - "|@v2rayvmess|6.69"
+      - "|@customv2ray|110.11"
+      - "|@prrofile_purple|6.97"
+      - "|@prrofile_purple|6.2"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 MANUAL
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@vpn_tehran|12.63"
-      - "|@v2rayvmess|15.16"
-      - "|@customv2ray|126.99"
-      - "|@prrofile_purple|19.15"
-      - "|@prrofile_purple|27.59"
+      - "|@vpn_tehran|6.92"
+      - "|@v2rayvmess|6.69"
+      - "|@customv2ray|110.11"
+      - "|@prrofile_purple|6.97"
+      - "|@prrofile_purple|6.2"
   - name: ⛔️ AD BLOCK
     type: select
     proxies:
@@ -64,11 +64,11 @@ proxy-groups:
       - 🔰 MANUAL
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@vpn_tehran|12.63"
-      - "|@v2rayvmess|15.16"
-      - "|@customv2ray|126.99"
-      - "|@prrofile_purple|19.15"
-      - "|@prrofile_purple|27.59"
+      - "|@vpn_tehran|6.92"
+      - "|@v2rayvmess|6.69"
+      - "|@customv2ray|110.11"
+      - "|@prrofile_purple|6.97"
+      - "|@prrofile_purple|6.2"
   - name: 🌏 DOMESTIC MEDIA
     type: select
     proxies:
@@ -79,32 +79,32 @@ proxy-groups:
     proxies:
       - 🎯 GLOBAL DIRECT
       - 🔰 MANUAL
-      - "|@vpn_tehran|12.63"
-      - "|@v2rayvmess|15.16"
-      - "|@customv2ray|126.99"
-      - "|@prrofile_purple|19.15"
-      - "|@prrofile_purple|27.59"
+      - "|@vpn_tehran|6.92"
+      - "|@v2rayvmess|6.69"
+      - "|@customv2ray|110.11"
+      - "|@prrofile_purple|6.97"
+      - "|@prrofile_purple|6.2"
   - name: 📲 TELEGRAM
     type: select
     proxies:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
-      - "|@vpn_tehran|12.63"
-      - "|@v2rayvmess|15.16"
-      - "|@customv2ray|126.99"
-      - "|@prrofile_purple|19.15"
-      - "|@prrofile_purple|27.59"
+      - "|@vpn_tehran|6.92"
+      - "|@v2rayvmess|6.69"
+      - "|@customv2ray|110.11"
+      - "|@prrofile_purple|6.97"
+      - "|@prrofile_purple|6.2"
   - name: 🍎 APPLE
     type: select
     proxies:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
-      - "|@vpn_tehran|12.63"
-      - "|@v2rayvmess|15.16"
-      - "|@customv2ray|126.99"
-      - "|@prrofile_purple|19.15"
-      - "|@prrofile_purple|27.59"
+      - "|@vpn_tehran|6.92"
+      - "|@v2rayvmess|6.69"
+      - "|@customv2ray|110.11"
+      - "|@prrofile_purple|6.97"
+      - "|@prrofile_purple|6.2"
   - name: 🎯 GLOBAL DIRECT
     type: select
     proxies:
@@ -120,11 +120,11 @@ proxy-groups:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
-      - "|@vpn_tehran|12.63"
-      - "|@v2rayvmess|15.16"
-      - "|@customv2ray|126.99"
-      - "|@prrofile_purple|19.15"
-      - "|@prrofile_purple|27.59"
+      - "|@vpn_tehran|6.92"
+      - "|@v2rayvmess|6.69"
+      - "|@customv2ray|110.11"
+      - "|@prrofile_purple|6.97"
+      - "|@prrofile_purple|6.2"
 rules:
   - DOMAIN-SUFFIX,local,🎯 GLOBAL DIRECT
   - IP-CIDR,192.168.0.0/16,🎯 GLOBAL DIRECT,no-resolve
