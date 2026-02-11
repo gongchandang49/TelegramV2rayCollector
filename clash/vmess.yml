@@ -9,35 +9,35 @@ unified-delay: true
 global-client-fingerprint: chrome
 keep-alive-interval: 360
 proxies:
-  - {name: "|@v2rayvmess|2.61", server: id-lb.vhax.net, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sshkit/Arsham85231/6347d08022b91/, headers: {Host: zoom.us}}, udp: true}
-  - {name: "|@prrofile_purple|2.28", server: 57.129.132.223, port: 80, type: vmess, uuid: a25cbf11-2908-4a1b-a3a8-9a571777dca3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess/, headers: {Host: google.com}}, udp: true}
-  - {name: "|@prrofile_purple|63.27", server: 172.233.229.91, port: 14102, type: vmess, uuid: 27ba87fc-583f-4763-9060-83cf0b9264db, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "|@v2rayvmess|6.16", server: id-lb.vhax.net, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sshkit/Arsham85231/6347d08022b91/, headers: {Host: zoom.us}}, udp: true}
+  - {name: "|@prrofile_purple|6.07", server: 57.129.132.223, port: 80, type: vmess, uuid: a25cbf11-2908-4a1b-a3a8-9a571777dca3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess/, headers: {Host: google.com}}, udp: true}
+  - {name: "|@prrofile_purple|5.28", server: 172.233.229.91, port: 14102, type: vmess, uuid: 27ba87fc-583f-4763-9060-83cf0b9264db, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 MANUAL
     type: select
     proxies:
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@v2rayvmess|2.61"
-      - "|@prrofile_purple|2.28"
-      - "|@prrofile_purple|63.27"
+      - "|@v2rayvmess|6.16"
+      - "|@prrofile_purple|6.07"
+      - "|@prrofile_purple|5.28"
   - name: ♻️ AUTO SELECT
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "|@v2rayvmess|2.61"
-      - "|@prrofile_purple|2.28"
-      - "|@prrofile_purple|63.27"
+      - "|@v2rayvmess|6.16"
+      - "|@prrofile_purple|6.07"
+      - "|@prrofile_purple|5.28"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 MANUAL
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@v2rayvmess|2.61"
-      - "|@prrofile_purple|2.28"
-      - "|@prrofile_purple|63.27"
+      - "|@v2rayvmess|6.16"
+      - "|@prrofile_purple|6.07"
+      - "|@prrofile_purple|5.28"
   - name: ⛔️ AD BLOCK
     type: select
     proxies:
@@ -56,9 +56,9 @@ proxy-groups:
       - 🔰 MANUAL
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@v2rayvmess|2.61"
-      - "|@prrofile_purple|2.28"
-      - "|@prrofile_purple|63.27"
+      - "|@v2rayvmess|6.16"
+      - "|@prrofile_purple|6.07"
+      - "|@prrofile_purple|5.28"
   - name: 🌏 DOMESTIC MEDIA
     type: select
     proxies:
@@ -69,26 +69,26 @@ proxy-groups:
     proxies:
       - 🎯 GLOBAL DIRECT
       - 🔰 MANUAL
-      - "|@v2rayvmess|2.61"
-      - "|@prrofile_purple|2.28"
-      - "|@prrofile_purple|63.27"
+      - "|@v2rayvmess|6.16"
+      - "|@prrofile_purple|6.07"
+      - "|@prrofile_purple|5.28"
   - name: 📲 TELEGRAM
     type: select
     proxies:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
-      - "|@v2rayvmess|2.61"
-      - "|@prrofile_purple|2.28"
-      - "|@prrofile_purple|63.27"
+      - "|@v2rayvmess|6.16"
+      - "|@prrofile_purple|6.07"
+      - "|@prrofile_purple|5.28"
   - name: 🍎 APPLE
     type: select
     proxies:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
-      - "|@v2rayvmess|2.61"
-      - "|@prrofile_purple|2.28"
-      - "|@prrofile_purple|63.27"
+      - "|@v2rayvmess|6.16"
+      - "|@prrofile_purple|6.07"
+      - "|@prrofile_purple|5.28"
   - name: 🎯 GLOBAL DIRECT
     type: select
     proxies:
@@ -104,9 +104,9 @@ proxy-groups:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
-      - "|@v2rayvmess|2.61"
-      - "|@prrofile_purple|2.28"
-      - "|@prrofile_purple|63.27"
+      - "|@v2rayvmess|6.16"
+      - "|@prrofile_purple|6.07"
+      - "|@prrofile_purple|5.28"
 rules:
   - DOMAIN-SUFFIX,local,🎯 GLOBAL DIRECT
   - IP-CIDR,192.168.0.0/16,🎯 GLOBAL DIRECT,no-resolve
