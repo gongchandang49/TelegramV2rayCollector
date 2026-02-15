@@ -9,123 +9,103 @@ unified-delay: true
 global-client-fingerprint: chrome
 keep-alive-interval: 360
 proxies:
-  - {name: "|@v2ray1_ng|162.58", server: 57.129.24.131, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws, headers: {Host: kampong.org}}, udp: true}
-  - {name: "|@v2rayvmess|2.5", server: id-lb.vhax.net, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sshkit/Arsham85231/6347d08022b91/, headers: {Host: zoom.us}}, udp: true}
-  - {name: "|@customv2ray|3.45", server: dll.avaaaal.ir, port: 8443, type: vmess, uuid: 725f5fcd-721d-40a0-ba6b-3c7477633110, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cdge.avaaaal.ir}}, udp: true}
-  - {name: "|@prrofile_purple|5.71", server: 140.248.128.186, port: 80, type: vmess, uuid: 29b4c1d3-acce-47ca-92cb-ea69a8bac373, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: echopress-bot.global.ssl.fastly.net}}, udp: true}
-  - {name: "|@oneclickvpnkeys|3.37", server: digitalocean.com, port: 8080, type: vmess, uuid: e8b1500b-e9e8-5492-8312-f4eadf7d0767, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /NASNET/cdn, headers: {Host: nasnet-571299667.rahavard365.co}}, udp: true}
-  - {name: "|@oneclickvpnkeys|3.58", server: 104.19.174.68, port: 8080, type: vmess, uuid: e8b1500b-e9e8-5492-8312-f4eadf7d0767, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /NASNET/cdn, headers: {Host: nasnet-571299667.rahavard365.co}}, udp: true}
-  - {name: "|@oneclickvpnkeys|2.68", server: hrkuk.lajichang.xyz, port: 2082, type: vmess, uuid: a2f33600-7ff1-46c4-abc9-7deb843e88a3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /5e60be4f/, headers: {Host: hrkuk.lajichang.xyz}}, udp: true}
-  - {name: "|@vpn_tehran|2.82", server: 104.18.32.37, port: 443, type: trojan, password: humanity, sni: www.gossipglove.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.gossipglove.com}}, udp: true}
-  - {name: "|@vpn_tehran|1.88", server: 104.18.32.47, port: 443, type: trojan, password: humanity, sni: www.multiplydose.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.multiplydose.com}}, udp: true}
-  - {name: "|@ovpn2|2.65", server: 162.159.138.232, port: 443, type: trojan, password: dQDQCtns4R, sni: fadaei.movieland.top, skip-cert-verify: true, network: ws, ws-opts: {path: static34528, headers: {Host: fadaei.movieland.top}}, udp: true}
-  - {name: "|@vmess_vless_v2rayng|1.56", server: 172.64.152.23, port: 443, type: trojan, password: humanity, sni: www.creationlong.org, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.creationlong.org}}, udp: true}
-  - {name: "|@vmess_vless_v2rayng|3.06", server: v1.dabache.top, port: 443, type: trojan, password: humanity, sni: www.multiplydose.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.multiplydose.com}}, udp: true}
-  - {name: "|@v2ray1_ng|2.26", server: 172.64.152.23, port: 443, type: trojan, password: humanity, sni: www.creationlong.org, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.creationlong.org}}, udp: true}
-  - {name: "|@oneclickvpnkeys|3.49", server: chatgpt.com, port: 443, type: trojan, password: humanity, sni: www.gossipglove.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.gossipglove.com}}, udp: true}
-  - {name: "|@oneclickvpnkeys|1.85", server: 104.18.32.47, port: 443, type: trojan, password: humanity, sni: www.multiplydose.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.multiplydose.com}}, udp: true}
-  - {name: "|@oneclickvpnkeys|3.39", server: www.multiplydose.com, port: 443, type: trojan, password: humanity, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment}, udp: true}
-  - {name: "|@DirectVPN|160.65", server: 13.36.190.50, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
-  - {name: "|@DirectVPN|142.36", server: 3.75.51.127, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
-  - {name: "|@DirectVPN|107.71", server: 18.195.108.52, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
-  - {name: "|@PrivateVPNs|111.31", server: 3.75.51.127, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
-  - {name: "|@PrivateVPNs|155.85", server: 18.195.108.52, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
-  - {name: "|@vmess_vless_v2rayng|109.67", server: 82.38.31.184, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true}
-  - {name: "|@free4allVPN|108.66", server: 194.59.183.134, port: 46114, type: ss, cipher: chacha20-ietf-poly1305, password: lejSRyqa033OEPmEQsvRsl, udp: true}
-  - {name: "|@free4allVPN|101.48", server: 141.98.101.182, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks7, udp: true}
-  - {name: "|@free4allVPN|106.49", server: 82.38.31.205, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true}
+  - {name: "|@v2ray1_ng|7.85", server: 57.129.24.131, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws, headers: {Host: kampong.org}}, udp: true}
+  - {name: "|@v2rayvmess|6.43", server: id-lb.vhax.net, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sshkit/Arsham85231/6347d08022b91/, headers: {Host: zoom.us}}, udp: true}
+  - {name: "|@customv2ray|6.58", server: dll.avaaaal.ir, port: 8443, type: vmess, uuid: 725f5fcd-721d-40a0-ba6b-3c7477633110, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cdge.avaaaal.ir}}, udp: true}
+  - {name: "|@prrofile_purple|17.39", server: 140.248.128.186, port: 80, type: vmess, uuid: 29b4c1d3-acce-47ca-92cb-ea69a8bac373, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: echopress-bot.global.ssl.fastly.net}}, udp: true}
+  - {name: "|@oneclickvpnkeys|199.81", server: 165.154.195.38, port: 35034, type: vmess, uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "|@oneclickvpnkeys|6.97", server: hzkrnl.lajichang.xyz, port: 2082, type: vmess, uuid: a2f33600-7ff1-46c4-abc9-7deb843e88a3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /5e60be4f/, headers: {Host: hzkrnl.lajichang.xyz}}, udp: true}
+  - {name: "|@oneclickvpnkeys|7.62", server: 104.26.14.85, port: 8080, type: vmess, uuid: e8b1500b-e9e8-5492-8312-f4eadf7d0767, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /nasnet/cdn, headers: {Host: nasnet-162191099.sharghdaily.co}}, udp: true}
+  - {name: "|@vpn_tehran|6.07", server: 104.18.32.37, port: 443, type: trojan, password: humanity, sni: www.gossipglove.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.gossipglove.com}}, udp: true}
+  - {name: "|@vpn_tehran|6.31", server: 104.18.32.47, port: 443, type: trojan, password: humanity, sni: www.multiplydose.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.multiplydose.com}}, udp: true}
+  - {name: "|@ovpn2|6", server: 162.159.138.232, port: 443, type: trojan, password: dQDQCtns4R, sni: fadaei.movieland.top, skip-cert-verify: true, network: ws, ws-opts: {path: static34528, headers: {Host: fadaei.movieland.top}}, udp: true}
+  - {name: "|@vmess_vless_v2rayng|5.54", server: 172.64.152.23, port: 443, type: trojan, password: humanity, sni: www.creationlong.org, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.creationlong.org}}, udp: true}
+  - {name: "|@vmess_vless_v2rayng|7.31", server: v1.dabache.top, port: 443, type: trojan, password: humanity, sni: www.multiplydose.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.multiplydose.com}}, udp: true}
+  - {name: "|@v2ray1_ng|5.76", server: 172.64.152.23, port: 443, type: trojan, password: humanity, sni: www.creationlong.org, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.creationlong.org}}, udp: true}
+  - {name: "|@oneclickvpnkeys|7.23", server: www.multiplydose.com, port: 443, type: trojan, password: humanity, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment}, udp: true}
+  - {name: "|@oneclickvpnkeys|157.04", server: 153.121.65.107, port: 1281, type: trojan, password: 9372cb81c7b0ad903f91f2f8a4d3f02b, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
+  - {name: "|@oneclickvpnkeys|5.75", server: 104.21.40.34, port: 443, type: trojan, password: humanity, sni: www.gossipglove.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.gossipglove.com}}, udp: true}
+  - {name: "|@vmess_vless_v2rayng|96.42", server: 82.38.31.184, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true}
+  - {name: "|@free4allVPN|91.02", server: 194.59.183.134, port: 46114, type: ss, cipher: chacha20-ietf-poly1305, password: lejSRyqa033OEPmEQsvRsl, udp: true}
+  - {name: "|@free4allVPN|127.49", server: 141.98.101.182, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks7, udp: true}
+  - {name: "|@free4allVPN|98.06", server: 82.38.31.205, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true}
 proxy-groups:
   - name: 🔰 MANUAL
     type: select
     proxies:
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@v2ray1_ng|162.58"
-      - "|@v2rayvmess|2.5"
-      - "|@customv2ray|3.45"
-      - "|@prrofile_purple|5.71"
-      - "|@oneclickvpnkeys|3.37"
-      - "|@oneclickvpnkeys|3.58"
-      - "|@oneclickvpnkeys|2.68"
-      - "|@vpn_tehran|2.82"
-      - "|@vpn_tehran|1.88"
-      - "|@ovpn2|2.65"
-      - "|@vmess_vless_v2rayng|1.56"
-      - "|@vmess_vless_v2rayng|3.06"
-      - "|@v2ray1_ng|2.26"
-      - "|@oneclickvpnkeys|3.49"
-      - "|@oneclickvpnkeys|1.85"
-      - "|@oneclickvpnkeys|3.39"
-      - "|@DirectVPN|160.65"
-      - "|@DirectVPN|142.36"
-      - "|@DirectVPN|107.71"
-      - "|@PrivateVPNs|111.31"
-      - "|@PrivateVPNs|155.85"
-      - "|@vmess_vless_v2rayng|109.67"
-      - "|@free4allVPN|108.66"
-      - "|@free4allVPN|101.48"
-      - "|@free4allVPN|106.49"
+      - "|@v2ray1_ng|7.85"
+      - "|@v2rayvmess|6.43"
+      - "|@customv2ray|6.58"
+      - "|@prrofile_purple|17.39"
+      - "|@oneclickvpnkeys|199.81"
+      - "|@oneclickvpnkeys|6.97"
+      - "|@oneclickvpnkeys|7.62"
+      - "|@vpn_tehran|6.07"
+      - "|@vpn_tehran|6.31"
+      - "|@ovpn2|6"
+      - "|@vmess_vless_v2rayng|5.54"
+      - "|@vmess_vless_v2rayng|7.31"
+      - "|@v2ray1_ng|5.76"
+      - "|@oneclickvpnkeys|7.23"
+      - "|@oneclickvpnkeys|157.04"
+      - "|@oneclickvpnkeys|5.75"
+      - "|@vmess_vless_v2rayng|96.42"
+      - "|@free4allVPN|91.02"
+      - "|@free4allVPN|127.49"
+      - "|@free4allVPN|98.06"
   - name: ♻️ AUTO SELECT
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "|@v2ray1_ng|162.58"
-      - "|@v2rayvmess|2.5"
-      - "|@customv2ray|3.45"
-      - "|@prrofile_purple|5.71"
-      - "|@oneclickvpnkeys|3.37"
-      - "|@oneclickvpnkeys|3.58"
-      - "|@oneclickvpnkeys|2.68"
-      - "|@vpn_tehran|2.82"
-      - "|@vpn_tehran|1.88"
-      - "|@ovpn2|2.65"
-      - "|@vmess_vless_v2rayng|1.56"
-      - "|@vmess_vless_v2rayng|3.06"
-      - "|@v2ray1_ng|2.26"
-      - "|@oneclickvpnkeys|3.49"
-      - "|@oneclickvpnkeys|1.85"
-      - "|@oneclickvpnkeys|3.39"
-      - "|@DirectVPN|160.65"
-      - "|@DirectVPN|142.36"
-      - "|@DirectVPN|107.71"
-      - "|@PrivateVPNs|111.31"
-      - "|@PrivateVPNs|155.85"
-      - "|@vmess_vless_v2rayng|109.67"
-      - "|@free4allVPN|108.66"
-      - "|@free4allVPN|101.48"
-      - "|@free4allVPN|106.49"
+      - "|@v2ray1_ng|7.85"
+      - "|@v2rayvmess|6.43"
+      - "|@customv2ray|6.58"
+      - "|@prrofile_purple|17.39"
+      - "|@oneclickvpnkeys|199.81"
+      - "|@oneclickvpnkeys|6.97"
+      - "|@oneclickvpnkeys|7.62"
+      - "|@vpn_tehran|6.07"
+      - "|@vpn_tehran|6.31"
+      - "|@ovpn2|6"
+      - "|@vmess_vless_v2rayng|5.54"
+      - "|@vmess_vless_v2rayng|7.31"
+      - "|@v2ray1_ng|5.76"
+      - "|@oneclickvpnkeys|7.23"
+      - "|@oneclickvpnkeys|157.04"
+      - "|@oneclickvpnkeys|5.75"
+      - "|@vmess_vless_v2rayng|96.42"
+      - "|@free4allVPN|91.02"
+      - "|@free4allVPN|127.49"
+      - "|@free4allVPN|98.06"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 MANUAL
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@v2ray1_ng|162.58"
-      - "|@v2rayvmess|2.5"
-      - "|@customv2ray|3.45"
-      - "|@prrofile_purple|5.71"
-      - "|@oneclickvpnkeys|3.37"
-      - "|@oneclickvpnkeys|3.58"
-      - "|@oneclickvpnkeys|2.68"
-      - "|@vpn_tehran|2.82"
-      - "|@vpn_tehran|1.88"
-      - "|@ovpn2|2.65"
-      - "|@vmess_vless_v2rayng|1.56"
-      - "|@vmess_vless_v2rayng|3.06"
-      - "|@v2ray1_ng|2.26"
-      - "|@oneclickvpnkeys|3.49"
-      - "|@oneclickvpnkeys|1.85"
-      - "|@oneclickvpnkeys|3.39"
-      - "|@DirectVPN|160.65"
-      - "|@DirectVPN|142.36"
-      - "|@DirectVPN|107.71"
-      - "|@PrivateVPNs|111.31"
-      - "|@PrivateVPNs|155.85"
-      - "|@vmess_vless_v2rayng|109.67"
-      - "|@free4allVPN|108.66"
-      - "|@free4allVPN|101.48"
-      - "|@free4allVPN|106.49"
+      - "|@v2ray1_ng|7.85"
+      - "|@v2rayvmess|6.43"
+      - "|@customv2ray|6.58"
+      - "|@prrofile_purple|17.39"
+      - "|@oneclickvpnkeys|199.81"
+      - "|@oneclickvpnkeys|6.97"
+      - "|@oneclickvpnkeys|7.62"
+      - "|@vpn_tehran|6.07"
+      - "|@vpn_tehran|6.31"
+      - "|@ovpn2|6"
+      - "|@vmess_vless_v2rayng|5.54"
+      - "|@vmess_vless_v2rayng|7.31"
+      - "|@v2ray1_ng|5.76"
+      - "|@oneclickvpnkeys|7.23"
+      - "|@oneclickvpnkeys|157.04"
+      - "|@oneclickvpnkeys|5.75"
+      - "|@vmess_vless_v2rayng|96.42"
+      - "|@free4allVPN|91.02"
+      - "|@free4allVPN|127.49"
+      - "|@free4allVPN|98.06"
   - name: ⛔️ AD BLOCK
     type: select
     proxies:
@@ -144,31 +124,26 @@ proxy-groups:
       - 🔰 MANUAL
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@v2ray1_ng|162.58"
-      - "|@v2rayvmess|2.5"
-      - "|@customv2ray|3.45"
-      - "|@prrofile_purple|5.71"
-      - "|@oneclickvpnkeys|3.37"
-      - "|@oneclickvpnkeys|3.58"
-      - "|@oneclickvpnkeys|2.68"
-      - "|@vpn_tehran|2.82"
-      - "|@vpn_tehran|1.88"
-      - "|@ovpn2|2.65"
-      - "|@vmess_vless_v2rayng|1.56"
-      - "|@vmess_vless_v2rayng|3.06"
-      - "|@v2ray1_ng|2.26"
-      - "|@oneclickvpnkeys|3.49"
-      - "|@oneclickvpnkeys|1.85"
-      - "|@oneclickvpnkeys|3.39"
-      - "|@DirectVPN|160.65"
-      - "|@DirectVPN|142.36"
-      - "|@DirectVPN|107.71"
-      - "|@PrivateVPNs|111.31"
-      - "|@PrivateVPNs|155.85"
-      - "|@vmess_vless_v2rayng|109.67"
-      - "|@free4allVPN|108.66"
-      - "|@free4allVPN|101.48"
-      - "|@free4allVPN|106.49"
+      - "|@v2ray1_ng|7.85"
+      - "|@v2rayvmess|6.43"
+      - "|@customv2ray|6.58"
+      - "|@prrofile_purple|17.39"
+      - "|@oneclickvpnkeys|199.81"
+      - "|@oneclickvpnkeys|6.97"
+      - "|@oneclickvpnkeys|7.62"
+      - "|@vpn_tehran|6.07"
+      - "|@vpn_tehran|6.31"
+      - "|@ovpn2|6"
+      - "|@vmess_vless_v2rayng|5.54"
+      - "|@vmess_vless_v2rayng|7.31"
+      - "|@v2ray1_ng|5.76"
+      - "|@oneclickvpnkeys|7.23"
+      - "|@oneclickvpnkeys|157.04"
+      - "|@oneclickvpnkeys|5.75"
+      - "|@vmess_vless_v2rayng|96.42"
+      - "|@free4allVPN|91.02"
+      - "|@free4allVPN|127.49"
+      - "|@free4allVPN|98.06"
   - name: 🌏 DOMESTIC MEDIA
     type: select
     proxies:
@@ -179,92 +154,77 @@ proxy-groups:
     proxies:
       - 🎯 GLOBAL DIRECT
       - 🔰 MANUAL
-      - "|@v2ray1_ng|162.58"
-      - "|@v2rayvmess|2.5"
-      - "|@customv2ray|3.45"
-      - "|@prrofile_purple|5.71"
-      - "|@oneclickvpnkeys|3.37"
-      - "|@oneclickvpnkeys|3.58"
-      - "|@oneclickvpnkeys|2.68"
-      - "|@vpn_tehran|2.82"
-      - "|@vpn_tehran|1.88"
-      - "|@ovpn2|2.65"
-      - "|@vmess_vless_v2rayng|1.56"
-      - "|@vmess_vless_v2rayng|3.06"
-      - "|@v2ray1_ng|2.26"
-      - "|@oneclickvpnkeys|3.49"
-      - "|@oneclickvpnkeys|1.85"
-      - "|@oneclickvpnkeys|3.39"
-      - "|@DirectVPN|160.65"
-      - "|@DirectVPN|142.36"
-      - "|@DirectVPN|107.71"
-      - "|@PrivateVPNs|111.31"
-      - "|@PrivateVPNs|155.85"
-      - "|@vmess_vless_v2rayng|109.67"
-      - "|@free4allVPN|108.66"
-      - "|@free4allVPN|101.48"
-      - "|@free4allVPN|106.49"
+      - "|@v2ray1_ng|7.85"
+      - "|@v2rayvmess|6.43"
+      - "|@customv2ray|6.58"
+      - "|@prrofile_purple|17.39"
+      - "|@oneclickvpnkeys|199.81"
+      - "|@oneclickvpnkeys|6.97"
+      - "|@oneclickvpnkeys|7.62"
+      - "|@vpn_tehran|6.07"
+      - "|@vpn_tehran|6.31"
+      - "|@ovpn2|6"
+      - "|@vmess_vless_v2rayng|5.54"
+      - "|@vmess_vless_v2rayng|7.31"
+      - "|@v2ray1_ng|5.76"
+      - "|@oneclickvpnkeys|7.23"
+      - "|@oneclickvpnkeys|157.04"
+      - "|@oneclickvpnkeys|5.75"
+      - "|@vmess_vless_v2rayng|96.42"
+      - "|@free4allVPN|91.02"
+      - "|@free4allVPN|127.49"
+      - "|@free4allVPN|98.06"
   - name: 📲 TELEGRAM
     type: select
     proxies:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
-      - "|@v2ray1_ng|162.58"
-      - "|@v2rayvmess|2.5"
-      - "|@customv2ray|3.45"
-      - "|@prrofile_purple|5.71"
-      - "|@oneclickvpnkeys|3.37"
-      - "|@oneclickvpnkeys|3.58"
-      - "|@oneclickvpnkeys|2.68"
-      - "|@vpn_tehran|2.82"
-      - "|@vpn_tehran|1.88"
-      - "|@ovpn2|2.65"
-      - "|@vmess_vless_v2rayng|1.56"
-      - "|@vmess_vless_v2rayng|3.06"
-      - "|@v2ray1_ng|2.26"
-      - "|@oneclickvpnkeys|3.49"
-      - "|@oneclickvpnkeys|1.85"
-      - "|@oneclickvpnkeys|3.39"
-      - "|@DirectVPN|160.65"
-      - "|@DirectVPN|142.36"
-      - "|@DirectVPN|107.71"
-      - "|@PrivateVPNs|111.31"
-      - "|@PrivateVPNs|155.85"
-      - "|@vmess_vless_v2rayng|109.67"
-      - "|@free4allVPN|108.66"
-      - "|@free4allVPN|101.48"
-      - "|@free4allVPN|106.49"
+      - "|@v2ray1_ng|7.85"
+      - "|@v2rayvmess|6.43"
+      - "|@customv2ray|6.58"
+      - "|@prrofile_purple|17.39"
+      - "|@oneclickvpnkeys|199.81"
+      - "|@oneclickvpnkeys|6.97"
+      - "|@oneclickvpnkeys|7.62"
+      - "|@vpn_tehran|6.07"
+      - "|@vpn_tehran|6.31"
+      - "|@ovpn2|6"
+      - "|@vmess_vless_v2rayng|5.54"
+      - "|@vmess_vless_v2rayng|7.31"
+      - "|@v2ray1_ng|5.76"
+      - "|@oneclickvpnkeys|7.23"
+      - "|@oneclickvpnkeys|157.04"
+      - "|@oneclickvpnkeys|5.75"
+      - "|@vmess_vless_v2rayng|96.42"
+      - "|@free4allVPN|91.02"
+      - "|@free4allVPN|127.49"
+      - "|@free4allVPN|98.06"
   - name: 🍎 APPLE
     type: select
     proxies:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
-      - "|@v2ray1_ng|162.58"
-      - "|@v2rayvmess|2.5"
-      - "|@customv2ray|3.45"
-      - "|@prrofile_purple|5.71"
-      - "|@oneclickvpnkeys|3.37"
-      - "|@oneclickvpnkeys|3.58"
-      - "|@oneclickvpnkeys|2.68"
-      - "|@vpn_tehran|2.82"
-      - "|@vpn_tehran|1.88"
-      - "|@ovpn2|2.65"
-      - "|@vmess_vless_v2rayng|1.56"
-      - "|@vmess_vless_v2rayng|3.06"
-      - "|@v2ray1_ng|2.26"
-      - "|@oneclickvpnkeys|3.49"
-      - "|@oneclickvpnkeys|1.85"
-      - "|@oneclickvpnkeys|3.39"
-      - "|@DirectVPN|160.65"
-      - "|@DirectVPN|142.36"
-      - "|@DirectVPN|107.71"
-      - "|@PrivateVPNs|111.31"
-      - "|@PrivateVPNs|155.85"
-      - "|@vmess_vless_v2rayng|109.67"
-      - "|@free4allVPN|108.66"
-      - "|@free4allVPN|101.48"
-      - "|@free4allVPN|106.49"
+      - "|@v2ray1_ng|7.85"
+      - "|@v2rayvmess|6.43"
+      - "|@customv2ray|6.58"
+      - "|@prrofile_purple|17.39"
+      - "|@oneclickvpnkeys|199.81"
+      - "|@oneclickvpnkeys|6.97"
+      - "|@oneclickvpnkeys|7.62"
+      - "|@vpn_tehran|6.07"
+      - "|@vpn_tehran|6.31"
+      - "|@ovpn2|6"
+      - "|@vmess_vless_v2rayng|5.54"
+      - "|@vmess_vless_v2rayng|7.31"
+      - "|@v2ray1_ng|5.76"
+      - "|@oneclickvpnkeys|7.23"
+      - "|@oneclickvpnkeys|157.04"
+      - "|@oneclickvpnkeys|5.75"
+      - "|@vmess_vless_v2rayng|96.42"
+      - "|@free4allVPN|91.02"
+      - "|@free4allVPN|127.49"
+      - "|@free4allVPN|98.06"
   - name: 🎯 GLOBAL DIRECT
     type: select
     proxies:
@@ -280,31 +240,26 @@ proxy-groups:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
-      - "|@v2ray1_ng|162.58"
-      - "|@v2rayvmess|2.5"
-      - "|@customv2ray|3.45"
-      - "|@prrofile_purple|5.71"
-      - "|@oneclickvpnkeys|3.37"
-      - "|@oneclickvpnkeys|3.58"
-      - "|@oneclickvpnkeys|2.68"
-      - "|@vpn_tehran|2.82"
-      - "|@vpn_tehran|1.88"
-      - "|@ovpn2|2.65"
-      - "|@vmess_vless_v2rayng|1.56"
-      - "|@vmess_vless_v2rayng|3.06"
-      - "|@v2ray1_ng|2.26"
-      - "|@oneclickvpnkeys|3.49"
-      - "|@oneclickvpnkeys|1.85"
-      - "|@oneclickvpnkeys|3.39"
-      - "|@DirectVPN|160.65"
-      - "|@DirectVPN|142.36"
-      - "|@DirectVPN|107.71"
-      - "|@PrivateVPNs|111.31"
-      - "|@PrivateVPNs|155.85"
-      - "|@vmess_vless_v2rayng|109.67"
-      - "|@free4allVPN|108.66"
-      - "|@free4allVPN|101.48"
-      - "|@free4allVPN|106.49"
+      - "|@v2ray1_ng|7.85"
+      - "|@v2rayvmess|6.43"
+      - "|@customv2ray|6.58"
+      - "|@prrofile_purple|17.39"
+      - "|@oneclickvpnkeys|199.81"
+      - "|@oneclickvpnkeys|6.97"
+      - "|@oneclickvpnkeys|7.62"
+      - "|@vpn_tehran|6.07"
+      - "|@vpn_tehran|6.31"
+      - "|@ovpn2|6"
+      - "|@vmess_vless_v2rayng|5.54"
+      - "|@vmess_vless_v2rayng|7.31"
+      - "|@v2ray1_ng|5.76"
+      - "|@oneclickvpnkeys|7.23"
+      - "|@oneclickvpnkeys|157.04"
+      - "|@oneclickvpnkeys|5.75"
+      - "|@vmess_vless_v2rayng|96.42"
+      - "|@free4allVPN|91.02"
+      - "|@free4allVPN|127.49"
+      - "|@free4allVPN|98.06"
 rules:
   - DOMAIN-SUFFIX,local,🎯 GLOBAL DIRECT
   - IP-CIDR,192.168.0.0/16,🎯 GLOBAL DIRECT,no-resolve
