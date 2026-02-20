@@ -9,47 +9,55 @@ unified-delay: true
 global-client-fingerprint: chrome
 keep-alive-interval: 360
 proxies:
-  - {name: "|@vpn_tehran|2.53", server: 104.18.32.37, port: 443, type: trojan, password: humanity, sni: www.gossipglove.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.gossipglove.com}}, udp: true}
-  - {name: "|@vpn_tehran|1.95", server: 104.18.32.47, port: 443, type: trojan, password: humanity, sni: www.multiplydose.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.multiplydose.com}}, udp: true}
-  - {name: "|@ovpn2|2.69", server: 162.159.138.232, port: 443, type: trojan, password: dQDQCtns4R, sni: fadaei.movieland.top, skip-cert-verify: true, network: ws, ws-opts: {path: static34528, headers: {Host: fadaei.movieland.top}}, udp: true}
-  - {name: "|@vmess_vless_v2rayng|2.22", server: 172.64.152.23, port: 443, type: trojan, password: humanity, sni: www.creationlong.org, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.creationlong.org}}, udp: true}
-  - {name: "|@vmess_vless_v2rayng|3.24", server: v1.dabache.top, port: 443, type: trojan, password: humanity, sni: www.multiplydose.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.multiplydose.com}}, udp: true}
-  - {name: "|@oneclickvpnkeys|3.14", server: mfyousheng.nl.eu.org, port: 443, type: trojan, password: Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q, sni: mfyousheng.nl.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: /tjwsLhx0SFASG4l9FERJ1g, headers: {Host: mfyousheng.nl.eu.org}}, udp: true}
+  - {name: "|@vpn_tehran|5.74", server: 104.18.32.37, port: 443, type: trojan, password: humanity, sni: www.gossipglove.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.gossipglove.com}}, udp: true}
+  - {name: "|@vpn_tehran|5.52", server: 104.18.32.47, port: 443, type: trojan, password: humanity, sni: www.multiplydose.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.multiplydose.com}}, udp: true}
+  - {name: "|@ovpn2|6.35", server: 162.159.138.232, port: 443, type: trojan, password: dQDQCtns4R, sni: fadaei.movieland.top, skip-cert-verify: true, network: ws, ws-opts: {path: static34528, headers: {Host: fadaei.movieland.top}}, udp: true}
+  - {name: "|@vmess_vless_v2rayng|5.94", server: 172.64.152.23, port: 443, type: trojan, password: humanity, sni: www.creationlong.org, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.creationlong.org}}, udp: true}
+  - {name: "|@vmess_vless_v2rayng|7.13", server: v1.dabache.top, port: 443, type: trojan, password: humanity, sni: www.multiplydose.com, skip-cert-verify: true, network: ws, ws-opts: {path: /assignment, headers: {Host: www.multiplydose.com}}, udp: true}
+  - {name: "|@oneclickvpnkeys|6.9", server: mfyousheng.nl.eu.org, port: 443, type: trojan, password: Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q, sni: mfyousheng.nl.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: /tjwsLhx0SFASG4l9FERJ1g, headers: {Host: mfyousheng.nl.eu.org}}, udp: true}
+  - {name: "|@DirectVPN|86.04", server: 15.236.213.225, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
+  - {name: "|@PrivateVPNs|86.06", server: 15.236.213.225, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 MANUAL
     type: select
     proxies:
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@vpn_tehran|2.53"
-      - "|@vpn_tehran|1.95"
-      - "|@ovpn2|2.69"
-      - "|@vmess_vless_v2rayng|2.22"
-      - "|@vmess_vless_v2rayng|3.24"
-      - "|@oneclickvpnkeys|3.14"
+      - "|@vpn_tehran|5.74"
+      - "|@vpn_tehran|5.52"
+      - "|@ovpn2|6.35"
+      - "|@vmess_vless_v2rayng|5.94"
+      - "|@vmess_vless_v2rayng|7.13"
+      - "|@oneclickvpnkeys|6.9"
+      - "|@DirectVPN|86.04"
+      - "|@PrivateVPNs|86.06"
   - name: ♻️ AUTO SELECT
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "|@vpn_tehran|2.53"
-      - "|@vpn_tehran|1.95"
-      - "|@ovpn2|2.69"
-      - "|@vmess_vless_v2rayng|2.22"
-      - "|@vmess_vless_v2rayng|3.24"
-      - "|@oneclickvpnkeys|3.14"
+      - "|@vpn_tehran|5.74"
+      - "|@vpn_tehran|5.52"
+      - "|@ovpn2|6.35"
+      - "|@vmess_vless_v2rayng|5.94"
+      - "|@vmess_vless_v2rayng|7.13"
+      - "|@oneclickvpnkeys|6.9"
+      - "|@DirectVPN|86.04"
+      - "|@PrivateVPNs|86.06"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 MANUAL
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@vpn_tehran|2.53"
-      - "|@vpn_tehran|1.95"
-      - "|@ovpn2|2.69"
-      - "|@vmess_vless_v2rayng|2.22"
-      - "|@vmess_vless_v2rayng|3.24"
-      - "|@oneclickvpnkeys|3.14"
+      - "|@vpn_tehran|5.74"
+      - "|@vpn_tehran|5.52"
+      - "|@ovpn2|6.35"
+      - "|@vmess_vless_v2rayng|5.94"
+      - "|@vmess_vless_v2rayng|7.13"
+      - "|@oneclickvpnkeys|6.9"
+      - "|@DirectVPN|86.04"
+      - "|@PrivateVPNs|86.06"
   - name: ⛔️ AD BLOCK
     type: select
     proxies:
@@ -68,12 +76,14 @@ proxy-groups:
       - 🔰 MANUAL
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@vpn_tehran|2.53"
-      - "|@vpn_tehran|1.95"
-      - "|@ovpn2|2.69"
-      - "|@vmess_vless_v2rayng|2.22"
-      - "|@vmess_vless_v2rayng|3.24"
-      - "|@oneclickvpnkeys|3.14"
+      - "|@vpn_tehran|5.74"
+      - "|@vpn_tehran|5.52"
+      - "|@ovpn2|6.35"
+      - "|@vmess_vless_v2rayng|5.94"
+      - "|@vmess_vless_v2rayng|7.13"
+      - "|@oneclickvpnkeys|6.9"
+      - "|@DirectVPN|86.04"
+      - "|@PrivateVPNs|86.06"
   - name: 🌏 DOMESTIC MEDIA
     type: select
     proxies:
@@ -84,35 +94,41 @@ proxy-groups:
     proxies:
       - 🎯 GLOBAL DIRECT
       - 🔰 MANUAL
-      - "|@vpn_tehran|2.53"
-      - "|@vpn_tehran|1.95"
-      - "|@ovpn2|2.69"
-      - "|@vmess_vless_v2rayng|2.22"
-      - "|@vmess_vless_v2rayng|3.24"
-      - "|@oneclickvpnkeys|3.14"
+      - "|@vpn_tehran|5.74"
+      - "|@vpn_tehran|5.52"
+      - "|@ovpn2|6.35"
+      - "|@vmess_vless_v2rayng|5.94"
+      - "|@vmess_vless_v2rayng|7.13"
+      - "|@oneclickvpnkeys|6.9"
+      - "|@DirectVPN|86.04"
+      - "|@PrivateVPNs|86.06"
   - name: 📲 TELEGRAM
     type: select
     proxies:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
-      - "|@vpn_tehran|2.53"
-      - "|@vpn_tehran|1.95"
-      - "|@ovpn2|2.69"
-      - "|@vmess_vless_v2rayng|2.22"
-      - "|@vmess_vless_v2rayng|3.24"
-      - "|@oneclickvpnkeys|3.14"
+      - "|@vpn_tehran|5.74"
+      - "|@vpn_tehran|5.52"
+      - "|@ovpn2|6.35"
+      - "|@vmess_vless_v2rayng|5.94"
+      - "|@vmess_vless_v2rayng|7.13"
+      - "|@oneclickvpnkeys|6.9"
+      - "|@DirectVPN|86.04"
+      - "|@PrivateVPNs|86.06"
   - name: 🍎 APPLE
     type: select
     proxies:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
-      - "|@vpn_tehran|2.53"
-      - "|@vpn_tehran|1.95"
-      - "|@ovpn2|2.69"
-      - "|@vmess_vless_v2rayng|2.22"
-      - "|@vmess_vless_v2rayng|3.24"
-      - "|@oneclickvpnkeys|3.14"
+      - "|@vpn_tehran|5.74"
+      - "|@vpn_tehran|5.52"
+      - "|@ovpn2|6.35"
+      - "|@vmess_vless_v2rayng|5.94"
+      - "|@vmess_vless_v2rayng|7.13"
+      - "|@oneclickvpnkeys|6.9"
+      - "|@DirectVPN|86.04"
+      - "|@PrivateVPNs|86.06"
   - name: 🎯 GLOBAL DIRECT
     type: select
     proxies:
@@ -128,12 +144,14 @@ proxy-groups:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
-      - "|@vpn_tehran|2.53"
-      - "|@vpn_tehran|1.95"
-      - "|@ovpn2|2.69"
-      - "|@vmess_vless_v2rayng|2.22"
-      - "|@vmess_vless_v2rayng|3.24"
-      - "|@oneclickvpnkeys|3.14"
+      - "|@vpn_tehran|5.74"
+      - "|@vpn_tehran|5.52"
+      - "|@ovpn2|6.35"
+      - "|@vmess_vless_v2rayng|5.94"
+      - "|@vmess_vless_v2rayng|7.13"
+      - "|@oneclickvpnkeys|6.9"
+      - "|@DirectVPN|86.04"
+      - "|@PrivateVPNs|86.06"
 rules:
   - DOMAIN-SUFFIX,local,🎯 GLOBAL DIRECT
   - IP-CIDR,192.168.0.0/16,🎯 GLOBAL DIRECT,no-resolve
