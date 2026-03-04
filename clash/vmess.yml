@@ -9,35 +9,31 @@ unified-delay: true
 global-client-fingerprint: chrome
 keep-alive-interval: 360
 proxies:
-  - {name: "|@V2rayng_Fast|233.38", server: user5507.login.karim2000.ir, port: 10036, type: vmess, uuid: aa8458e9-1983-49e2-a42c-29fb9ea453f7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "|@v2rayvmess|2.45", server: id-lb.vhax.net, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sshkit/Arsham85231/6347d08022b91/, headers: {Host: zoom.us}}, udp: true}
-  - {name: "|@vpnfail_v2ray|592", server: 57.128.189.241, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: ads.x5.ru, network: ws, ws-opts: {path: /linkvws}, udp: true}
+  - {name: "|@v2rayvmess|9.69", server: id-lb.vhax.net, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sshkit/Arsham85231/6347d08022b91/, headers: {Host: zoom.us}}, udp: true}
+  - {name: "|@vpnfail_v2ray|31.02", server: 57.129.24.131, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: kampong.org}}, udp: true}
 proxy-groups:
   - name: 🔰 MANUAL
     type: select
     proxies:
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@V2rayng_Fast|233.38"
-      - "|@v2rayvmess|2.45"
-      - "|@vpnfail_v2ray|592"
+      - "|@v2rayvmess|9.69"
+      - "|@vpnfail_v2ray|31.02"
   - name: ♻️ AUTO SELECT
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "|@V2rayng_Fast|233.38"
-      - "|@v2rayvmess|2.45"
-      - "|@vpnfail_v2ray|592"
+      - "|@v2rayvmess|9.69"
+      - "|@vpnfail_v2ray|31.02"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 MANUAL
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@V2rayng_Fast|233.38"
-      - "|@v2rayvmess|2.45"
-      - "|@vpnfail_v2ray|592"
+      - "|@v2rayvmess|9.69"
+      - "|@vpnfail_v2ray|31.02"
   - name: ⛔️ AD BLOCK
     type: select
     proxies:
@@ -56,9 +52,8 @@ proxy-groups:
       - 🔰 MANUAL
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@V2rayng_Fast|233.38"
-      - "|@v2rayvmess|2.45"
-      - "|@vpnfail_v2ray|592"
+      - "|@v2rayvmess|9.69"
+      - "|@vpnfail_v2ray|31.02"
   - name: 🌏 DOMESTIC MEDIA
     type: select
     proxies:
@@ -69,26 +64,23 @@ proxy-groups:
     proxies:
       - 🎯 GLOBAL DIRECT
       - 🔰 MANUAL
-      - "|@V2rayng_Fast|233.38"
-      - "|@v2rayvmess|2.45"
-      - "|@vpnfail_v2ray|592"
+      - "|@v2rayvmess|9.69"
+      - "|@vpnfail_v2ray|31.02"
   - name: 📲 TELEGRAM
     type: select
     proxies:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
-      - "|@V2rayng_Fast|233.38"
-      - "|@v2rayvmess|2.45"
-      - "|@vpnfail_v2ray|592"
+      - "|@v2rayvmess|9.69"
+      - "|@vpnfail_v2ray|31.02"
   - name: 🍎 APPLE
     type: select
     proxies:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
-      - "|@V2rayng_Fast|233.38"
-      - "|@v2rayvmess|2.45"
-      - "|@vpnfail_v2ray|592"
+      - "|@v2rayvmess|9.69"
+      - "|@vpnfail_v2ray|31.02"
   - name: 🎯 GLOBAL DIRECT
     type: select
     proxies:
@@ -104,9 +96,8 @@ proxy-groups:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
-      - "|@V2rayng_Fast|233.38"
-      - "|@v2rayvmess|2.45"
-      - "|@vpnfail_v2ray|592"
+      - "|@v2rayvmess|9.69"
+      - "|@vpnfail_v2ray|31.02"
 rules:
   - DOMAIN-SUFFIX,local,🎯 GLOBAL DIRECT
   - IP-CIDR,192.168.0.0/16,🎯 GLOBAL DIRECT,no-resolve
