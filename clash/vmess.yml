@@ -9,35 +9,35 @@ unified-delay: true
 global-client-fingerprint: chrome
 keep-alive-interval: 360
 proxies:
-  - {name: "|@v2rayvmess|3.53", server: id-lb.vhax.net, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sshkit/Arsham85231/6347d08022b91/, headers: {Host: zoom.us}}, udp: true}
-  - {name: "|@vpnfail_v2ray|3.09", server: cf.090227.xyz, port: 443, type: vmess, uuid: 290cc691-3ac6-4387-98a1-25c8eb8ca2ea, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sgal.dagrate.eu.org, network: ws, ws-opts: {path: /, headers: {Host: sgal.dagrate.eu.org}}, udp: true}
-  - {name: "|@vpnfail_v2ray|63.92", server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "|@v2rayvmess|2.3", server: id-lb.vhax.net, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sshkit/Arsham85231/6347d08022b91/, headers: {Host: zoom.us}}, udp: true}
+  - {name: "|@vpnfail_v2ray|151.88", server: 47.244.120.197, port: 36703, type: vmess, uuid: 45b83519-9c4f-4052-a11b-02e017b636d4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: "|@vpnfail_v2ray|172.95", server: 47.250.45.234, port: 8613, type: vmess, uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
 proxy-groups:
   - name: 🔰 MANUAL
     type: select
     proxies:
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@v2rayvmess|3.53"
-      - "|@vpnfail_v2ray|3.09"
-      - "|@vpnfail_v2ray|63.92"
+      - "|@v2rayvmess|2.3"
+      - "|@vpnfail_v2ray|151.88"
+      - "|@vpnfail_v2ray|172.95"
   - name: ♻️ AUTO SELECT
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "|@v2rayvmess|3.53"
-      - "|@vpnfail_v2ray|3.09"
-      - "|@vpnfail_v2ray|63.92"
+      - "|@v2rayvmess|2.3"
+      - "|@vpnfail_v2ray|151.88"
+      - "|@vpnfail_v2ray|172.95"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 MANUAL
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@v2rayvmess|3.53"
-      - "|@vpnfail_v2ray|3.09"
-      - "|@vpnfail_v2ray|63.92"
+      - "|@v2rayvmess|2.3"
+      - "|@vpnfail_v2ray|151.88"
+      - "|@vpnfail_v2ray|172.95"
   - name: ⛔️ AD BLOCK
     type: select
     proxies:
@@ -56,9 +56,9 @@ proxy-groups:
       - 🔰 MANUAL
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@v2rayvmess|3.53"
-      - "|@vpnfail_v2ray|3.09"
-      - "|@vpnfail_v2ray|63.92"
+      - "|@v2rayvmess|2.3"
+      - "|@vpnfail_v2ray|151.88"
+      - "|@vpnfail_v2ray|172.95"
   - name: 🌏 DOMESTIC MEDIA
     type: select
     proxies:
@@ -69,26 +69,26 @@ proxy-groups:
     proxies:
       - 🎯 GLOBAL DIRECT
       - 🔰 MANUAL
-      - "|@v2rayvmess|3.53"
-      - "|@vpnfail_v2ray|3.09"
-      - "|@vpnfail_v2ray|63.92"
+      - "|@v2rayvmess|2.3"
+      - "|@vpnfail_v2ray|151.88"
+      - "|@vpnfail_v2ray|172.95"
   - name: 📲 TELEGRAM
     type: select
     proxies:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
-      - "|@v2rayvmess|3.53"
-      - "|@vpnfail_v2ray|3.09"
-      - "|@vpnfail_v2ray|63.92"
+      - "|@v2rayvmess|2.3"
+      - "|@vpnfail_v2ray|151.88"
+      - "|@vpnfail_v2ray|172.95"
   - name: 🍎 APPLE
     type: select
     proxies:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
-      - "|@v2rayvmess|3.53"
-      - "|@vpnfail_v2ray|3.09"
-      - "|@vpnfail_v2ray|63.92"
+      - "|@v2rayvmess|2.3"
+      - "|@vpnfail_v2ray|151.88"
+      - "|@vpnfail_v2ray|172.95"
   - name: 🎯 GLOBAL DIRECT
     type: select
     proxies:
@@ -104,9 +104,9 @@ proxy-groups:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
-      - "|@v2rayvmess|3.53"
-      - "|@vpnfail_v2ray|3.09"
-      - "|@vpnfail_v2ray|63.92"
+      - "|@v2rayvmess|2.3"
+      - "|@vpnfail_v2ray|151.88"
+      - "|@vpnfail_v2ray|172.95"
 rules:
   - DOMAIN-SUFFIX,local,🎯 GLOBAL DIRECT
   - IP-CIDR,192.168.0.0/16,🎯 GLOBAL DIRECT,no-resolve
