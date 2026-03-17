@@ -9,43 +9,43 @@ unified-delay: true
 global-client-fingerprint: chrome
 keep-alive-interval: 360
 proxies:
-  - {name: "|@v2rayvmess|19.15", server: id-lb.vhax.net, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sshkit/Arsham85231/6347d08022b91/, headers: {Host: zoom.us}}, udp: true}
-  - {name: "|@vpnfail_v2ray|133.69", server: 51.158.151.24, port: 20104, type: vmess, uuid: 40e306a6-7cab-40ac-a085-a961895eb11b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /arki}, udp: true}
-  - {name: "|@vpnfail_v2ray|165.91", server: 47.244.120.197, port: 44867, type: vmess, uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: "|@vpnfail_v2ray|41.23", server: 23.162.200.227, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
-  - {name: "|@prrofile_purple|459.78", server: n1761296877.lie5d.cyou, port: 443, type: vmess, uuid: 1ebfdffa-1a37-4336-8494-f85b36cdf087, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: n1761296877.lie5d.cyou}}, udp: true}
+  - {name: "|@v2rayvmess|2.19", server: id-lb.vhax.net, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sshkit/Arsham85231/6347d08022b91/, headers: {Host: zoom.us}}, udp: true}
+  - {name: "|@vpnfail_v2ray|151.77", server: 51.158.151.24, port: 20104, type: vmess, uuid: 40e306a6-7cab-40ac-a085-a961895eb11b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /arki}, udp: true}
+  - {name: "|@vpnfail_v2ray|148.78", server: 47.244.120.197, port: 44867, type: vmess, uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: "|@vpnfail_v2ray|56.89", server: 23.162.200.227, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
+  - {name: "|@prrofile_purple|318.91", server: n1761296877.lie5d.cyou, port: 443, type: vmess, uuid: 1ebfdffa-1a37-4336-8494-f85b36cdf087, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: n1761296877.lie5d.cyou}}, udp: true}
 proxy-groups:
   - name: 🔰 MANUAL
     type: select
     proxies:
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@v2rayvmess|19.15"
-      - "|@vpnfail_v2ray|133.69"
-      - "|@vpnfail_v2ray|165.91"
-      - "|@vpnfail_v2ray|41.23"
-      - "|@prrofile_purple|459.78"
+      - "|@v2rayvmess|2.19"
+      - "|@vpnfail_v2ray|151.77"
+      - "|@vpnfail_v2ray|148.78"
+      - "|@vpnfail_v2ray|56.89"
+      - "|@prrofile_purple|318.91"
   - name: ♻️ AUTO SELECT
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "|@v2rayvmess|19.15"
-      - "|@vpnfail_v2ray|133.69"
-      - "|@vpnfail_v2ray|165.91"
-      - "|@vpnfail_v2ray|41.23"
-      - "|@prrofile_purple|459.78"
+      - "|@v2rayvmess|2.19"
+      - "|@vpnfail_v2ray|151.77"
+      - "|@vpnfail_v2ray|148.78"
+      - "|@vpnfail_v2ray|56.89"
+      - "|@prrofile_purple|318.91"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 MANUAL
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@v2rayvmess|19.15"
-      - "|@vpnfail_v2ray|133.69"
-      - "|@vpnfail_v2ray|165.91"
-      - "|@vpnfail_v2ray|41.23"
-      - "|@prrofile_purple|459.78"
+      - "|@v2rayvmess|2.19"
+      - "|@vpnfail_v2ray|151.77"
+      - "|@vpnfail_v2ray|148.78"
+      - "|@vpnfail_v2ray|56.89"
+      - "|@prrofile_purple|318.91"
   - name: ⛔️ AD BLOCK
     type: select
     proxies:
@@ -64,11 +64,11 @@ proxy-groups:
       - 🔰 MANUAL
       - ♻️ AUTO SELECT
       - 🎯 GLOBAL DIRECT
-      - "|@v2rayvmess|19.15"
-      - "|@vpnfail_v2ray|133.69"
-      - "|@vpnfail_v2ray|165.91"
-      - "|@vpnfail_v2ray|41.23"
-      - "|@prrofile_purple|459.78"
+      - "|@v2rayvmess|2.19"
+      - "|@vpnfail_v2ray|151.77"
+      - "|@vpnfail_v2ray|148.78"
+      - "|@vpnfail_v2ray|56.89"
+      - "|@prrofile_purple|318.91"
   - name: 🌏 DOMESTIC MEDIA
     type: select
     proxies:
@@ -79,32 +79,32 @@ proxy-groups:
     proxies:
       - 🎯 GLOBAL DIRECT
       - 🔰 MANUAL
-      - "|@v2rayvmess|19.15"
-      - "|@vpnfail_v2ray|133.69"
-      - "|@vpnfail_v2ray|165.91"
-      - "|@vpnfail_v2ray|41.23"
-      - "|@prrofile_purple|459.78"
+      - "|@v2rayvmess|2.19"
+      - "|@vpnfail_v2ray|151.77"
+      - "|@vpnfail_v2ray|148.78"
+      - "|@vpnfail_v2ray|56.89"
+      - "|@prrofile_purple|318.91"
   - name: 📲 TELEGRAM
     type: select
     proxies:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
-      - "|@v2rayvmess|19.15"
-      - "|@vpnfail_v2ray|133.69"
-      - "|@vpnfail_v2ray|165.91"
-      - "|@vpnfail_v2ray|41.23"
-      - "|@prrofile_purple|459.78"
+      - "|@v2rayvmess|2.19"
+      - "|@vpnfail_v2ray|151.77"
+      - "|@vpnfail_v2ray|148.78"
+      - "|@vpnfail_v2ray|56.89"
+      - "|@prrofile_purple|318.91"
   - name: 🍎 APPLE
     type: select
     proxies:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
-      - "|@v2rayvmess|19.15"
-      - "|@vpnfail_v2ray|133.69"
-      - "|@vpnfail_v2ray|165.91"
-      - "|@vpnfail_v2ray|41.23"
-      - "|@prrofile_purple|459.78"
+      - "|@v2rayvmess|2.19"
+      - "|@vpnfail_v2ray|151.77"
+      - "|@vpnfail_v2ray|148.78"
+      - "|@vpnfail_v2ray|56.89"
+      - "|@prrofile_purple|318.91"
   - name: 🎯 GLOBAL DIRECT
     type: select
     proxies:
@@ -120,11 +120,11 @@ proxy-groups:
       - 🔰 MANUAL
       - 🎯 GLOBAL DIRECT
       - ♻️ AUTO SELECT
-      - "|@v2rayvmess|19.15"
-      - "|@vpnfail_v2ray|133.69"
-      - "|@vpnfail_v2ray|165.91"
-      - "|@vpnfail_v2ray|41.23"
-      - "|@prrofile_purple|459.78"
+      - "|@v2rayvmess|2.19"
+      - "|@vpnfail_v2ray|151.77"
+      - "|@vpnfail_v2ray|148.78"
+      - "|@vpnfail_v2ray|56.89"
+      - "|@prrofile_purple|318.91"
 rules:
   - DOMAIN-SUFFIX,local,🎯 GLOBAL DIRECT
   - IP-CIDR,192.168.0.0/16,🎯 GLOBAL DIRECT,no-resolve
